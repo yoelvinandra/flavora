@@ -5,6 +5,7 @@
   --light-brown: #fae6d4;
   --dark-brown: #5A2E0C;
   --text-gray: #5C5C5C;
+  --lighter-tan: #e4cfb9;
   --accent-tan: #CBA278;
   --white: #FFFFFF;
   --soft-black: #1B1B1B;
@@ -12,13 +13,13 @@
 }
 
 header {
-  background-color: var(--brownis-red);
+  background-color: var(--accent-tan);
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000; 
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 header .logo {
@@ -62,13 +63,25 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* footer h5, footer h6 {
+.request-quotation-button {
+  background-color: var(--white);
+  border-radius: 50px;
   color: var(--primary-brown);
-} */
+}
+
+.main-page-container {
+  background: #F4E2D8;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 .footer-contact {
-  background-color: #8C4A23; 
-  color: white;
+  background-color: #8C4A23;
+  color: var(--white);
 
   p {
     margin: 0;
@@ -78,19 +91,90 @@ footer a:hover {
 
 
 .footer-info {
-  background-color: #F2E5C7; 
+  background-color: #F2E5C7;
   display: flex;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
 
   a {
-    color: #6B3F1D; 
+    color: #6B3F1D;
     text-decoration: none;
+
     &:hover {
       text-decoration: underline;
     }
   }
 
   h6 {
-    color: #8C4A23;
+    color: var(--primary-brown);
   }
+}
+
+.hero {
+  display: flex;
+  padding-top: 10vh;
+  vertical-align: top;
+  min-height: 70vh;
+  width: 99vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image:
+    linear-gradient(to right, #e4cfb9 25%, transparent 100%),
+    url('section-1-img.webp');
+  clip-path: ellipse(150% 100% at 50% 0%);
+}
+
+.hero-content {
+  max-width: 800px;
+  flex: 1;
+  padding: 4rem;
+}
+
+.hero-content h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #6b2f1f;
+}
+
+.motto {
+  display: flex;
+  align-items: center;
+  flex-direction: column
+}
+
+.motto h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #6b2f1f;
+}
+
+.hero-content p {
+  margin: 1rem 0 2rem;
+  color: #7a5b4a;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn.primary {
+  background-color: white;
+  color: #7a5b4a;
+  border-radius: 50px;
+}
+
+.btn.secondary {
+  background-color: #a8795f;
+  color: white;
+  border-radius: 50px;
 }

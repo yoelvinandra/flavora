@@ -35,25 +35,24 @@
             <div class="d-flex justify-content-between" style="margin-top: 10vh;">
                 <div>
                     <img src="assets/logo.webp" alt="Logo" class="mb-2" style="width: 100px;">
-                    <!-- <h4 class="fw-bold">Flavora</h4> -->
                 </div>
                 <div>
                     <div class="d-flex justify-content-end">
                         <a href="#" class="footer-button me-2"><i class="bi bi-linkedin fs-3"></i></a>
-                        <a href="#" class="footer-button me-2"><i class="bi bi-youtube fs-3"></i></a>
+                        <a href="https://youtube.com/@flavora_official?si=siHayF8aoWPS87NC" class="footer-button me-2"><i class="bi bi-youtube fs-3"></i></a>
                         <a href="https://www.tiktok.com/@flavoraid_?_t=ZS-8yg6snws076&_r=1" class="footer-button me-2"><i class="bi bi-tiktok fs-3"></i></a>
                         <a href="https://www.instagram.com/flavoraspices.id" class="footer-button "><i class="bi bi-instagram fs-3"></i></a>
                     </div>
-                    <div style="text-align: right;">
+                    <!-- <div style="text-align: right;">
                         Copyright © 2025 Flavora Indonesia Limited. All Rights Reserved
                         Co Reg No: 1209910294A
-                    </div>
-                    <div class="d-flex justify-content-end">
+                    </div> -->
+                    <!-- <div class="d-flex justify-content-end">
                         <a href="#" class="text-muted me-3">Privacy Policy</a>
                         <a href="#" class="text-muted me-3">Cookie Policy</a>
                         <a href="#" class="text-muted me-3">Sitemap</a>
                         <a href="#" class="text-muted">Disclaimer</a>
-                    </div>
+                    </div> -->
                 </div>
 
             </div>
