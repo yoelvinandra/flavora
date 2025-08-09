@@ -72,7 +72,7 @@ footer a:hover {
 .main-page-container {
   background: #F4E2D8;
   margin: 0;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -177,4 +177,32 @@ footer a:hover {
   background-color: #a8795f;
   color: white;
   border-radius: 50px;
+}
+
+.offering {
+  width: 99vw;
+  background-color: var(--white);
+  margin-bottom: 10vh;
+}
+
+.offering h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #6b2f1f;
+}
+
+.offering h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #6b2f1f;
+}
+
+#main-header {
+  transition: transform 0.3s ease-in-out;
+  /* For smooth transitions */
+}
+
+.header-hidden {
+  transform: translateY(-100%);
+  /* Adjust based on header height */
 }
