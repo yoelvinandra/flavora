@@ -1,4 +1,4 @@
-<header class="p-3 border-bottom">
+<header class="p-3 border-bottom header-hidden" id="main-header">
     <div class="container d-flex justify-content-between align-items-center">
         <div class="logo fw-bold fs-4"><img src="assets/logo.webp" alt="Logo" class="mb-2" style="width: 50px;"></div>
         <nav>
