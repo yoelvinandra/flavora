@@ -3,7 +3,7 @@
     <div class="p-4 mx-auto " style="max-width: 800px;">
       <ul class="nav nav-pills justify-content-start " id="ingredientTab" role="tablist">
         <li class="nav-item " role="presentation">
-          <button class="nav-link active text-white" style="background-color: var(--primary-brown); border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; margin-left: 1px;" id="candlenut-tab" data-bs-toggle="tab" data-bs-target="#candlenut" type="button">Candlenut</button>
+          <button class="nav-link active text-white" style="background-color: var(--primary-brown); border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;" id="candlenut-tab" data-bs-toggle="tab" data-bs-target="#candlenut" type="button">Candlenut</button>
         </li>
         <li class="nav-item " role="presentation">
           <button class="nav-link active" style="background-color: var(--accent-tan); border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; margin-left: 1px;" id="vanilla-tab" data-bs-toggle="tab" data-bs-target="#vanilla" type="button">Vanilla</button>
