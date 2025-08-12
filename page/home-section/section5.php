@@ -8,7 +8,7 @@
         <p>
           Step inside our processing facility in Gresik, where premium Flavora-grade candlenuts are skillfully sourced, dried, and packaged to meet international export standards. From hygiene inspections to moisture & foreign matter protocols, every part of our operations is rooted in commitment to consistency, traceability, and flavorful service.
         </p>
-        <a href="#" class="btn tersiary mt-3" style="background-color: var(--primary-brown);">
+        <a href="#" class="btn primary mt-3">
           Download Company Profile
         </a>
       </div>

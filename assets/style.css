@@ -7,7 +7,7 @@
   --text-gray: #5C5C5C;
   --lighter-tan: #e4cfb9;
   --accent-tan: #CBA278;
-  --white: #FFFFFF;
+  --white: #FAFAFC;
   --soft-black: #1B1B1B;
   --placeholder-gray: #CCCCCC;
 }
@@ -50,19 +50,27 @@ header nav a.btn {
   border-radius: 50px;
 }
 
-footer {
-  background-color: var(--secondary-beige);
-  color: var(--soft-black);
+button, a {
+  transition: 0.2s;
 }
 
-footer a {
-  color: var(--soft-black);
-  text-decoration: none;
+
+.footer-button {
+  color: var(--secondary-beige);  
+  &:hover {
+    color: var(--accent-tan);
+  }
 }
 
-footer a:hover {
-  color: var(--primary-brown);
-  text-decoration: underline;
+
+.certification-section a {
+  color: var(--text-gray);
+
+  &:hover {
+    color: var(--primary-brown);
+    text-decoration: underline;
+  }
+
 }
 
 .request-quotation-button {
@@ -83,12 +91,18 @@ footer a:hover {
 }
 
 .footer-contact {
-  background-color: #8C4A23;
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--primary-brown);
 
   p {
     margin: 0;
   }
+
+  a {
+    width: 200px;
+
+  }
+
 }
 
 
@@ -104,6 +118,7 @@ footer a:hover {
 
     &:hover {
       text-decoration: underline;
+
     }
   }
 
@@ -131,7 +146,7 @@ footer a:hover {
 .hero-content {
   max-width: 1150px;
   flex: 1;
-  padding: 4rem;  
+  padding: 4rem;
 }
 
 .hero-caption {
@@ -159,33 +174,44 @@ footer a:hover {
 @media (max-width: 450px) {
   .hero-buttons {
     flex-direction: column;
-    align-items: stretch; /* Make them full width */
+    align-items: stretch;
+    /* Make them full width */
   }
 
   .hero-buttons .btn {
     width: 100%;
     text-align: center;
-    padding: 1rem; /* bigger tap area */
-    font-size: 1.1rem; /* slightly bigger text */
+    padding: 1rem;
+    /* bigger tap area */
+    font-size: 1.1rem;
+    /* slightly bigger text */
   }
 }
 
 .btn {
-  padding: 0.75rem 1.5rem;  
+  padding: 0.75rem 1.5rem;
   text-decoration: none;
   font-weight: 500;
 }
 
 .btn.primary {
-  background-color: white;
-  color: #7a5b4a;
-  border-radius: 50px;
+  background-color: var(--primary-brown);
+  color: var(--white);
+
+  &:hover {
+    border: 1px solid var(--primary-brown);
+    color: var(--primary-brown);
+  }
 }
 
 .btn.secondary {
-  background-color: #a8795f;
-  color: white;
-  border-radius: 50px;
+  background-color: var(--white);
+  color: var(--primary-brown);
+
+  &:hover {
+    border: 1px solid var(--primary-brown);
+    color: var(--primary-brown);
+  }
 }
 
 .motto {
@@ -198,19 +224,57 @@ footer a:hover {
   font-size: 2rem;
   font-weight: bold;
   color: #6b2f1f;
-} 
+}
 
 .motto p {
   max-width: 670px;
 }
 
-.btn.tersiary {
-  background-color: var(--primary-brown);
-  color: var(--white);
+.nav-tabs-product {
+  background-color: var(--accent-tan);
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
-.nav-tabs-product {
-  background-color: var(--accent-tan); border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;
+.quality-source-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primary-brown);
+}
+
+.quality-source-section a {
+  color: var(--primary-brown);
+  text-decoration: underline;
+
+  &:hover {
+    color: var(--accent-tan);
+    text-decoration: none;
+
+  }
+}
+
+.quality-source-section button {
+  background-color: var(--primary-brown);
+  color: white;
+  border: transparent;
+  border-radius: 7px 7px 0px 0px;
+  min-width: 100px;
+  height: 40px;
+
+  &:hover {
+    background-color: #FFFAF6;
+    font-weight: 650;
+    color: var(--primary-brown);
+    text-decoration: underline;
+
+  }
+
+}
+
+.source-tab-content {
+  text-align: start;
+  background-color: #FFFAF6;
+  border-radius: 0px 15px 15px 15px;
 }
 
 .offering {
