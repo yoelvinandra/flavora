@@ -1,6 +1,6 @@
 <section class="quality-source-section mb-5 text-center text-white">
   <div class="container">
-    <div class="p-4 mx-auto " style="max-width: 800px;">
+    <div class="p-4 mx-auto " style="max-width: 1050px;">
       <ul class="nav nav-pills justify-content-start " id="ingredientTab" role="tablist">
         <li class="nav-item " role="presentation">
           <button class="nav-link active text-white" style="background-color: var(--primary-brown); border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;" id="candlenut-tab" data-bs-toggle="tab" data-bs-target="#candlenut" type="button">Candlenut</button>
