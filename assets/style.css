@@ -12,6 +12,8 @@
   --placeholder-gray: #CCCCCC;
 }
 
+
+
 header {
   background-color: var(--accent-tan);
   position: fixed;
@@ -72,6 +74,7 @@ footer a:hover {
 .main-page-container {
   background: #F4E2D8;
   margin: 0;
+
   /* height: 100vh; */
   display: flex;
   justify-content: center;
@@ -114,35 +117,28 @@ footer a:hover {
   padding-top: 10vh;
   vertical-align: top;
   min-height: 70vh;
-  width: 100vw;
+  width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-image:
-    linear-gradient(to right, #e4cfb9 25%, transparent 100%),
+    linear-gradient(to right, #e4cfb9 40%, transparent 100%),
     url('section-1-img.webp');
   clip-path: ellipse(150% 100% at 50% 0%);
+  justify-content: center;
 }
 
 .hero-content {
-  max-width: 800px;
+  max-width: 1150px;
   flex: 1;
-  padding: 4rem;
+  padding: 4rem;  
 }
 
-.hero-content h1 {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #6b2f1f;
+.hero-caption {
+  max-width: 600px;
 }
 
-.motto {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.motto h1 {
+.hero-caption h1 {
   font-size: 2rem;
   font-weight: bold;
   color: #6b2f1f;
@@ -159,6 +155,20 @@ footer a:hover {
   gap: 1rem;
 }
 
+/* Mobile view: stack buttons */
+@media (max-width: 450px) {
+  .hero-buttons {
+    flex-direction: column;
+    align-items: stretch; /* Make them full width */
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+    text-align: center;
+    padding: 1rem; /* bigger tap area */
+    font-size: 1.1rem; /* slightly bigger text */
+  }
+}
 
 .btn {
   padding: 0.75rem 1.5rem;  
@@ -178,6 +188,22 @@ footer a:hover {
   border-radius: 50px;
 }
 
+.motto {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.motto h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #6b2f1f;
+} 
+
+.motto p {
+  max-width: 670px;
+}
+
 .btn.tersiary {
   background-color: var(--primary-brown);
   color: var(--white);
@@ -188,7 +214,7 @@ footer a:hover {
 }
 
 .offering {
-  width: 100vw;
+  width: 100%;
   background-color: var(--white);
   margin-bottom: 6vh;
 }
