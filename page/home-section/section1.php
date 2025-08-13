@@ -9,8 +9,8 @@
       ingredients that will delight their consumers.
     </p>
     <div class="hero-buttons">
-      <a href="#" class="btn primary">Request Quotation</a>
-      <a href="#" class="btn secondary">Chat Us Now <i class="bi bi-whatsapp"></i></a>
+      <a href="#" class="btn secondary">Request Quotation</a>
+      <a href="#" class="btn primary">Chat Us Now <i class="bi bi-whatsapp"></i></a>
     </div>
     </div>
   </div>    
