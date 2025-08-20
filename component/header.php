@@ -1,6 +1,6 @@
 <header class="p-3 border-bottom header-hidden" id="main-header">
     <div class="container d-flex justify-content-between align-items-center">
-        <div class="logo fw-bold fs-4"><img src="assets/logo.webp" alt="Logo" class="mb-2" style="width: 50px;"></div>
+        <div class="logo fw-bold fs-4 me-4"><img src="assets/logo.webp" alt="Logo" class="mb-2" style="width: 50px;"></div>
         <nav>
             <a href="#" class="me-3 text-decoration-none">About Us</a>
             <a href="#" class="me-3 text-decoration-none">Products</a>
