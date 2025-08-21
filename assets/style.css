@@ -24,6 +24,14 @@ header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: nowrap;
+}
+
+
 header .logo {
   color: var(--primary-brown);
 }
@@ -31,32 +39,62 @@ header .logo {
 header nav a {
   color: var(--primary-brown);
   font-weight: 500;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+@media (max-width: 410px) {
+  header nav {
+  display: flex;
+  align-items: center;
+  gap: 0rem;
+  flex-wrap: nowrap;
+}
+
+  header nav a {
+    font-size: 0.9rem;
+    margin-right: 0.1rem !important;
+  }
+
+  header nav a.btn {
+    padding: 0.25rem 0.6rem;
+    font-size: 0.85rem;
+  }
 }
 
 header nav a:hover {
   color: var(--soft-black);
   font-weight: 500;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 header nav a.btn:hover {
   border-color: var(--primary-brown);
   color: var(--primary-brown);
   border-radius: 50px;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 header nav a.btn {
   background-color: var(--primary-brown);
   color: var(--white);
   border-radius: 50px;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
-button, a {
+
+button,
+a {
   transition: 0.2s;
 }
 
 
 .footer-button {
-  color: var(--secondary-beige);  
+  color: var(--secondary-beige);
+
   &:hover {
     color: var(--accent-tan);
   }
@@ -295,6 +333,10 @@ button, a {
   color: #6b2f1f;
 }
 
+.offering .row {
+  max-width: 900px;
+  margin: 0 auto;
+}
 
 .plant-tour-section h1 {
   font-size: 2rem;
