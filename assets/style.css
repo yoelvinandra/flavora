@@ -126,6 +126,7 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  /* width: 10px; */
 }
 
 .footer-contact {
@@ -307,6 +308,44 @@ a {
 
   }
 
+}
+
+.tab-scroll-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; 
+  max-width: 10px;
+}
+.tab-scroll-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+#ingredientTab {
+  display: flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+#ingredientTab .nav-item {
+  flex: 0 0 auto;
+  margin-right: 4px;
+}
+
+#ingredientTab button {
+  background-color: var(--primary-brown);
+  color: white;
+  border: none;
+  border-radius: 7px 7px 0 0;
+  min-width: 100px;
+  height: 40px;
+  font-weight: 500;
+}
+
+#ingredientTab button:hover {
+  background-color: #FFFAF6;
+  font-weight: 650;
+  color: var(--primary-brown);
+  text-decoration: underline;
 }
 
 .source-tab-content {
