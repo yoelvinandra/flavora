@@ -1,9 +1,11 @@
 :root {
   --primary-brown: #8c542c;
+  --hover-brown: #ab754f;
   --secondary-beige: #fae6d4;
   --brownis-red: #e8bdbd;
   --light-brown: #fae6d4;
   --dark-brown: #5A2E0C;
+  --lighter-gray: #e8e8e8;
   --text-gray: #5C5C5C;
   --lighter-tan: #e4cfb9;
   --accent-tan: #CBA278;
@@ -70,9 +72,10 @@ header nav a:hover {
 }
 
 header nav a.btn:hover {
-  border-color: var(--primary-brown);
-  color: var(--primary-brown);
+  background-color: var(--hover-brown);
+  color: var(--white);
   border-radius: 50px;
+  font-weight: normal;
   white-space: nowrap;
   flex-shrink: 0;
 }
@@ -81,6 +84,7 @@ header nav a.btn {
   background-color: var(--primary-brown);
   color: var(--white);
   border-radius: 50px;
+  font-weight: normal;
   white-space: nowrap;
   flex-shrink: 0;
 }
@@ -166,6 +170,8 @@ a {
   }
 }
 
+
+
 .hero {
   display: flex;
   padding-top: 10vh;
@@ -238,8 +244,10 @@ a {
   color: var(--white);
 
   &:hover {
-    border: 1px solid var(--primary-brown);
-    color: var(--primary-brown);
+    color: var(--white);
+    background-color: var(--accent-tan);
+    /* border: 1px solid var(--primary-brown); */
+    /* color: var(--primary-brown); */
   }
 }
 
@@ -248,8 +256,8 @@ a {
   color: var(--primary-brown);
 
   &:hover {
-    border: 1px solid var(--primary-brown);
     color: var(--primary-brown);
+    background-color: var(--lighter-gray);
   }
 }
 
