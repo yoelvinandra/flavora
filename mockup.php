@@ -14,7 +14,7 @@
 
 <body>
   <?php include 'component/header.php'; ?>
-  <div class="main-page-container">
+  <div class="main-page-container" style="overflow-x: hidden;">
     <?php include 'page/home.php'; ?>
     <!-- <img src="assets/logo.webp" alt="Logo" style="max-width: 100%; height: auto;">
     <p style="margin-top:20px; font-family: Arial, sans-serif; font-size: 24px; color: #333;">COMING SOON</p> -->
