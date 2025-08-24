@@ -26,14 +26,16 @@
       <div class="source-tab-content p-5" id="ingredientTabContent">
         <div class="tab-pane fade show active" id="candlenut">
           <div class="d-flex flex-column flex-md-row align-items-center">
-            <div class="col-md-8">
+            <div class="col-md-7">
               <h2>Candlenut</h2>
               <p>Flavora offers premium-grade candlenuts sourced from Flores, renowned for their high oil content and consistent quality, processed with strict moisture control, professional vacuum packaging, and backed by Sucafindo certification—making us a trusted export partner for global buyers who value reliability, transparency, and warm, attentive service.</p>
               <a href="#">Read more</a>
             </div>
+            <div class="col-md-1">
+            </div>
             <div class="col-md-4 text-center mt-3 mt-md-0">
               <img src="assets/candlenut.webp" alt="Candlenut"
-                style="clip-path: circle(); border:2px solid var(--accent-tan); padding:20px; height:200px; width:200px; border-radius:50%;">
+                style="clip-path: circle(); border:2px solid var(--accent-tan); padding:20px; height:250px; width:250px; border-radius:50%;">
             </div>
           </div>
         </div>

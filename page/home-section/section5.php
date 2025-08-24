@@ -1,4 +1,4 @@
-<section class="plant-tour-section mb-5 text-center" style="margin-bottom: 6vh;">
+<section class="plant-tour-section mb-5 text-center">
   <div class="container">
     <h1 class=" mb-6">Tour Our Plant in Gresik, Indonesia</h1>
     <div class="row ">
@@ -8,7 +8,7 @@
         <p>
           Step inside our processing facility in Gresik, where premium Flavora-grade candlenuts are skillfully sourced, dried, and packaged to meet international export standards. From hygiene inspections to moisture & foreign matter protocols, every part of our operations is rooted in commitment to consistency, traceability, and flavorful service.
         </p>
-        <a href="#" class="btn primary mt-3">
+        <a href="#" class="btn primary mt-5">
           Download Company Profile
         </a>
       </div>

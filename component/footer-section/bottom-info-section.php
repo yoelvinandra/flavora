@@ -36,9 +36,9 @@
                 <img src="assets/logo.webp" alt="Logo" class="mb-2" style="width: 100px;">
             </div>
             <div class="col-12 col-md d-flex justify-content-center justify-content-md-end">
-                <a href="https://www.linkedin.com/in/flores-flavora-9a98a3377?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " class="footer-button me-3"><i class="bi bi-linkedin fs-3"></i></a>
-                <a href="https://youtube.com/@flavora_official?si=siHayF8aoWPS87NC" class="footer-button me-3"><i class="bi bi-youtube fs-3"></i></a>
-                <a href="https://www.tiktok.com/@flavoraid_?_t=ZS-8yg6snws076&_r=1" class="footer-button me-3"><i class="bi bi-tiktok fs-3"></i></a>
+                <a href="https://www.linkedin.com/in/flores-flavora-9a98a3377?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " class="footer-button me-4"><i class="bi bi-linkedin fs-3"></i></a>
+                <a href="https://youtube.com/@flavora_official?si=siHayF8aoWPS87NC" class="footer-button me-4"><i class="bi bi-youtube fs-3"></i></a>
+                <a href="https://www.tiktok.com/@flavoraid_?_t=ZS-8yg6snws076&_r=1" class="footer-button me-4"><i class="bi bi-tiktok fs-3"></i></a>
                 <a href="https://www.instagram.com/flavoraspices.id" class="footer-button "><i class="bi bi-instagram fs-3"></i></a>
 <!-- <div style="text-align: right;">
                         Copyright © 2025 Flavora Indonesia Limited. All Rights Reserved

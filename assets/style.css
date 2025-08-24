@@ -1,4 +1,5 @@
 :root {
+  --whatsapp-brown:#c19f72;
   --primary-brown: #8c542c;
   --hover-brown: #ab754f;
   --secondary-beige: #fae6d4;
@@ -12,12 +13,12 @@
   --white: #FAFAFC;
   --soft-black: #1B1B1B;
   --placeholder-gray: #CCCCCC;
+  --transparent-white: #f9f9fb;
+  --yellow-header-footer: #F2E5C7;
 }
 
-
-
 header {
-  background-color: var(--accent-tan);
+  background-color: var(--yellow-header-footer);
   position: fixed;
   top: 0;
   left: 0;
@@ -43,6 +44,10 @@ header nav a {
   font-weight: 500;
   white-space: nowrap;
   flex-shrink: 0;
+  padding-left:15px !important;
+  padding-right:15px !important;
+  padding-top:5px !important;
+  padding-bottom:5px !important;
 }
 
 @media (max-width: 410px) {
@@ -122,7 +127,7 @@ a {
 }
 
 .main-page-container {
-  background: #F4E2D8;
+  /*background: #F4E2D8;*/
   margin: 0;
 
   /* height: 100vh; */
@@ -134,11 +139,13 @@ a {
 }
 
 .footer-contact {
-  background-color: var(--white);
-  color: var(--primary-brown);
+  background-color: var(--primary-brown);
+  color: var(--white);
 
   p {
     margin: 0;
+    font-size: 1.5rem;
+    color: var(--white);
   }
 
   a {
@@ -148,10 +155,15 @@ a {
 
 }
 
+.footer-contact .container{
+    margin-top: 4vh;
+    margin-bottom: 6vh;
+}
+
 
 
 .footer-info {
-  background-color: #F2E5C7;
+  background-color: var(--yellow-header-footer);
   display: flex;
   flex-wrap: wrap;
 
@@ -182,7 +194,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-image:
-    linear-gradient(to right, #e4cfb9 40%, transparent 100%),
+    linear-gradient(to right, #e4cfb9 20%, transparent 100%),
     url('section-1-img.webp');
   clip-path: ellipse(150% 100% at 50% 0%);
   justify-content: center;
@@ -207,7 +219,7 @@ a {
 .hero-content p {
   margin: 1rem 0 2rem;
   color: #7a5b4a;
-  line-height: 1.6;
+  line-height: 1.8;
 }
 
 .hero-buttons {
@@ -215,8 +227,85 @@ a {
   gap: 1rem;
 }
 
+/* Hide the checkbox */
+#menu-toggle {
+  display: none;
+}
+
+/* Burger icon styling */
+.burger-icon {
+  display: none;
+  font-size: 4vh;
+  color: var(--primary-brown, #663300);
+  cursor: pointer;
+  width: 6vh;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-brown);
+  opacity:0.95;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+}
+
+.overlay a {
+  padding-bottom: 40px;
+  text-decoration: none;
+  font-size: 22px;
+  color: var(--white);
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+    
+@media (max-width: 768px) {
+  .logo img{
+      width:6vh;
+  }  
+}
+
 /* Mobile view: stack buttons */
 @media (max-width: 450px) {
+  .btn-hidden-sm{
+     display:none; 
+  }
+  
+  .btn-show-sm{
+      display:block !important;
+  }
+  
   .hero-buttons {
     flex-direction: column;
     align-items: stretch;
@@ -240,6 +329,8 @@ a {
 }
 
 .btn.primary {
+  padding-left:40px;
+  padding-right:40px;
   background-color: var(--primary-brown);
   color: var(--white);
 
@@ -252,6 +343,8 @@ a {
 }
 
 .btn.secondary {
+  padding-left:40px;
+  padding-right:40px;
   background-color: var(--white);
   color: var(--primary-brown);
 
@@ -261,7 +354,27 @@ a {
   }
 }
 
+.fullrounded{
+   padding-left:0px !important;
+   padding-right:0px !important;
+   min-width:200px; 
+   border-radius:100px !important;    
+}
+
+.btn-whatsapp{
+  background: var(--whatsapp-brown) !important;
+  color: var(--primary-brown) !important;
+  
+  &:hover {
+    color: var(--primary-brown);
+    background-color: var(--hover-brown) !important;
+  }
+}
+
 .motto {
+  line-height: 1.8;
+  padding-top:50px;
+  padding-bottom:50px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -270,11 +383,11 @@ a {
 .motto h1 {
   font-size: 2rem;
   font-weight: bold;
-  color: #6b2f1f;
+  color: var(--primary-brown);
 }
 
 .motto p {
-  max-width: 670px;
+  max-width: 700px;
 }
 
 .nav-tabs-product {
@@ -336,7 +449,7 @@ a {
 
 #ingredientTab .nav-item {
   flex: 0 0 auto;
-  margin-right: 4px;
+  /*margin-right: 4px;*/
 }
 
 #ingredientTab button {
@@ -344,16 +457,21 @@ a {
   color: white;
   border: none;
   border-radius: 7px 7px 0 0;
-  min-width: 100px;
-  height: 40px;
-  font-weight: 500;
+  min-width: 120px;
+  height: 50px;
+  /*font-weight: 500;*/
 }
 
 #ingredientTab button:hover {
   background-color: #FFFAF6;
-  font-weight: 650;
+  /*font-weight: 500;*/
   color: var(--primary-brown);
   text-decoration: underline;
+}
+
+#ingredientTabContent a {
+  font-weight: 600;
+  text-decoration : none;
 }
 
 .source-tab-content {
@@ -362,34 +480,76 @@ a {
   border-radius: 0px 15px 15px 15px;
 }
 
+.source-tab-content p {
+  padding-top:20px;
+  padding-bottom:20px;
+  line-height: 1.8 !important;
+}
+
 .offering {
   width: 100%;
-  background-color: var(--white);
+  background-image: url('logo-white.webp');
+  background-repeat: no-repeat;
+  background-position: center left -200px;
+  background-size: 40%; /* or try 100% auto */
+  background-color: var(--transparent-white);
+}
+
+.offering .container{
+  margin-top: 6vh;
   margin-bottom: 6vh;
 }
 
 .offering h1 {
   font-size: 2rem;
   font-weight: bold;
-  color: #6b2f1f;
+  color: var(--primary-brown);
 }
 
 .offering h5 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 600;
-  color: #6b2f1f;
+  color: var(--primary-brown);
 }
 
 .offering .row {
-  max-width: 900px;
+  max-width: 1000px !important;
   margin: 0 auto;
+}
+
+.offering p {
+    padding-bottom:40px;
+    line-height: 1.8;
+    padding-right:50px;
+}
+
+.offering .icon-offer{
+    max-width:80px; 
+    margin-top:-20px;
+}
+
+.box-top{
+    background : var(--whatsapp-brown);
+    opacity:0.5;
+    width:165px; 
+    margin:auto; 
+    height:5px;
+}
+
+.plant-tour-section .container{
+  margin-top: 6vh;
+  margin-bottom: 6vh;
 }
 
 .plant-tour-section h1 {
   font-size: 2rem;
   font-weight: bold;
-  color: #6b2f1f;
+  color: var(--primary-brown);
   margin-bottom: 6vh;
+}
+
+.plant-tour-section p {
+  line-height:1.8;
 }
 
 #main-header {
