@@ -2,7 +2,7 @@
     <div class="container d-flex justify-content-between align-items-center">
         <div class="logo fw-bold"><img src="assets/logo.webp" alt="Logo" style="width: 8vh;"></div>
         <nav>
-            <a href="#" class="btn-hidden-sm text-decoration-none">About Us</a>
+            <a href="aboutus.php" class="btn-hidden-sm text-decoration-none">About Us</a>
             <a href="#" class="btn-hidden-sm text-decoration-none">Products</a>
             <a href="#" class="btn btn-sm"><i class="bi bi-chat-fill"></i> Get in touch</a>
         </nav>
@@ -10,7 +10,7 @@
         <div id="myNav" class="overlay">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <div class="overlay-content">
-            <a href="#">About Us</a>
+            <a href="aboutus.php">About Us</a>
             <a href="#">Products</a>
           </div>
         </div>

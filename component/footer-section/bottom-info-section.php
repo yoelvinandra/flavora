@@ -1,15 +1,15 @@
 <section class="footer-info py-5">
     <div style=" margin: auto;">
         <div class="d-flex justify-content-between">
-            <div class="d-flex justify-content-evenly">
-                <div>
+            <!--<div class="d-flex justify-content-evenly">-->
+                <div class="col-4 text-center">
                     <h6 class="fw-bold">Flavora</h6>
                     <ul class="list-unstyled">
-                        <li><a href="#">About us</a></li>
+                        <li><a href="aboutus.php">About us</a></li>
                         <li><a href="#">Products</a></li>
                     </ul>
                 </div>
-                <div style="margin-left: 5vw;">
+                <div class="col-4 text-center">
                     <h6 class="fw-bold">Products</h6>
                     <ul class="list-unstyled">
                         <li><a href="#">Candlenut</a></li>
@@ -21,25 +21,25 @@
                         <li><a href="#">Ginger</a></li>
                     </ul>
                 </div>
-            </div>
-            <div style="margin-left: 5vw;">
-                <h6 class="fw-bold">Helpful Links</h6>
-                <ul class="list-unstyled">
-                    <li><a href="#">Contact us</a></li>
-                    <li><a href="#">Sign up for news</a></li>
-                </ul>
-            </div>
+                <div class="col-4 text-center">
+                    <h6 class="fw-bold">Helpful Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Sign up for news</a></li>
+                    </ul>
+                </div>
+            <!--</div>-->
 
         </div>
-        <div class="row text-center text-md-start" style="margin-top: 10vh;">
-            <div class="col-12 col-md-auto mb-3 mb-3">
+        <div class="row text-center text-md-start" style="margin-top: 10vh; ">
+            <div class="col-12 col-md-auto mb-3 ">
                 <img src="assets/logo.webp" alt="Logo" class="mb-2" style="width: 100px;">
             </div>
             <div class="col-12 col-md d-flex justify-content-center justify-content-md-end">
-                <a href="https://www.linkedin.com/in/flores-flavora-9a98a3377?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " class="footer-button me-4"><i class="bi bi-linkedin fs-3"></i></a>
-                <a href="https://youtube.com/@flavora_official?si=siHayF8aoWPS87NC" class="footer-button me-4"><i class="bi bi-youtube fs-3"></i></a>
-                <a href="https://www.tiktok.com/@flavoraid_?_t=ZS-8yg6snws076&_r=1" class="footer-button me-4"><i class="bi bi-tiktok fs-3"></i></a>
-                <a href="https://www.instagram.com/flavoraspices.id" class="footer-button "><i class="bi bi-instagram fs-3"></i></a>
+                <a href="https://www.linkedin.com/in/flores-flavora-9a98a3377?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " class="footer-button me-1"><img class="medsos" src="assets/linkedin.webp"></a>
+                <a href="https://youtube.com/@flavora_official?si=siHayF8aoWPS87NC" class="footer-button me-1"><img class="medsos" src="assets/youtube.webp"></a>
+                <a href="https://www.tiktok.com/@flavoraid_?_t=ZS-8yg6snws076&_r=1" class="footer-button me-1"><img class="medsos" src="assets/tiktok.webp"></a>
+                <a href="https://www.instagram.com/flavoraspices.id" class="footer-button "><img class="medsos" src="assets/ig.webp"></a>
 <!-- <div style="text-align: right;">
                         Copyright © 2025 Flavora Indonesia Limited. All Rights Reserved
                         Co Reg No: 1209910294A

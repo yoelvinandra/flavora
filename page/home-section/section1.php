@@ -1,8 +1,9 @@
 
 <section class="hero">
+  <div class="hero-bg"></div>
   <div class="hero-content">
     <div class="hero-caption">
-    <h1>A global food ingredient<br>supplier from Indonesia</h1>
+    <h1>A global food ingredient supplier from Indonesia</h1>
     <p>
       As food ingredients supplier we are pioneers at heart,we operate at the forefront 
       of consumer trends to provide food & beverage manufacturers with products and 
@@ -15,4 +16,12 @@
     </div>
   </div>    
 </section>
+
+<script>
+  const bg = document.querySelector('.hero-bg');
+  window.addEventListener('scroll', () => {
+    const scrollY = window.scrollY;
+    bg.style.transform = `translateY(${scrollY * 0.7}px)`;
+  });
+</script>
 

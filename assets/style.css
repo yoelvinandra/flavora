@@ -17,6 +17,47 @@
   --yellow-header-footer: #F2E5C7;
 }
 
+#floating-top-btn {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  left: 20px;
+  padding-top:8px;
+  padding-left:1px;
+  background-color: var(--primary-brown);
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+ 
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+}
+
+#floating-top-btn.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#floating-whatsapp-btn {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  padding-top:8px;
+  padding-left:1px;
+  background-color: var(--primary-brown);
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+
 header {
   background-color: var(--yellow-header-footer);
   position: fixed;
@@ -109,6 +150,10 @@ a {
   }
 }
 
+.medsos{
+  width:50px;
+}
+
 .certification-section{
   background:white;
 }
@@ -186,32 +231,45 @@ a {
   }
 }
 
-
-
 .hero {
+  position: relative;
   display: flex;
+  align-items: center;
+  justify-content: center;
   padding-top: 10vh;
-  vertical-align: top;
   min-height: 70vh;
   width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  overflow: hidden;
+  clip-path: ellipse(150% 100% at 50% 0%);
+}
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
   background-image:
     linear-gradient(to right, #e4cfb9 20%, transparent 100%),
     url('section-1-img.webp');
-  clip-path: ellipse(150% 100% at 50% 0%);
-  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+  will-change: transform;
+  transition: transform 0.1s ease-out;
 }
 
 .hero-content {
+  position: relative;
+  z-index: 1;
   max-width: 1150px;
   flex: 1;
   padding: 4rem;
 }
 
 .hero-caption {
-  max-width: 600px;
+  max-width: 400px;
 }
 
 .hero-caption h1 {
@@ -564,4 +622,14 @@ a {
 .header-hidden {
   transform: translateY(-100%);
   /* Adjust based on header height */
+}
+
+.global-footprint-section h2{
+    line-height:1.8;
+    text-align:left;
+}
+
+.global-footprint-section p{
+    line-height:1.8;
+    text-align:left;
 }
