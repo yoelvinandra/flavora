@@ -109,9 +109,13 @@ a {
   }
 }
 
+.certification-section{
+  background:white;
+}
 
 .certification-section a {
   color: var(--text-gray);
+  text-decoration : none;
 
   &:hover {
     color: var(--primary-brown);

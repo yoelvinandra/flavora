@@ -67,7 +67,7 @@
         <div class="col-md-6">
           <div class="d-flex text-start">
             
-            <i><img class="icon-offer" src="assets/need_a_custom_quote.webp"></i>
+            <i><img class="icon-offer" src="assets/tips-1.webp"></i>
             <div class="ms-3">
               <h5>Need a Custom Quote?</h5>
               <p>Get personalized pricing for bulk orders and connect with our sales team.</p>
@@ -77,7 +77,7 @@
 
         <div class="col-md-6">
           <div class="d-flex text-start">
-            <i><img class="icon-offer" src="assets/looking_for_flexible_shipping.webp"></i>
+            <i><img class="icon-offer" src="assets/tips-2.webp"></i>
             <div class="ms-3">
               <h5>Looking for Flexible Shipping?</h5>
               <p>Take advantage of our flat-rate LTL shipping or arrange your own freight for flexibility.</p>
@@ -87,7 +87,7 @@
 
         <div class="col-md-6">
           <div class="d-flex text-start">
-            <i><img class="icon-offer" src="assets/need_quality_assurance.webp"></i>
+            <i><img class="icon-offer" src="assets/tips-3.webp"></i>
             <div class="ms-3">
               <h5>Need Quality Assurance?</h5>
               <p>Instantly access all essential quality documents for wholesale ingredients.</p>
@@ -97,7 +97,7 @@
 
         <div class="col-md-6">
           <div class="d-flex text-start">
-            <i><img class="icon-offer" src="assets/want_product_details.webp"></i>
+            <i><img class="icon-offer" src="assets/tips-4.webp"></i>
             <div class="ms-3">
               <h5>Want Product Details?</h5>
               <p>Review full product specifications upfront to ensure the right fit before you buy.</p>

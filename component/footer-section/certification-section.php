@@ -1,4 +1,4 @@
-<section class="certification-section py-5" style="background-color: #FAFAFC;">
+<section class="certification-section py-5" >
         <div class="container text-center">
             <div class="row justify-content-center align-items-center">
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
