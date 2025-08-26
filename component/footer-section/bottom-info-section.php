@@ -33,7 +33,7 @@
         </div>
         <div class="row text-center text-md-start" style="margin-top: 10vh; ">
             <div class="col-12 col-md-auto mb-3 ">
-                <img src="assets/logo.webp" alt="Logo" class="mb-2" style="width: 100px;">
+                <img src="assets/logo.webp" alt="Logo" class="footer-logo mb-2">
             </div>
             <div class="col-12 col-md d-flex justify-content-center justify-content-md-end">
                 <a href="https://www.linkedin.com/in/flores-flavora-9a98a3377?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " class="footer-button me-1"><img class="medsos" src="assets/linkedin.webp"></a>

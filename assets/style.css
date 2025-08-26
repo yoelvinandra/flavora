@@ -225,6 +225,10 @@ a {
 
     }
   }
+  
+  .footer-logo{
+      width: 8vh
+  }
 
   h6 {
     color: var(--primary-brown);
@@ -381,6 +385,9 @@ a {
     /* bigger tap area */
     font-size: 1.1rem;
     /* slightly bigger text */
+  }
+  .footer-logo{
+    width : 10vh !important;
   }
 }
 
