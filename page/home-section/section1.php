@@ -3,15 +3,19 @@
   <div class="hero-bg"></div>
   <div class="hero-content">
     <div class="hero-caption">
-    <h1>A global food ingredient supplier from Indonesia</h1>
+    <h1>Natural spice ingredients from Indonesia shipped worldwide</h1>
     <p>
-      As food ingredients supplier we are pioneers at heart,we operate at the forefront 
-      of consumer trends to provide food & beverage manufacturers with products and 
-      ingredients that will delight their<br>consumers.
+     Candlenut, Vanilla, Nutmeg - sourced from Flores, shipped worldwide
+     <ul style="margin-top:-27px; padding-left:15px;">
+         <li>Bulk & wholesale ingredients</li>
+         <li>Halal & HACCP certified</li>
+         <li>Lead Time 7-14 days</li>
+         <li>Flexible MoQ</li>
+     </ul>
     </p>
     <div class="hero-buttons">
-      <a href="#" class="btn secondary fullrounded">Request Quotation</a>
-      <a href="#" class="btn primary fullrounded btn-whatsapp">Chat Us Now <i class="bi bi-whatsapp"></i></a>
+      <a href="#" class="btn primary fullrounded">Get a quote</a>
+      <a href="#" class="btn secondary fullrounded">Chat on Whatsapp <i class="bi bi-whatsapp"></i></a>
     </div>
     </div>
   </div>    

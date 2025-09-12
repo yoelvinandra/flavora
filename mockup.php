@@ -22,14 +22,6 @@
   </div>
   <?php include 'component/footer.php'; ?>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-  <script>
-    window.addEventListener('scroll', function() {
-      const header = document.getElementById('main-header');
-      const scrollThreshold = 400; 
-      if (window.scrollY > scrollThreshold) header.classList.remove('header-hidden');
-      else header.classList.add('header-hidden');
-    });
-  </script>
 </body>
 
 </html>

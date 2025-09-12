@@ -62,47 +62,58 @@
     <h1 class="mb-5">What We Offer</h1>
 
     <div class="d-flex justify-content-center">
-      <div class="row g-4" style="max-width: 900px;"> <!-- adjust width as needed -->
+      <div class="row g-4" style="width: 550px; text-align:center;"> <!-- adjust width as needed -->
         
-        <div class="col-md-6">
-          <div class="d-flex text-start">
-            
-            <i><img class="icon-offer" src="assets/tips-1.webp"></i>
-            <div class="ms-3">
-              <h5>Need a Custom<br>Quote?</h5>
-              <p>Get personalized pricing for bulk orders and connect with our sales team.</p>
-            </div>
+        <div class="col-12 col-md-6">
+          <div class="mx-auto" style="text-align:left; border-radius:20px; border:1px solid var(--primary-brown); padding:20px; width:250px;">
+              <div class="d-flex text-start">
+                <i><img class="icon-offer" src="assets/tips-1.webp"></i>
+                <div class="ms-3">
+                  <h5>Custom<br>Quote</h5>
+                </div>
+              </div>
+              <p>Tailor pricing for bulk order, with detailed specs & packaging options.</p>
+              <a href="#" class="btn secondary fullrounded" style="width:100%;">Request Quote</a>
           </div>
         </div>
 
-        <div class="col-md-6">
-          <div class="d-flex text-start">
-            <i><img class="icon-offer" src="assets/tips-2.webp"></i>
-            <div class="ms-3">
-              <h5>Looking for<br>Flexible Shipping?</h5>
-              <p>Take advantage of our flat-rate LTL shipping or arrange your own freight for flexibility.</p>
-            </div>
-          </div>
+        <div class="col-12 col-md-6">
+            <div class="mx-auto"  style="text-align:left; border-radius:20px; border:1px solid var(--primary-brown); padding:20px; width:250px;">
+              <div class="d-flex text-start">
+                <i><img class="icon-offer" src="assets/tips-2.webp"></i>
+                <div class="ms-3">
+                  <h5>Flexible<br>Shipping</h5>
+                </div>
+              </div>
+              <p>FOB Surabaya, CIF major port, or arrange your own freight forwarder.</p>
+              <a href="#" class="btn secondary fullrounded" style="width:100%;">Discuss Shipping</a>
+             </div>
         </div>
 
-        <div class="col-md-6">
-          <div class="d-flex text-start">
-            <i><img class="icon-offer" src="assets/tips-3.webp"></i>
-            <div class="ms-3">
-              <h5>Need Quality<br>Assurance?</h5>
-              <p>Instantly access all essential quality documents for wholesale ingredients.</p>
+        <div class="col-12 col-md-6" >
+            <div class="mx-auto"  style="text-align:left; border-radius:20px; border:1px solid var(--primary-brown); padding:20px; width:250px;">
+              <div class="d-flex text-start">
+                <i><img class="icon-offer" src="assets/tips-3.webp"></i>
+                <div class="ms-3">
+                  <h5>Quality<br>Assurance</h5>
+                </div>
+              </div>
+              <p>Independent Lab Report Sucofindo, Halal, and<br>COA.</p>
+              <a href="#" class="btn secondary fullrounded" style="width:100%;">View Certificates</a>
             </div>
-          </div>
         </div>
 
-        <div class="col-md-6">
-          <div class="d-flex text-start">
-            <i><img class="icon-offer" src="assets/tips-4.webp"></i>
-            <div class="ms-3">
-              <h5>Want Product<br>Details?</h5>
-              <p>Review full product specifications upfront to ensure the right fit before you buy.</p>
+        <div class="col-12 col-md-6">
+            <div class="mx-auto"  style="text-align:left; border-radius:20px; border:1px solid var(--primary-brown); padding:20px; width:250px;">
+              <div class="d-flex text-start">
+                <i><img class="icon-offer" src="assets/tips-4.webp"></i>
+                <div class="ms-3">
+                  <h5>Product<br>Spec</h5>
+                </div>
+              </div>
+              <p>Moisture, oil content, packaging, HS code for your compliance.</p>
+              <a href="#" class="btn secondary fullrounded" style="width:100%;">Request Spec Sheet</a>
             </div>
-          </div>
         </div>
 
       </div>

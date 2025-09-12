@@ -1,11 +1,12 @@
 :root {
+  --header-brown:#f1ddbb;
   --whatsapp-brown:#c19f72;
-  --primary-brown: #8c542c;
+  --primary-brown: #b56d3a;
+  --dark-brown: #493721;
   --hover-brown: #ab754f;
   --secondary-beige: #fae6d4;
   --brownis-red: #e8bdbd;
   --light-brown: #fae6d4;
-  --dark-brown: #5A2E0C;
   --lighter-gray: #e8e8e8;
   --text-gray: #5C5C5C;
   --lighter-tan: #e4cfb9;
@@ -15,6 +16,16 @@
   --placeholder-gray: #CCCCCC;
   --transparent-white: #f9f9fb;
   --yellow-header-footer: #F2E5C7;
+  --semi-brown: #7F4A3A;
+  --transparent-brown: #dccbb6;
+}
+
+html, body {
+  overflow-x: hidden; /* hide accidental scroll */
+}
+
+* {
+  box-sizing: border-box; /* fix padding+borders issue */
 }
 
 #floating-top-btn {
@@ -25,8 +36,8 @@
   left: 20px;
   padding-top:8px;
   padding-left:1px;
-  background-color: var(--primary-brown);
-  color: #fff;
+  background-color: var(--white);
+  color: var(--dark-brown);
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
@@ -50,16 +61,25 @@
   right: 20px;
   padding-top:8px;
   padding-left:1px;
-  background-color: var(--primary-brown);
-  color: #fff;
+  background-color: var(--white);
+  color: var(--dark-brown);
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
   z-index: 100;
+  
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+}
+
+#floating-whatsapp-btn.show {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 header {
-  background-color: var(--yellow-header-footer);
+  background-color: var(--header-brown);
   position: fixed;
   top: 0;
   left: 0;
@@ -152,6 +172,8 @@ a {
 
 .medsos{
   width:50px;
+  padding-left:10px;
+  padding-right:10px;
 }
 
 .certification-section{
@@ -188,7 +210,7 @@ a {
 }
 
 .footer-contact {
-  background-color: var(--primary-brown);
+  background-color: var(--dark-brown);
   color: var(--white);
 
   p {
@@ -212,13 +234,14 @@ a {
 
 
 .footer-info {
-  background-color: var(--yellow-header-footer);
+  background-color: var(--dark-brown);
   display: flex;
   flex-wrap: wrap;
 
   a {
-    color: #6B3F1D;
+    color: white;
     text-decoration: none;
+    font-size:10pt !important;
 
     &:hover {
       text-decoration: underline;
@@ -229,9 +252,21 @@ a {
   .footer-logo{
       width: 8vh
   }
+  
+  h2 {
+      color: var(--white);
+  }
+  
+  p {
+      color:  var(--white);
+  }
 
   h6 {
-    color: var(--primary-brown);
+    color: var(--white);
+  }
+  
+  h5 {
+    color: var(--white);
   }
 }
 
@@ -273,7 +308,7 @@ a {
 }
 
 .hero-caption {
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .hero-caption h1 {
@@ -285,7 +320,10 @@ a {
 .hero-content p {
   margin: 1rem 0 2rem;
   color: #7a5b4a;
-  line-height: 1.8;
+}
+
+.hero-content li {
+  color: #7a5b4a;
 }
 
 .hero-buttons {
@@ -414,12 +452,11 @@ a {
 .btn.secondary {
   padding-left:40px;
   padding-right:40px;
-  background-color: var(--white);
+  border-color: var(--primary-brown);
   color: var(--primary-brown);
 
   &:hover {
-    color: var(--primary-brown);
-    background-color: var(--lighter-gray);
+    background-color: var(--white);
   }
 }
 
@@ -587,9 +624,7 @@ a {
 }
 
 .offering p {
-    padding-bottom:40px;
     line-height: 1.8;
-    padding-right:50px;
 }
 
 .offering .icon-offer{
@@ -598,8 +633,7 @@ a {
 }
 
 .box-top{
-    background : var(--whatsapp-brown);
-    opacity:0.5;
+    background : var(--transparent-brown);
     width:165px; 
     margin:auto; 
     height:5px;
@@ -639,4 +673,279 @@ a {
 .global-footprint-section p{
     line-height:1.8;
     text-align:left;
+}
+
+
+/*ABOUT US*/
+
+.breadcrumb {
+  font-size: 14px;
+  color: #888;
+}
+
+.breadcrumb a {
+    color: var(--primary-brown);
+    text-decoration:none;
+}
+
+.breadcrumb .breadcrumb-home {
+    color:#888;
+}
+
+.about {
+  width:100%;
+  background:white;
+  z-index:1;
+}
+
+.about .about-container {
+  max-width:1150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+  padding : 4rem;
+  margin: 0 auto;
+}
+
+.about-title {
+  font-size: 5.5vh;
+  font-weight: 500;
+  line-height: 1.3;
+  color:var(--semi-brown);
+}
+
+.about-content {
+  margin-top:20px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.about-content strong {
+  color: var(--primary-brown); /* brownish link */
+  text-decoration: none;
+  font-weight:500;
+}
+
+.aboutus-image{
+    width: 100%;
+    height:600px;
+    z-index:-1;
+}
+
+.aboutus-image .bg-image {
+  margin-top:-300px;
+  width: 100%;
+  height: 800px;
+  background-image: url('background_aboutus.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  z-index:-1;
+}
+
+.vision-mission {
+    width:100%;
+    background:white;
+    z-index:2;
+}
+
+.vision-mission .vision-mission-container {
+  position: relative;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+  z-index:2;
+  background-image: url('logo-brown.webp');
+  background-repeat: no-repeat;
+  background-position:  bottom 20px left 40px;
+  background-size: 35%; /* or try 100% auto */
+}
+
+/* 🔹 Content always above watermark */
+.vision, .mission {
+  position: relative;
+  z-index: 2;
+}
+
+.vision h2, .mission h2 {
+  color: var(--primary-brown); /* sesuai warna di contoh */
+  margin-bottom: 1rem;
+  border-bottom: 5px solid var(--transparent-brown);
+  display: inline-block;
+  padding-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+.vision p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.mission ol {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.mission ol li::marker {
+  color: var(--primary-brown);
+  font-weight: bold;
+}
+
+.mission li {
+  margin-bottom: 1rem;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.vision strong {
+  color:  var(--primary-brown);
+}
+
+.mission strong {
+  color:  var(--primary-brown);
+}
+
+.team-section {
+  width:100%;
+  z-index:1;
+  background-color: var(--transparent-white);
+}
+
+.team-section .team-section-container {
+  max-width: 1150px;
+  margin: 0 auto; 
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: var(--transparent-white); 
+}
+
+.team-section h2 {
+  color: var(--primary-brown); 
+  margin-bottom: 2rem;
+  text-align:center;
+  font-weight: bold;
+}
+
+.team-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 160px; /* left-right spacing */
+  row-gap: 40px;  
+  margin-bottom: 4rem;
+  text-align:center;
+}
+
+.member-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+  text-align:center;
+}
+
+.team-leader {
+  max-width: 180px;
+}
+
+.team-leader img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%; /* bulat */
+  margin-bottom: 1rem;
+}
+
+.team-leader h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+  color: #333;
+}
+
+.team-leader .role {
+  font-size: 16px;
+  color: var(--primary-brown);
+  font-weight:500;
+  margin-top: 0.3rem;
+}
+
+.team-member {
+  max-width: 180px;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%; /* bulat */
+  margin-bottom: 1rem;
+}
+
+.team-member h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+  color: #333;
+}
+
+.team-member .role {
+  font-size: 16px;
+  color: var(--primary-brown);
+  font-weight:500;
+  margin-top: 0.3rem;
+}
+
+.advantage {
+  width: 100%;
+  background-color: white;
+}
+
+.advantage .container{
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+}
+
+.advantage h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primary-brown);
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .about .about-container {
+    grid-template-columns: 1fr; /* stack vertically */
+    padding: 2rem; /* smaller padding for mobile */
+    gap: 20px;     /* reduce gap */
+  }
+
+  .about-title {
+    font-size: 5vh; 
+  }
+
+  .about-content {
+    font-size: 14px;
+  }
+  
+  .vision-mission .vision-mission-container {
+    grid-template-columns: 1fr;
+    text-align: left;
+    background:none;
+  }
+  .mission ol {
+    text-align: left;
+  }
+  
 }

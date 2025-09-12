@@ -1,25 +1,28 @@
-<section class="plant-tour-section mb-5 text-center">
-  <div class="container">
-    <h1 class=" mb-6">Tour Our Plant in Gresik, Indonesia</h1>
-    <div class="row ">
-
-      <!-- Text Column -->
-      <div class="col-12 col-md-5 text-md-start mb-4 mb-md-0" style="max-width: 1000px;">
+<section class="vision-mission">
+  <div class="vision-mission-container">
+      <div class="vision">
+        <h2>Our Vision</h2>
         <p>
-          Step inside our processing facility in Gresik, where premium Flavora-grade candlenuts are skillfully sourced, dried, and packaged to meet international export standards. From hygiene inspections to moisture & foreign matter protocols, every part of our operations is rooted in commitment to consistency, traceability, and flavorful service.
+          To become a <strong>leading exporter and importer of Flores spices</strong>, recognized 
+          internationally as a symbol of authenticity, quality, and sustainability, 
+          while bridging local heritage with global needs.
         </p>
-        <a href="#" class="btn primary mt-5">
-          Download Company Profile
-        </a>
       </div>
-
-      <!-- Video Column -->
-      <div class="col-12 col-md-7">
-        <div class="ratio ratio-16x9">
-          <iframe src="https://www.youtube.com/embed/sample-video" title="Plant Tour" allowfullscreen></iframe>
-        </div>
+    
+      <div class="mission">
+        <h2>Our Mission</h2>
+        <ol>
+          <li><strong>Introduce Flores Spices to the World</strong><br>
+            Share the authentic taste of Flores with international markets through high-quality spices.</li>
+          <li><strong>Empower Local Farmers</strong><br>
+            Support farming communities with fair trade systems, training, and access to global opportunities.</li>
+          <li><strong>Preserve Authenticity and Quality</strong><br>
+            Apply natural methods and international standards in the processing and packaging of every product.</li>
+          <li><strong>Build Global Partnerships</strong><br>
+            Become a trusted partner in spice export–import by upholding integrity and professionalism.</li>
+          <li><strong>Commit to Sustainability</strong><br>
+            Encourage organic farming and eco-friendly practices to preserve the environment of Flores.</li>
+        </ol>
       </div>
-
     </div>
-  </div>
 </section>
