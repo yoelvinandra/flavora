@@ -16,7 +16,7 @@
       <!-- Video Column -->
       <div class="col-12 col-md-7">
         <div class="ratio ratio-16x9">
-          <iframe src="https://www.youtube.com/embed/sample-video" title="Plant Tour" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/viVDRP6E1dc" title="Plant Tour" allowfullscreen></iframe>
         </div>
       </div>
 

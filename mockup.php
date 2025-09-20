@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+    <?php
+    session_start();
+    echo $_SESSION['username'];
+    ?>
 
 <head>
   <meta charset="UTF-8">
