@@ -1,15 +1,15 @@
 <section class="plant-tour-section mb-5 text-center">
   <div class="container">
-    <h1 class=" mb-6">Tour Our Plant in Gresik, Indonesia</h1>
+    <h1 class=" mb-6"><?=$_SESSION['lang']['tour-our-plant']?></h1>
     <div class="row ">
 
       <!-- Text Column -->
       <div class="col-12 col-md-5 text-md-start mb-4 mb-md-0" style="max-width: 1000px;">
         <p>
-          Step inside our processing facility in Gresik, where premium Flavora-grade candlenuts are skillfully sourced, dried, and packaged to meet international export standards. From hygiene inspections to moisture & foreign matter protocols, every part of our operations is rooted in commitment to consistency, traceability, and flavorful service.
+          <?=$_SESSION['lang']['tour-our-plant-detail']?>
         </p>
-        <a href="#" class="btn primary mt-5">
-          Download Company Profile
+        <a href="assets/compro.pdf" class="btn primary mt-5">
+          <?=$_SESSION['lang']['tour-our-plant-button']?>
         </a>
       </div>
 

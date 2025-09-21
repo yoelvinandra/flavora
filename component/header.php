@@ -3,41 +3,49 @@
     <div class="container d-flex justify-content-between align-items-center">
         <a href="mockup.php"  class="logo fw-bold"><img src="assets/logo.webp" alt="Logo" style="width: 9vh;"></a>
         <nav>
-            <a href="aboutus.php" class="btn-hidden-sm text-decoration-none">About Us</a>
-            <a href="#" class="btn-hidden-sm text-decoration-none">Products</a>
-            <a href="#" class="btn-hidden-sm text-decoration-none">News & Event</a>
-            <a href="#" class="btn btn-sm"><i class="bi bi-chat-fill"></i> Get in touch</a>
+            <a href="aboutus.php" class="btn-hidden-sm text-decoration-none"><?=$_SESSION['lang']['about-us']?></a>
+            <a href="#" class="btn-hidden-sm text-decoration-none"><?=$_SESSION['lang']['products']?></a>
+            <a href="#" class="btn-hidden-sm text-decoration-none"><?=$_SESSION['lang']['news-event']?></a>
+            <a href="#" class="btn btn-sm"><i class="bi bi-chat-fill"></i> <?=$_SESSION['lang']['get-in-touch']?></a>
         </nav>
         <div class="lang-switcher ms-3 btn-hidden-sm">
-          <a href="#" id="EN" class="lang-data text-decoration-none active">EN</a> | 
-          <a href="#" id="ID" class="lang-data text-decoration-none">ID</a>
+          <a href="?lang=EN" id="EN" class="lang-data text-decoration-none active">EN</a> | 
+          <a href="?lang=ID" id="ID" class="lang-data text-decoration-none">ID</a>
         </div>
         <div class="btn-show-sm text-decoration-none" style="display:none; width:6vh;  color: var(--primary-brown);" onclick="openNav()"><i class="bi bi-list" style="font-size: 4vh;"></i></div>
         <div id="myNav" class="overlay">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="javascript:void(0)" class="menu closebtn" onclick="closeNav()">&times;</a>
           <div class="overlay-content">
-            <a href="mockup.php"  class="logo fw-bold"><img src="assets/logo-white.webp" alt="Logo" style="width: 10vh;"></a>
-            <a href="aboutus.php">About Us</a>
-            <a href="#">Products</a>
-            <a href="#">News & Event</a>
-            <div class="lang-switcher-mobile ms-3">
-              <a href="#" id="EN" class="lang-data-mobile text-decoration-none active">EN</a> | 
-              <a href="#" id="ID" class="lang-data-mobile text-decoration-none">ID</a>
-            </div>
+            <a class="menu" href="mockup.php"  class="logo fw-bold"><img src="assets/logo-white.webp" alt="Logo" style="width: 14vh;"></a>
+            <a class="menu" href="aboutus.php">About Us</a>
+            <a class="menu" href="#">Products</a>
+            <a class="menu" href="#">News & Event</a>
+          </div>
+          <div class="lang-switcher-mobile">
+            <a href="?lang=EN" id="EN-mobile" class="lang-data-mobile text-decoration-none active">EN</a>&nbsp;&nbsp;|&nbsp;
+            <a href="?lang=ID" id="ID-mobile" class="lang-data-mobile text-decoration-none">ID</a>
           </div>
         </div>
     </div>
 </header>
 
 <script>
-    
-    allBoxes = document.getElementsByClassName('lang-data');
+    let allBoxes = document.getElementsByClassName('lang-data');
     Array.from(allBoxes).forEach(box => {
       box.classList.remove("active");
     });
     
-    let boxSelected = document.getElementById('<?=$language?>');
+    let boxSelected = document.getElementById(localStorage.getItem('lang'));
     boxSelected.classList.add("active");
+    
+    
+    let allBoxesMobile = document.getElementsByClassName('lang-data-mobile');
+    Array.from(allBoxesMobile).forEach(box => {
+      box.classList.remove("active");
+    });
+    
+    let boxSelectedMobile = document.getElementById(localStorage.getItem('lang')+'-mobile');
+    boxSelectedMobile.classList.add("active");
   
     /* Open when someone clicks on the span element */
     function openNav() {

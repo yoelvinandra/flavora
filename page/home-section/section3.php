@@ -27,9 +27,9 @@
         <div class="tab-pane fade show active" id="candlenut">
           <div class="d-flex flex-column flex-md-row align-items-center">
             <div class="col-md-7">
-              <h2>Candlenut</h2>
-              <p>Flavora offers premium-grade candlenuts sourced from Flores, renowned for their high oil content and consistent quality, processed with strict moisture control, professional vacuum packaging, and backed by Sucafindo certification—making us a trusted export partner for global buyers who value reliability, transparency, and warm, attentive service.</p>
-              <a href="#">Read more</a>
+              <h2><?=$_SESSION['lang']['candlenut']?></h2>
+              <p><?=$_SESSION['lang']['candlenut-detail']?></p>
+              <a href="#"><?=$_SESSION['lang']['read-more']?></a>
             </div>
             <div class="col-md-1">
             </div>

@@ -3,19 +3,19 @@
   <div class="hero-bg"></div>
   <div class="hero-content">
     <div class="hero-caption">
-    <h1>Natural spice ingredients from Indonesia shipped worldwide</h1>
+    <h1><?=$_SESSION['lang']['title']?></h1>
     <p>
-     Candlenut, Vanilla, Nutmeg - sourced from Flores, shipped worldwide
+     <?=$_SESSION['lang']['subtitle']?>
      <ul style="margin-top:-27px; padding-left:15px;">
-         <li>Bulk & wholesale ingredients</li>
-         <li>Halal & HACCP certified</li>
-         <li>Lead Time 7-14 days</li>
-         <li>Flexible MoQ</li>
+         <li><?=$_SESSION['lang']['subtitle-1']?></li>
+         <li><?=$_SESSION['lang']['subtitle-2']?></li>
+         <li><?=$_SESSION['lang']['subtitle-3']?></li>
+         <li><?=$_SESSION['lang']['subtitle-4']?></li>
      </ul>
     </p>
     <div class="hero-buttons">
-      <a href="#" class="btn primary fullrounded">Get a quote</a>
-      <a href="#" class="btn secondary fullrounded">Chat on Whatsapp <i class="bi bi-whatsapp"></i></a>
+      <a href="#" class="btn primary fullrounded"><?=$_SESSION['lang']['get-quote']?></a>
+      <a href="#" class="btn secondary fullrounded"><?=$_SESSION['lang']['chat-wa']?> <i class="bi bi-whatsapp"></i></a>
     </div>
     </div>
   </div>    

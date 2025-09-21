@@ -1,43 +1,42 @@
-<?php
-session_start();
-// Set default language if not set
-if (!isset($_SESSION['LANG'])) {
-    $_SESSION['LANG'] = 'EN';
-}
+<div id="flavora-loader">
+  <div class="candlenut"></div>
+</div>
+<script>
 
-
-$sheetID = "1rKwfRBXCtCoDYAM18lZdVEk72UodpLIjjzpxZx1VdEs";
-$url = "https://docs.google.com/spreadsheets/d/$sheetID/gviz/tq?tqx=out:json";
-
-$data = file_get_contents($url);
-// Clean response (Google wraps it in some JS)
-$data = substr($data, strpos($data, "{"));
-$data = substr($data, 0, strrpos($data, "}")+1);
-
-$json = json_decode($data, true);
-
-// Extract rows
-$exportJSON = [];
-foreach ($json['table']['rows'] as $row) {
-    $cells = [];
-    foreach ($row['c'] as $cell) {
-        $cells[] = $cell['v'] ?? null;
+    let loader = document.getElementById("flavora-loader");
+    document.body.style.display = 'none';
+    
+    if(localStorage.getItem('load') == null){
+        localStorage.setItem('load','true');
     }
-    $exportJSON[] = $cells;
-}
-// Convert rows to associative array
-$rows = [];
-$languages = $exportJSON[0]; // first row is header
-
-for ($i = 1; $i < count($exportJSON); $i++) {
-    $row = $exportJSON[$i];
-    $key = $row[0];
-    for ($j = 1; $j < count($row); $j++) {
-        $rows[$languages[$j]][$key] = $row[$j];
+    const urlParams = new URLSearchParams(window.location.search);
+    
+    if(urlParams.get('lang') != undefined)
+    {
+        localStorage.setItem('lang',urlParams.get('lang'));
+    } 
+    else if(localStorage.getItem('lang') == null)
+    {
+        localStorage.setItem('lang','EN');
     }
-}
-
-// Example usage
-$language = $_SESSION['LANG']; // or "ENGLISH"
-$lang = $rows[$language];
-?>
+    if(localStorage.getItem('load') == 'false'){
+        document.body.style.display = 'block';
+        loader.style.display = "none";
+        localStorage.removeItem('load');
+    }
+    if(localStorage.getItem('load') == 'true')
+    {
+        '<?php session_destroy(); ?>';
+        fetch("setLang.php", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: "lang=" + localStorage.getItem("lang"),
+          credentials: "same-origin"   
+        })
+        .then(res => res.text())
+        .then(data => {
+          localStorage.setItem('load','false');
+          window.location.reload();
+        });
+    }
+</script>

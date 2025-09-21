@@ -1,7 +1,7 @@
 <section class="advantage text-center">
   <div class="box-top">&nbsp;</div>
   <div class="container">
-    <h1 class="mb-5">Why Trust Us ?</h1>
+    <h1 class="mb-5"> <?=$_SESSION['lang']['why-trust-us']?></h1>
 
     <div class="d-flex justify-content-center">
       <div class="row g-4" style="text-align:center;"> <!-- adjust width as needed -->

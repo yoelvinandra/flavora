@@ -6,7 +6,7 @@
        <i class="fab-icon bi bi-arrow-up-short"></i>
     </div>
     
-    <a href="#" id="floating-whatsapp-btn" target="_blank">
+    <a href="https://wa.me/6281138225758?text=Permisi, saya ingin bertanya mengenai Flavora." id="floating-whatsapp-btn" target="_blank">
        <i class="fab-icon bi bi-whatsapp"></i>
     </a>
 </footer>

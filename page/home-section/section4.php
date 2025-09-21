@@ -59,7 +59,7 @@
 <section class="offering text-center">
   <div class="box-top">&nbsp;</div>
   <div class="container">
-    <h1 class="mb-5">What We Offer</h1>
+    <h1 class="mb-5"><?=$_SESSION['lang']['what-we-offer']?></h1>
 
     <div class="d-flex justify-content-center">
       <div class="row g-4" style="width: 550px; text-align:center;"> <!-- adjust width as needed -->
@@ -69,11 +69,11 @@
               <div class="d-flex text-start">
                 <i><img class="icon-offer" src="assets/tips-1.webp"></i>
                 <div class="ms-3">
-                  <h5>Custom<br>Quote</h5>
+                  <h5><?=$_SESSION['lang']['custom-quote']?></h5>
                 </div>
               </div>
-              <p>Tailor pricing for bulk order, with detailed specs & packaging options.</p>
-              <a href="#" class="btn secondary fullrounded" style="width:100%;">Request Quote</a>
+              <p><?=$_SESSION['lang']['custom-quote-detail']?></p>
+              <a href="#" class="btn secondary fullrounded" style="width:100%;"><?=$_SESSION['lang']['custom-quote-button']?></a>
           </div>
         </div>
 
@@ -82,11 +82,11 @@
               <div class="d-flex text-start">
                 <i><img class="icon-offer" src="assets/tips-2.webp"></i>
                 <div class="ms-3">
-                  <h5>Flexible<br>Shipping</h5>
+                  <h5><?=$_SESSION['lang']['flexible-shipping']?></h5>
                 </div>
               </div>
-              <p>FOB Surabaya, CIF major port, or arrange your own freight forwarder.</p>
-              <a href="#" class="btn secondary fullrounded" style="width:100%;">Discuss Shipping</a>
+              <p><?=$_SESSION['lang']['flexible-shipping-detail']?></p>
+              <a href="mailto:sales@floresflavora.com" class="btn secondary fullrounded" style="width:100%;"><?=$_SESSION['lang']['flexible-shipping-button']?></a>
              </div>
         </div>
 
@@ -95,11 +95,11 @@
               <div class="d-flex text-start">
                 <i><img class="icon-offer" src="assets/tips-3.webp"></i>
                 <div class="ms-3">
-                  <h5>Quality<br>Assurance</h5>
+                  <h5><?=$_SESSION['lang']['quality-assurance']?></h5>
                 </div>
               </div>
-              <p>Independent Lab Report Sucofindo, Halal, and<br>COA.</p>
-              <a href="#" class="btn secondary fullrounded" style="width:100%;">View Certificates</a>
+              <p><?=$_SESSION['lang']['quality-assurance-detail']?></p>
+              <a href="#" class="btn secondary fullrounded" style="width:100%;"><?=$_SESSION['lang']['quality-assurance-button']?></a>
             </div>
         </div>
 
@@ -108,11 +108,11 @@
               <div class="d-flex text-start">
                 <i><img class="icon-offer" src="assets/tips-4.webp"></i>
                 <div class="ms-3">
-                  <h5>Product<br>Spec</h5>
+                  <h5><?=$_SESSION['lang']['product-spec']?></h5>
                 </div>
               </div>
-              <p>Moisture, oil content, packaging, HS code for your compliance.</p>
-              <a href="#" class="btn secondary fullrounded" style="width:100%;">Request Spec Sheet</a>
+              <p><?=$_SESSION['lang']['product-spec-detail']?></p>
+              <a href="#" class="btn secondary fullrounded" style="width:100%;"><?=$_SESSION['lang']['product-spec-button']?></a>
             </div>
         </div>
 
