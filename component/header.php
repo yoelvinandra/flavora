@@ -17,9 +17,9 @@
           <a href="javascript:void(0)" class="menu closebtn" onclick="closeNav()">&times;</a>
           <div class="overlay-content">
             <a class="menu" href="mockup.php"  class="logo fw-bold"><img src="assets/logo-white.webp" alt="Logo" style="width: 14vh;"></a>
-            <a class="menu" href="aboutus.php">About Us</a>
-            <a class="menu" href="#">Products</a>
-            <a class="menu" href="#">News & Event</a>
+            <a class="menu" href="aboutus.php"><?=$_SESSION['lang']['about-us']?></a>
+            <a class="menu" href="#"><?=$_SESSION['lang']['products']?></a>
+            <a class="menu" href="#"><?=$_SESSION['lang']['news-event']?></a>
           </div>
           <div class="lang-switcher-mobile">
             <a href="?lang=EN" id="EN-mobile" class="lang-data-mobile text-decoration-none active">EN</a>&nbsp;&nbsp;|&nbsp;
