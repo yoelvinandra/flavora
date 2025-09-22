@@ -1,40 +1,33 @@
 <section class="team-section">
     <div class="team-section-container">
-          <h2>Board of Commissioner</h2>
+          <h2><?=$_SESSION['lang']['board-of-directors']?></h2>
           <div class="team-row">
             <div class="team-leader">
-              <img src="assets/member1.webp" alt="Budianto Budi">
-              <h3>Budianto Budi</h3>
-              <p class="role">Chief Executive Officer</p>
+              <img src="assets/about-us/sonny.webp" alt="Tjan Sonny P.">
+              <h3>Tjan Sonny P.</h3>
+              <p class="role">Commisioner</p>
             </div>
             <div class="team-leader">
-              <img src="assets/member2.webp" alt="Lucky Luck">
-              <h3>Lucky Luck</h3>
-              <p class="role">Chief Technical Officer</p>
+              <img src="assets/about-us/hartawan.webp" alt="Hartawan C.">
+              <h3>Hartawan C.</h3>
+              <p class="role">President Director</p>
             </div>
           </div>
-        
-          <h2>Our Team</h2>
           <div class="member-row">
             <div class="team-member">
-              <img src="assets/member3.webp" alt="Joshua Jo">
-              <h3>Joshua Jo</h3>
-              <p class="role">Head of Product</p>
+              <img src="assets/about-us/louis.webp" alt="Louis L. Lawrence">
+              <h3>Louis L. Lawrence</h3>
+              <p class="role">Purchasing Director</p>
             </div>
             <div class="team-member">
-              <img src="assets/member4.webp" alt="Silvia Sil">
-              <h3>Silvia Sil</h3>
-              <p class="role">General Manager</p>
+              <img src="assets/about-us/kevin.webp" alt="Kevin H. Noor">
+              <h3>Kevin H. Noor</h3>
+              <p class="role">Marketing Director</p>
             </div>
             <div class="team-member">
-              <img src="assets/member5.webp" alt="Rocky Rock">
-              <h3>Rocky Rock</h3>
-              <p class="role">Senior Manager</p>
-            </div>
-            <div class="team-member">
-              <img src="assets/member6.webp" alt="Samuel Sam">
-              <h3>Samuel Sam</h3>
-              <p class="role">Consultant</p>
+              <img src="assets/about-us/yulius.webp" alt="Yulus S.">
+              <h3>Yulius S.</h3>
+              <p class="role">Production Director</p>
             </div>
           </div>
     </div>
