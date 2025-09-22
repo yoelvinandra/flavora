@@ -8,25 +8,25 @@
         
         <div class="col-6 col-md-3">
           <div class="mx-auto" style="text-align:center; border-radius:20px; border:1px solid var(--primary-brown); padding:1vh;">
-             <img class="icon-advantage" src="assets/advantage1.webp" style="width:20vh">
+             <img class="icon-advantage" src="assets/about-us/advantage1.webp" style="width:20vh">
           </div>
         </div>
 
         <div class="col-6 col-md-3">
             <div class="mx-auto"  style="text-align:center; border-radius:20px; border:1px solid var(--primary-brown); padding:1vh;">
-                 <img class="icon-advantage" src="assets/advantage2.webp" style="width:20vh">
+                 <img class="icon-advantage" src="assets/about-us/advantage2.webp" style="width:20vh">
             </div>
         </div>
 
         <div class="col-6 col-md-3" >
             <div class="mx-auto"  style="text-align:center; border-radius:20px; border:1px solid var(--primary-brown); padding:1vh;">
-             <img class="icon-advantage" src="assets/advantage3.webp" style="width:20vh">
+             <img class="icon-advantage" src="assets/about-us/advantage3.webp" style="width:20vh">
             </div>
         </div>
 
         <div class="col-6 col-md-3">
             <div class="mx-auto"  style="text-align:center; border-radius:20px; border:1px solid var(--primary-brown); padding:1vh;">
-             <img class="icon-advantage" src="assets/advantage4.webp" style="width:20vh">
+             <img class="icon-advantage" src="assets/about-us/advantage4.webp" style="width:20vh">
           </div>
         </div>
 

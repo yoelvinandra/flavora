@@ -34,7 +34,7 @@
             <div class="col-md-1">
             </div>
             <div class="col-md-4 text-center mt-3 mt-md-0">
-              <img src="assets/candlenut.webp" alt="Candlenut"
+              <img src="assets/home/candlenut.webp" alt="Candlenut"
                 style="clip-path: circle(); border:2px solid var(--accent-tan); padding:20px; height:250px; width:250px; border-radius:50%;">
             </div>
           </div>

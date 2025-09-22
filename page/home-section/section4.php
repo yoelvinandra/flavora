@@ -67,7 +67,7 @@
         <div class="col-12 col-md-6">
           <div class="mx-auto" style="text-align:left; border-radius:20px; border:1px solid var(--primary-brown); padding:20px; width:250px;">
               <div class="d-flex text-start">
-                <i><img class="icon-offer" src="assets/tips-1.webp"></i>
+                <i><img class="icon-offer" src="assets/home/tips-1.webp"></i>
                 <div class="ms-3">
                   <h5><?=$_SESSION['lang']['custom-quote']?></h5>
                 </div>
@@ -80,7 +80,7 @@
         <div class="col-12 col-md-6">
             <div class="mx-auto"  style="text-align:left; border-radius:20px; border:1px solid var(--primary-brown); padding:20px; width:250px;">
               <div class="d-flex text-start">
-                <i><img class="icon-offer" src="assets/tips-2.webp"></i>
+                <i><img class="icon-offer" src="assets/home/tips-2.webp"></i>
                 <div class="ms-3">
                   <h5><?=$_SESSION['lang']['flexible-shipping']?></h5>
                 </div>
@@ -93,7 +93,7 @@
         <div class="col-12 col-md-6" >
             <div class="mx-auto"  style="text-align:left; border-radius:20px; border:1px solid var(--primary-brown); padding:20px; width:250px;">
               <div class="d-flex text-start">
-                <i><img class="icon-offer" src="assets/tips-3.webp"></i>
+                <i><img class="icon-offer" src="assets/home/tips-3.webp"></i>
                 <div class="ms-3">
                   <h5><?=$_SESSION['lang']['quality-assurance']?></h5>
                 </div>
@@ -106,7 +106,7 @@
         <div class="col-12 col-md-6">
             <div class="mx-auto"  style="text-align:left; border-radius:20px; border:1px solid var(--primary-brown); padding:20px; width:250px;">
               <div class="d-flex text-start">
-                <i><img class="icon-offer" src="assets/tips-4.webp"></i>
+                <i><img class="icon-offer" src="assets/home/tips-4.webp"></i>
                 <div class="ms-3">
                   <h5><?=$_SESSION['lang']['product-spec']?></h5>
                 </div>
