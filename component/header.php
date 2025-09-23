@@ -6,7 +6,7 @@
             <a href="aboutus.php" class="btn-hidden-sm text-decoration-none"><?=$_SESSION['lang']['about-us']?></a>
             <a href="#" class="btn-hidden-sm text-decoration-none"><?=$_SESSION['lang']['products']?></a>
             <a href="#" class="btn-hidden-sm text-decoration-none"><?=$_SESSION['lang']['news-event']?></a>
-            <a href="#" class="btn btn-sm"><i class="bi bi-chat-fill"></i> <?=$_SESSION['lang']['get-in-touch']?></a>
+            <a class="btn btn-sm"  onclick="openMessage();"><i class="bi bi-chat-fill"></i> <?=$_SESSION['lang']['get-in-touch']?></a>
         </nav>
         <div class="lang-switcher ms-3 btn-hidden-sm">
           <a href="?lang=EN" id="EN" class="lang-data text-decoration-none active">EN</a> | 

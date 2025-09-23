@@ -8,7 +8,7 @@
         <p>
           <?=$_SESSION['lang']['tour-our-plant-detail']?>
         </p>
-        <a href="assets/compro.pdf" class="btn primary mt-5">
+        <a href="assets/compro/compro.pdf" class="btn primary mt-5" target="_blank">
           <?=$_SESSION['lang']['tour-our-plant-button']?>
         </a>
       </div>

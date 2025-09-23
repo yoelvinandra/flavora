@@ -1,5 +1,6 @@
 <!-- footer.php -->
 <footer>
+    <?php include 'footer-section/get-in-touch.php'; ?>
     <?php include 'footer-section/bottom-info-section.php'; ?>
     
     <div onclick="scrollToTop()" id="floating-top-btn" target="_blank">
