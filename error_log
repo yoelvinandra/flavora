@@ -1714,3 +1714,190 @@ error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/publ
 error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
 [22-Sep-2025 16:58:22 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
 error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 17:01:05 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 17:03:22 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 17:03:24 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 19:36:51 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 19:45:37 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 19:45:45 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 19:46:22 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 19:46:27 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 20:14:06 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 21:03:54 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 21:05:42 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 21:06:09 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 21:06:14 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 21:08:24 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 21:08:31 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 21:08:46 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 21:09:10 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 21:09:30 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 21:10:37 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 21:10:43 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 21:38:40 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 21:39:06 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:26:30 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:27:12 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:27:15 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:28:30 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:32:51 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:33:30 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:35:27 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:36:06 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:36:27 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:37:30 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:37:54 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:38:27 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:38:35 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:38:54 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:39:37 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:40:14 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:41:03 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:41:52 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:43:26 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:43:55 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:44:04 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:45:02 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:45:30 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:51:49 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:52:09 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:52:24 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:57:19 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:57:57 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[22-Sep-2025 23:58:05 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 00:00:58 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 00:02:09 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 00:08:10 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 00:08:34 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 00:10:19 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 00:11:07 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 00:11:30 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 06:09:40 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 06:10:05 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 12:35:44 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 12:36:17 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 12:36:22 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 12:36:44 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 12:38:14 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 12:38:16 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 12:38:30 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 12:38:59 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 12:43:21 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 12:44:57 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 12:45:09 Asia/Jakarta] PHP Warning:  mail() has been disabled for security reasons in /home/flom5234/public_html/send-mail.php on line 34
+[23-Sep-2025 16:17:38 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 16:20:42 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 16:33:29 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 16:38:04 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 16:38:13 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 21:37:21 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 21:40:44 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 21:40:49 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 21:49:46 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 21:56:49 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 22:11:01 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 22:11:03 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 22:13:34 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 22:14:56 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 22:17:32 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 22:22:25 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 22:22:35 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 22:23:35 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 22:23:46 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 22:26:12 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 22:27:04 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 22:27:25 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[23-Sep-2025 22:32:26 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7

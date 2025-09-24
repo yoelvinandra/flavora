@@ -4,7 +4,7 @@
             <img src="assets/logo-white.webp" alt="Logo" class="mb-3" style="width: 100px;">
             <h2 class="fw-bold mb-4"><?=$_SESSION['lang']['want-to-talk']?></h2>
             <p class="mb-4"><?=$_SESSION['lang']['we-love']?></p>
-            <a href="#" class="btn fullrounded" style="color:var(--dark-brown); font-size:12pt !important; font-weight:bold; background-color:white;"><?=$_SESSION['lang']['contact-us']?></a>
+            <a class="btn fullrounded openBtn" onclick="openMessage();" style="color:var(--dark-brown); font-size:12pt !important; font-weight:bold; background-color:white;"><?=$_SESSION['lang']['contact-us']?></a>
         </div>
         <div class="d-flex justify-content-center" style="margin-top: 6vh; max-width:320px; margin-left:auto; margin-right:auto;">
             <!--<div class="d-flex justify-content-evenly">-->
@@ -31,7 +31,6 @@
                     <h6 class="fw-bold"><?=$_SESSION['lang']['links']?></h6>
                     <ul class="list-unstyled">
                         <li><a href="#"><?=$_SESSION['lang']['news-event']?></a></li>
-                        <li><a href="#"><?=$_SESSION['lang']['contact-us']?></a></li>
                     </ul>
                 </div>
             <!--</div>-->
@@ -104,3 +103,6 @@
         </div> -->
     </div>
 </section>
+<script>
+   
+</script>
