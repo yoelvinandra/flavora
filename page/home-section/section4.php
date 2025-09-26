@@ -55,7 +55,8 @@
   </div>
 
 </section> -->
-
+<?php include 'section4-component/certificate-modal.php'; ?>
+<?php include 'section4-component/product-spec-modal.php'; ?>
 <section class="offering text-center">
   <div class="box-top">&nbsp;</div>
   <div class="container">
@@ -73,7 +74,7 @@
                 </div>
               </div>
               <p><?=$_SESSION['lang']['custom-quote-detail']?></p>
-              <a href="#" class="btn secondary fullrounded" style="width:100%;"><?=$_SESSION['lang']['custom-quote-button']?></a>
+              <a href="product.php#section-product-forms" class="btn secondary fullrounded" style="width:100%;"><?=$_SESSION['lang']['custom-quote-button']?></a>
           </div>
         </div>
 
@@ -99,7 +100,7 @@
                 </div>
               </div>
               <p><?=$_SESSION['lang']['quality-assurance-detail']?></p>
-              <a href="#" class="btn secondary fullrounded" style="width:100%;"><?=$_SESSION['lang']['quality-assurance-button']?></a>
+              <a onclick="openCertificateModal()" class="btn secondary fullrounded" style="width:100%;"><?=$_SESSION['lang']['quality-assurance-button']?></a>
             </div>
         </div>
 
@@ -112,7 +113,7 @@
                 </div>
               </div>
               <p><?=$_SESSION['lang']['product-spec-detail']?></p>
-              <a href="#" class="btn secondary fullrounded" style="width:100%;"><?=$_SESSION['lang']['product-spec-button']?></a>
+              <a onclick="openProductSpecModal()" class="btn secondary fullrounded" style="width:100%;"><?=$_SESSION['lang']['product-spec-button']?></a>
             </div>
         </div>
 
