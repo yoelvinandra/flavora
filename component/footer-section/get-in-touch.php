@@ -20,15 +20,19 @@
             <input type="text" id="country" name="country">
     
             <label style="margin-top:20px;" for="message"><?=$_SESSION['lang']['how-can-we-help-you']?></label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-
-            <button id="submit-get-in-touch" onclick="submitMessage()" style="width:100%; margin-top:20px;" class="btn primary fullrounded" type="submit"><?=$_SESSION['lang']['submit']?></button>
-
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <div class="g-recaptcha" style="margin-top:20px;" data-sitekey="6LdXgdQrAAAAAF_snZ5m5ZZ55owmdvS20L-tCOYT"></div>
+            <button id="submit-get-in-touch" onclick="submitMessage()" style="width:100%; margin-top:20px;" class="g-recaptcha btn primary fullrounded" type="submit"><?=$_SESSION['lang']['submit']?></button>
+            
         </div>
     </div>
 </section>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
+   
 function openMessage(){
+    grecaptcha.reset(); //
     var firstname = document.getElementById('firstName').value = "";
     var lastname = document.getElementById('lastName').value = "";
     var email = document.getElementById('email').value = "";
@@ -59,39 +63,49 @@ function submitMessage(){
   var company = document.getElementById('company').value;
   var country = document.getElementById('country').value;
   var message = document.getElementById('message').value;
+  var catpcha = document.getElementById('g-recaptcha-response').value;
   
    // Regex sederhana untuk validasi email
   var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
   // Validasi input
   if (firstname === "") {
-    alert("First name cannot be empty");
+    alert('<?=$_SESSION['lang']['alert-first-name'];?>');
     return;
   }
   if (lastname === "") {
-    alert("Last name cannot be empty");
+    alert('<?=$_SESSION['lang']['alert-last-name'];?>');
     return;
   }
   if (email === "") {
-    alert("Email cannot be empty");
+    alert('<?=$_SESSION['lang']['alert-email'];?>');
     return;
   }
   if (!emailRegex.test(email)) {
-    alert("Please enter a valid email address");
+    alert('<?=$_SESSION['lang']['alert-email-valid'];?>');
     return;
+  }
+  
+  if(catpcha == "")
+  {
+     return;
   }
   
   fetch("mail.php", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: "firstname=" + firstname+"&lastname=" + lastname+"&email=" + email+"&company=" + company+"&country=" + country+"&message=" + message,
+      body: "firstname=" + firstname+"&lastname=" + lastname+"&email=" + email+"&company=" + company+"&country=" + country+"&message=" + message+"&captcha="+catpcha+"&bahasa="+localStorage.getItem('lang'),
       credentials: "same-origin"   
     })
-    .then(res => res.text())
+    .then(res => res.json()) 
     .then(data => {
-      var modal = document.getElementById("contactModal");
-      modal.style.display = "none";
-      alert(data);
+      if (data.success) {
+        alert(data.message);
+        var modal = document.getElementById("contactModal");
+        modal.style.display = "none";
+      } else {
+        alert("Error: " + data.message);
+      }
   });  
 }
 </script>

@@ -4,7 +4,7 @@
         <a href="mockup.php"  class="logo fw-bold"><img src="assets/logo.webp" alt="Logo" style="width: 9vh;"></a>
         <nav>
             <a href="aboutus.php" class="btn-hidden-sm text-decoration-none"><?=$_SESSION['lang']['about-us']?></a>
-            <a href="#" class="btn-hidden-sm text-decoration-none"><?=$_SESSION['lang']['products']?></a>
+            <a href="product.php" class="btn-hidden-sm text-decoration-none"><?=$_SESSION['lang']['products']?></a>
             <a href="#" class="btn-hidden-sm text-decoration-none"><?=$_SESSION['lang']['news-event']?></a>
             <a class="btn btn-sm"  onclick="openMessage();"><i class="bi bi-chat-fill"></i> <?=$_SESSION['lang']['get-in-touch']?></a>
         </nav>
