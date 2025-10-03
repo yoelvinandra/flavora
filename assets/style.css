@@ -310,7 +310,8 @@ a {
   align-items: center;
   justify-content: center;
   padding-top: 10vh;
-  min-height: 70vh;
+  margin-top:-100px;
+  min-height: 80vh;
   width: 100%;
   overflow: hidden;
   clip-path: ellipse(150% 100% at 50% 0%);
@@ -323,10 +324,10 @@ a {
   width: 100%;
   height: 120%;
   background-image:
-    linear-gradient(to right, #e4cfb9 20%, transparent 100%),
-    url('home/background-home.jpg');
+    linear-gradient(to right, #e4cfb9 10%, transparent 100%),
+    url('home/background-home.webp');
   background-size: cover;
-  background-position: center;
+  background-position: bottom; /* center horizontally, bottom vertically */
   background-repeat: no-repeat;
   z-index: 0;
   will-change: transform;
@@ -349,15 +350,18 @@ a {
   font-size: 2rem;
   font-weight: bold;
   color: #6b2f1f;
+  text-shadow: 0.5px 0.5px 5px white;
 }
 
 .hero-content p {
   margin: 1rem 0 2rem;
   color: #7a5b4a;
+  text-shadow: 0.5px 0.5px 5px white;
 }
 
 .hero-content li {
   color: #7a5b4a;
+  text-shadow: 0.5px 0.5px 5px white;
 }
 
 .hero-buttons {
@@ -486,8 +490,10 @@ a {
 .btn.secondary {
   padding-left:40px;
   padding-right:40px;
+  border : 1.5px solid;
   border-color: var(--primary-brown);
   color: var(--primary-brown);
+  background-color: white;
 
   &:hover {
     color: var(--white);
@@ -499,7 +505,7 @@ a {
    padding-left:0px !important;
    padding-right:0px !important;
    min-width:200px; 
-   border-radius:100px !important;    
+   border-radius:100px !important; 
 }
 
 .btn-whatsapp{
@@ -792,18 +798,18 @@ a {
 
 .aboutus-image{
     width: 100%;
-    height:600px;
+    height:400px;
     z-index:-1;
 }
 
 .aboutus-image .bg-image {
-  margin-top:-300px;
+  margin-top:-200px;
   width: 100%;
-  height: 1000px;
+  height: 600px;
   background-image: url('about-us/background-aboutus.webp');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: bottom;
   z-index:-1;
 }
 
