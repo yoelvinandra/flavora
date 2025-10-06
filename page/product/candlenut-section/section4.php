@@ -3,7 +3,7 @@
     <div class="applications-content">
       <div class="applications-title">
         <div class="title-separator"></div>
-        <h2>Applications of our onions</h2>
+        <h2>Applications of our candlenut</h2>
       </div>
       <div class="applications-grid">
         <div class="app-card">
