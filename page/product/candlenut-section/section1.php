@@ -1,9 +1,9 @@
 <section id="section-product-intro" class="product-intro-section">
   <div class="container">
-    <p class="breadcrumbs">
-      <span class="breadcrumb-inactive">Home > Product > </span>
-      <span class="breadcrumb-active">Candlenut</span>
-    </p>
+    <div class="breadcrumb">
+      <a class="breadcrumb-home" href="mockup.php"><?= $_SESSION['lang']['home'] ?></a>&nbsp;&nbsp;>&nbsp;&nbsp;<a href="#"><?= $_SESSION['lang']['products'] ?></a>
+    </div>
+
     <div class="product-intro-content">
       <div class="product-intro-text">
         <div class="title-separator"></div>
@@ -13,10 +13,10 @@
           <a href="#" class="btn primary fullrounded">Contact Us</a>
           <a href="#" class="btn secondary fullrounded">Request Quotaion</a>
         </div>
-      </div>     
+      </div>
 
       <div class="product-intro-media">
-        <div >
+        <div>
           <iframe class="video-thumbnail"
             src="https://www.youtube.com/embed/dJCFFSd1kN8">
           </iframe>
