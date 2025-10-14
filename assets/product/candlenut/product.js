@@ -1,25 +1,12 @@
 const candlenutType = document.getElementById("type-candlenut");
 
-// function selectedType(button, type) {    
-//     const tabLinks = document.querySelectorAll('.tab-type');  
-//     const candlenutTabs = document.getElementById('type-candlenut');  
-//     tabLinks.forEach(tab => tab.classList.remove('active'));    
-//     button.classList.add('active');  
-      
-//     fetch("page/product/candlenut-section/product-type/" + type + ".php")
-//       .then(response => response.text())
-//       .then(html => {
-//         candlenutTabs.innerHTML = html;
-//       });
-// }
-
-function selectedType(button, type) {    
-  const tabLinks = document.querySelectorAll('.tab-type');  
-  const candlenutTabs = document.getElementById('type-candlenut');  
+function selectedType(button, type) {
+  const tabLinks = document.querySelectorAll('.tab-type');
+  const candlenutTabs = document.getElementById('type-candlenut');
 
   // Update active state
-  tabLinks.forEach(tab => tab.classList.remove('active'));    
-  button.classList.add('active');  
+  tabLinks.forEach(tab => tab.classList.remove('active'));
+  button.classList.add('active');
 
   // Add slide-out animation
   candlenutTabs.classList.add('slide-out');
@@ -46,7 +33,43 @@ function selectedType(button, type) {
   });
 }
 
-function slideProcessStep(button, direction) {
-  //0 = left
-  //1 = right
+let currentIndex = 0; // track the current "slide" position
+
+function slideProcessStep(btn, isPrev) {
+  const wrapper = btn.closest(".processing-steps-wrapper");
+  const track = wrapper.querySelector(".processing-carousel-track");
+  const cards = track.querySelectorAll(".processing-carousel-content");
+
+  const visibleCount = 3; // how many visible at once
+  const totalCount = cards.length;
+  const cardWidth = cards[0].offsetWidth + cards[0].offsetWidth * 0.5; // width + gap
+  const maxIndex = totalCount - visibleCount;
+
+  if (isPrev) {
+    currentIndex = Math.max(currentIndex - 1, 0);
+  } else {
+    currentIndex = Math.min(currentIndex + 1, maxIndex);
+  }
+  track.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
 }
+
+let currPckgIdx = 0; 
+
+function slidePackaging(btn, isPrev) {
+  const wrapper = btn.closest(".packaging-wrapper");
+  const track = wrapper.querySelector(".packaging-carousel-track");
+  const cards = track.querySelectorAll(".packaging-carousel-content");
+
+  const visibleCount = 3; // how many visible at once
+  const totalCount = cards.length;
+  const cardWidth = cards[0].offsetWidth + cards[0].offsetWidth * 0.2; // width + gap
+  const maxIndex = totalCount - visibleCount;
+
+  if (isPrev) {
+    currPckgIdx = Math.max(currPckgIdx - 1, 0);
+  } else {
+    currPckgIdx = Math.min(currPckgIdx + 1, maxIndex);
+  }
+  track.style.transform = `translateX(-${currPckgIdx * cardWidth}px)`;
+}
+
