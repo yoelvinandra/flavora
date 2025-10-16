@@ -40,10 +40,22 @@ function slideProcessStep(btn, isPrev) {
   const track = wrapper.querySelector(".processing-carousel-track");
   const cards = track.querySelectorAll(".processing-carousel-content");
 
-  const visibleCount = 3; // how many visible at once
-  const totalCount = cards.length;
-  const cardWidth = cards[0].offsetWidth + cards[0].offsetWidth * 0.5; // width + gap
-  const maxIndex = totalCount - visibleCount;
+  let visibleCount = 0; // how many visible at once
+  let totalCount = 0;
+  let cardWidth = 0; // width + gap
+  let maxIndex = 0;
+
+  if (window.matchMedia("(max-width: 768px)").matches) {
+    visibleCount = 1; // how many visible at once
+    totalCount = cards.length;
+    cardWidth = cards[0].offsetWidth; // width + gap
+    maxIndex = totalCount - visibleCount;
+  } else {
+    visibleCount = 3; // how many visible at once
+    totalCount = cards.length;
+    cardWidth = cards[0].offsetWidth + cards[0].offsetWidth * 0.5; // width + gap
+    maxIndex = totalCount - visibleCount;
+  }
 
   if (isPrev) {
     currentIndex = Math.max(currentIndex - 1, 0);
@@ -53,17 +65,30 @@ function slideProcessStep(btn, isPrev) {
   track.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
 }
 
-let currPckgIdx = 0; 
+let currPckgIdx = 0;
 
 function slidePackaging(btn, isPrev) {
   const wrapper = btn.closest(".packaging-wrapper");
   const track = wrapper.querySelector(".packaging-carousel-track");
   const cards = track.querySelectorAll(".packaging-carousel-content");
 
-  const visibleCount = 3; // how many visible at once
-  const totalCount = cards.length;
-  const cardWidth = cards[0].offsetWidth + cards[0].offsetWidth * 0.2; // width + gap
-  const maxIndex = totalCount - visibleCount;
+  let visibleCount = 0; // how many visible at once
+  let totalCount = 0;
+  let cardWidth = 0; // width + gap
+  let maxIndex = 0;
+
+  if (window.matchMedia("(max-width: 768px)").matches) {
+    visibleCount = 1; // how many visible at once
+    totalCount = cards.length;
+    cardWidth = cards[0].offsetWidth; // width + gap
+    maxIndex = totalCount - visibleCount;
+  } else {
+    visibleCount = 4; // how many visible at once
+    totalCount = cards.length;
+    cardWidth = cards[0].offsetWidth + cards[0].offsetWidth * 0.25; // width + gap
+    maxIndex = totalCount - visibleCount;
+  }
+
 
   if (isPrev) {
     currPckgIdx = Math.max(currPckgIdx - 1, 0);
