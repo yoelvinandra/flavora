@@ -63,10 +63,10 @@
     <h1 class="mb-5"><?=$_SESSION['lang']['what-we-offer']?></h1>
 
     <div class="d-flex justify-content-center">
-      <div class="row g-4" style="width: 550px; text-align:center;"> <!-- adjust width as needed -->
+      <div class="row g-4" style="width: 850px; text-align:center;"> <!-- adjust width as needed -->
         
-        <div class="col-12 col-md-6">
-          <div class="mx-auto" style="text-align:left; border-radius:20px; border:1px solid var(--primary-brown); padding:20px; width:250px;">
+        <div class="col-12 col-md-4">
+          <div class="mx-auto" style="text-align:left; border-radius:20px; border:1px solid var(--head-brown); padding:20px; width:250px;">
               <div class="d-flex text-start">
                 <i><img class="icon-offer" src="assets/home/tips-1.webp"></i>
                 <div class="ms-3">
@@ -78,8 +78,8 @@
           </div>
         </div>
 
-        <div class="col-12 col-md-6">
-            <div class="mx-auto"  style="text-align:left; border-radius:20px; border:1px solid var(--primary-brown); padding:20px; width:250px;">
+        <div class="col-12 col-md-4">
+            <div class="mx-auto"  style="text-align:left; border-radius:20px; border:1px solid var(--head-brown); padding:20px; width:250px;">
               <div class="d-flex text-start">
                 <i><img class="icon-offer" src="assets/home/tips-2.webp"></i>
                 <div class="ms-3">
@@ -91,8 +91,8 @@
              </div>
         </div>
 
-        <div class="col-12 col-md-6" >
-            <div class="mx-auto"  style="text-align:left; border-radius:20px; border:1px solid var(--primary-brown); padding:20px; width:250px;">
+        <div class="col-12 col-md-4" >
+            <div class="mx-auto"  style="text-align:left; border-radius:20px; border:1px solid var(--head-brown); padding:20px; width:250px;">
               <div class="d-flex text-start">
                 <i><img class="icon-offer" src="assets/home/tips-3.webp"></i>
                 <div class="ms-3">
@@ -101,19 +101,6 @@
               </div>
               <p><?=$_SESSION['lang']['quality-assurance-detail']?></p>
               <a onclick="openCertificateModal()" class="btn secondary fullrounded" style="width:100%;"><?=$_SESSION['lang']['quality-assurance-button']?></a>
-            </div>
-        </div>
-
-        <div class="col-12 col-md-6">
-            <div class="mx-auto"  style="text-align:left; border-radius:20px; border:1px solid var(--primary-brown); padding:20px; width:250px;">
-              <div class="d-flex text-start">
-                <i><img class="icon-offer" src="assets/home/tips-4.webp"></i>
-                <div class="ms-3">
-                  <h5><?=$_SESSION['lang']['product-spec']?></h5>
-                </div>
-              </div>
-              <p><?=$_SESSION['lang']['product-spec-detail']?></p>
-              <a onclick="openProductSpecModal()" class="btn secondary fullrounded" style="width:100%;"><?=$_SESSION['lang']['product-spec-button']?></a>
             </div>
         </div>
 

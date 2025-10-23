@@ -1,10 +1,10 @@
 <section class="footer-info py-5">
     <div style=" margin: auto;">
         <div class="container text-center">
-            <img src="assets/logo-white.webp" alt="Logo" class="mb-3" style="width: 100px;">
+            <img src="assets/logo-golden.webp" alt="Logo" class="mb-3" style="width: 100px;">
             <h2 class="fw-bold mb-4"><?=$_SESSION['lang']['want-to-talk']?></h2>
             <p class="mb-4"><?=$_SESSION['lang']['we-love']?></p>
-            <a href="https://wa.me/6281138225758?text=Permisi, saya ingin bertanya mengenai Flavora" class="btn fullrounded openBtn" style="color:var(--dark-brown); font-size:12pt !important; font-weight:bold; background-color:white;"><?=$_SESSION['lang']['contact-us']?></a>
+            <a href="https://wa.me/6281138225758?text=Permisi, saya ingin bertanya mengenai Flavora" class="btn fullrounded openBtn" id="contact-us"><?=$_SESSION['lang']['contact-us']?></a>
         </div>
         <div class="d-flex justify-content-center" style="margin-top: 6vh; max-width:320px; margin-left:auto; margin-right:auto;">
             <!--<div class="d-flex justify-content-evenly">-->
@@ -84,7 +84,7 @@
             <div class="col-12">
                 <a href="mailto:sales@floresflavora.com">e-mail : sales@floresflavora.com</a>
                 <br>
-                <div style="font-weight:400 !important; margin-top:5px; color:white; font-size:10pt;">© 2025 Flavora. All Rights Reserved</div>
+                <div id="allright">© 2025 Flavora. All Rights Reserved</div>
             </div>
         </div>
         <!-- <div class="d-flex justify-content-between" style="margin-top: 10vh;">
