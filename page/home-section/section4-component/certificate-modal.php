@@ -4,24 +4,26 @@
           <h1 style="color:#6b2f1f;"><?=$_SESSION['lang']['quality-assurance']?> 
           <span class="close" id="closeBtnCert">&times;</span></h1>
             <div class="container text-center" style="margin-top: 6vh; ">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 mb-4">
-                        <a href="#"  target="_blank">
-                            <img src="assets/certificate/halal-cert-brown.webp" alt="Halal Certification" width="65%" class="img-fluid mb-2">
-                            <!--<br>AC12641-->
-                        </a>
+                <div class="row g-4 justify-content-center align-items-center">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 mb-6" style="border-radius:20px; border:1px solid var(--head-brown); padding:20px; margin:20px; width:250px;">
+                        <img src="assets/certificate/halal-cert-brown.webp" alt="Halal Certification" width="150px" class="img-fluid mb-2">
+                        <br>
+                        <a href="#" class="btn secondary fullrounded" style="width:100%;"><?=$_SESSION['lang']['quality-assurance-button']?></a>
                     </div>
-                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 mb-4">
-                        <a href="assets/certificate/Sucofindo Analysis.pdf"  target="_blank">
-                            <img src="assets/certificate/sucofindo-cert-brown.webp" alt="Sucofindo Certification" width="100%" class="img-fluid mb-2">
-                            <!--<br>AC12641-->
-                        </a>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 mb-6" style="border-radius:20px; border:1px solid var(--head-brown); padding:20px; margin:20px; width:250px;">
+                        <img src="assets/certificate/sucofindo-cert-brown.webp" alt="Sucofindo Certification" width="150px" class="img-fluid mb-2">
+                        <br>
+                        <a href="assets/certificate/Sucofindo Analysis.pdf" target="_blank" class="btn secondary fullrounded" style="width:100%;"><?=$_SESSION['lang']['quality-assurance-button']?></a>
                     </div>
-                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 mb-4">
-                        <a href="assets/certificate/PSAT-PDUK-1.pdf"  target="_blank">
-                            <img src="assets/certificate/psat-cert-brown.webp" alt="PSAT Certification" width="80%" class="img-fluid mb-2">
-                            <!--<br>AC12641-->
-                        </a>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 mb-6" style="border-radius:20px; border:1px solid var(--head-brown); padding:20px; margin:20px; width:250px;">
+                        <img src="assets/certificate/psat-cert-brown.webp" alt="PSAT Certification" width="150px" class="img-fluid mb-2">
+                        <br>
+                        <a href="assets/certificate/PSAT-PDUK-1.pdf" target="_blank" class="btn secondary fullrounded" style="width:100%;"><?=$_SESSION['lang']['quality-assurance-button']?></a>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 mb-6" style="border-radius:20px; border:1px solid var(--head-brown); padding:20px; margin:20px; width:250px;">
+                        <img src="assets/certificate/gs1.webp" alt="GS1" width="150px" class="img-fluid mb-2">
+                        <br>
+                        <a href="assets/certificate/GS1.pdf" target="_blank" class="btn secondary fullrounded" style="width:100%;"><?=$_SESSION['lang']['quality-assurance-button']?></a>
                     </div>
                 </div>
             </div>

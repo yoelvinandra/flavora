@@ -1,5 +1,5 @@
 <?php include 'lang.php'; ?>
-<header class="p-4 border-bottom header-hidden" id="main-header">
+<header class="p-4  header-hidden" id="main-header">
     <div class="container d-flex justify-content-between align-items-center">
         <a href="mockup.php"  class="logo fw-bold"><img src="assets/logo.webp" alt="Logo" style="width: 9vh;"></a>
         <nav>
@@ -12,13 +12,13 @@
           <a href="?lang=EN" id="EN" class="lang-data text-decoration-none active">EN</a> | 
           <a href="?lang=ID" id="ID" class="lang-data text-decoration-none">ID</a>
         </div>
-        <div class="btn-show-sm text-decoration-none" style="display:none; width:6vh;  color: var(--primary-brown);" onclick="openNav()"><i class="bi bi-list" style="font-size: 4vh;"></i></div>
+        <div class="btn-show-sm text-decoration-none" id="burger-menu" onclick="openNav()"><i class="bi bi-list" style="font-size: 4vh;"></i></div>
         <div id="myNav" class="overlay">
           <a href="javascript:void(0)" class="menu closebtn" onclick="closeNav()">&times;</a>
           <div class="overlay-content">
-            <a class="menu" href="mockup.php"  class="logo fw-bold"><img src="assets/logo-white.webp" alt="Logo" style="width: 14vh;"></a>
+            <a class="menu" href="mockup.php"  class="logo fw-bold"><img src="assets/logo-golden.webp" alt="Logo" style="width: 14vh;"></a>
             <a class="menu" href="aboutus.php"><?=$_SESSION['lang']['about-us']?></a>
-            <a class="menu" href="#"><?=$_SESSION['lang']['products']?></a>
+            <a class="menu" href="product.php"><?=$_SESSION['lang']['products']?></a>
             <a class="menu" href="#"><?=$_SESSION['lang']['news-event']?></a>
           </div>
           <div class="lang-switcher-mobile">
