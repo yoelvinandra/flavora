@@ -1,9 +1,8 @@
 /* CSS for section section:product-intro */
 :root {
-  --header-brown: #f1ddbb;
-  --whatsapp-brown: #c19f72;
-  --primary-brown: #b56d3a;
-  --dark-brown: #493721;
+  --header-brown:#f1ddbb;
+  --whatsapp-brown:#c19f72;
+  --primary-brown: #493721;
   --hover-brown: #ab754f;
   --secondary-beige: #fae6d4;
   --brownis-red: #e8bdbd;
@@ -18,7 +17,13 @@
   --transparent-white: #f9f9fb;
   --yellow-header-footer: #F2E5C7;
   --semi-brown: #7F4A3A;
-  --transparent-brown: #dccbb6;
+  --transparent-brown: #e1d5d2;
+  --golden:#cba34a;
+  --hover-golden:#d7ab4b;
+  --head-brown:#6b2f1f;
+  --cream:#e7dfdc;
+  --transparent-grey : #ebecec;
+  --transparent-yellow:#fdf6eb;
 
   --total-width: 100%;
   --screen-width-desktop: 1150px;
@@ -80,14 +85,14 @@
   font-family: var(--font-main);
   font-size: var(--title-fontsize-desktop);
   font-weight: 500;
-  color: var(--semi-brown);
+  color: var(--primary-brown);
   line-height: 1;
   margin: 0;
 }
 
 .title-separator {
   height: 1px;
-  background-color: var(--semi-brown);
+  background-color: var(--primary-brown);
   width: 80px;
   margin-bottom: 20px;
 }
@@ -183,6 +188,12 @@
     flex-direction: column;
     gap: var(--desktop-vertical-margin);
   }
+
+  .product-buttons .btn {
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+    font-size: 1.1rem;
+  }
 }
 
 /* CSS for section section:banner */
@@ -218,7 +229,7 @@
 .product-forms-header h2 {
   font-size: var(--header-fontsize-desktop);
   font-weight: 500;
-  color: var(--semi-brown);
+  color: var(--primary-brown);
   margin: 0 0 12px;
 }
 
@@ -233,8 +244,10 @@
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  border-top: 0.5px solid #000;
+  /* border-top: 0.5px solid #000; */
   border-bottom: 0.5px solid #000;
+  /* padding-top: 5px; */
+  padding-bottom: 15px;
   margin-bottom: 40px;
 }
 
@@ -242,25 +255,28 @@
   text-decoration: none;
   font-size: 12pt;
   font-weight: 300;
-  color: #000;
+  color: var(--primary-brown);
   padding: 5px 0;
   position: relative;
   background-color: transparent;
+  border: 1px solid var(--primary-brown);
+  border-radius: 10px;
+  width: 100px;
 }
 
 .tab-link:hover {
-  text-decoration: underline;
   font-size: 16px;
   font-weight: 300;
-  color: var(--hover-brown);
+  color: var(--golden);
+  background-color: var(--primary-brown);
   padding: 5px 0;
   position: relative;
-  background-color: transparent;
 }
 
 .tab-link.active {
   font-weight: 700;
-  color: var(--primary-brown);
+  color: var(--golden);
+  background-color: var(--primary-brown);
 }
 
 .tab-content-wrapper {
@@ -522,6 +538,100 @@
   }
 }
 
+/* CSS for section section:nutrition contains */
+.nutrition-section {
+  max-width: var(--screen-width-desktop);
+  width: var(--total-width);
+  padding-left: var(--desktop-padding);
+  padding-right: var(--desktop-padding);
+  padding-bottom: var(--desktop-padding);
+}
+
+.nutrition-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nutrition-title {
+  width: 30%;
+}
+
+.nutrition-title h2 {
+  font-size: var(--header-fontsize-desktop);
+  font-weight: 500;
+  color: var(--primary-brown);
+  line-height: var(--line-height-desktop);
+  margin: 0;
+}
+
+.nutrition-table {
+  width: 40vw;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nutrition-table table, th, td {
+  border: 1px solid var(--primary-brown);
+  border-collapse: collapse;
+  color: var(--primary-brown);
+  font-size: var(--caption-fontsize-desktop);
+}
+
+.nutrition-table th, td {
+  padding: var(--mobile-padding);
+}
+
+.nutrition-table th {
+  font-weight: 800;
+}
+
+.nutrition-table td {
+  text-align: right;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .nutrition-section {
+    width: var(--total-width);
+    padding-left: var(--mobile-padding);
+    padding-right: var(--mobile-padding);
+    padding-bottom: var(--mobile-padding);
+  }
+
+  .nutrition-content {
+    flex-direction: column;
+  }
+
+  .nutrition-title {
+    width: var(--total-width);
+  }
+
+  .nutrition-title h2 {
+    font-size: var(--header-fontsize-mobile);
+    line-height: var(--line-height-mobile);
+    margin-bottom: var(--mobile-vertical-margin);
+  }
+
+  .nutrition-table  {
+    width: var(--total-width);
+  }
+
+  .nutrition-table table {
+    width: var(--total-width);
+  }
+
+  .nutrition-table th {
+    text-align: center;
+  }
+
+  .nutrition-table td {
+    text-align: center;
+  }
+  
+}
+
+
 /* CSS for section section:applications */
 .applications-section {
   max-width: var(--screen-width-desktop);
@@ -658,7 +768,7 @@
 .processing-header h2 {
   font-size: var(--header-fontsize-desktop);
   font-weight: 500;
-  color: var(--primary-brown);
+  color: var(--primary-brown);  
   margin: 0 0 9px;
 }
 
@@ -666,6 +776,70 @@
   font-size: var(--caption-fontsize-desktop);
   line-height: var(--line-height-desktop);
   color: var(--color-text-dark);
+}
+
+.processing-tab-content {
+  text-align: start;
+  background-color: #FFFAF6;
+  border-radius: 15px 15px 15px 15px;
+  width: var(--total-width);
+  padding: var(--desktop-padding);
+}
+
+.processing-tab-content h2 {
+  color: var(--semi-brown);
+}
+
+.processing-tab-content p {
+  margin-top: var(--desktop-vertical-margin);
+  margin-bottom: var(--desktop-vertical-margin);
+  line-height: var(--line-height-desktop);
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 30px;
+  height: 2px;
+  background-color: var(--placeholder-gray); 
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.carousel-indicators .active {
+  background-color: var(--semi-brown);
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: transparent;
+  opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: brightness(0) saturate(100%) invert(20%) sepia(22%) saturate(942%) hue-rotate(353deg) brightness(96%) contrast(90%);
+  transition: filter 0.3s ease;
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+  filter: brightness(0) saturate(100%) invert(54%) sepia(25%) saturate(594%) hue-rotate(338deg) brightness(94%) contrast(88%);
+}
+
+@media (max-width: 768px) {
+  .processing-tab-content {
+    min-height: 70vh;
+    padding-top: var(--desktop-padding);
+    padding-bottom: var(--desktop-padding);
+  }
 }
 
 .processing-steps-wrapper {

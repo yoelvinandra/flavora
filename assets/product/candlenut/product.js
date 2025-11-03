@@ -85,7 +85,7 @@ function slidePackaging(btn, isPrev) {
   } else {
     visibleCount = 4; // how many visible at once
     totalCount = cards.length;
-    cardWidth = cards[0].offsetWidth + cards[0].offsetWidth * 0.45; // width + gap
+    cardWidth = cards[0].offsetWidth + cards[0].offsetWidth * 0.5; // width + gap
     maxIndex = totalCount - visibleCount;
   }
 

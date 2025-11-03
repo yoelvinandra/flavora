@@ -46,7 +46,25 @@
           <div class="packaging-carousel-content">
             <img src="assets/product/candlenut/packaging.png" alt="Arrival process">
             <div class="packaging-text">
-              <h3>250 GR</h3>
+              <h3>30 GR</h3>
+            </div>
+          </div>
+          <div class="packaging-carousel-content">
+            <img src="assets/product/candlenut/packaging.png" alt="Cracking process">
+            <div class="packaging-text">
+              <h3>60 GR</h3>
+            </div>
+          </div>
+          <div class="packaging-carousel-content">
+            <img src="assets/product/candlenut/packaging.png" alt="Arrival process">
+            <div class="packaging-text">
+              <h3>100 GR</h3>
+            </div>
+          </div>
+          <div class="packaging-carousel-content">
+            <img src="assets/product/candlenut/packaging.png" alt="Arrival process">
+            <div class="packaging-text">
+              <h3>200 GR</h3>
             </div>
           </div>
           <div class="packaging-carousel-content">
@@ -58,31 +76,19 @@
           <div class="packaging-carousel-content">
             <img src="assets/product/candlenut/packaging.png" alt="Arrival process">
             <div class="packaging-text">
-              <h3>1 KG</h3>
+              <h3>1000 GR</h3>
             </div>
           </div>
           <div class="packaging-carousel-content">
             <img src="assets/product/candlenut/packaging.png" alt="Arrival process">
             <div class="packaging-text">
-              <h3>3 KG</h3>
-            </div>
-          </div>
-          <div class="packaging-carousel-content">
-            <img src="assets/product/candlenut/packaging.png" alt="Cracking process">
-            <div class="packaging-text">
-              <h3>5 KG</h3>
+              <h3>2500 GR</h3>
             </div>
           </div>
           <div class="packaging-carousel-content">
             <img src="assets/product/candlenut/packaging.png" alt="Arrival process">
             <div class="packaging-text">
-              <h3>10 KG</h3>
-            </div>
-          </div>
-          <div class="packaging-carousel-content">
-            <img src="assets/product/candlenut/packaging.png" alt="Arrival process">
-            <div class="packaging-text">
-              <h3>25 KG</h3>
+              <h3>25000 GR</h3>
             </div>
           </div>
         </div>
@@ -94,6 +100,37 @@
           <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
         </svg>
       </button>
+    </div>
+  </div>
+</section>
+
+<section id="section-nutrition" class="nutrition-section">
+  <div class="container">
+    <div class="nutrition-content">
+      <div class="nutrition-title">
+        <div class="title-separator"></div>
+        <h2>Nutrition Contains</h2>
+      </div>
+      <div class="nutrition-table">
+        <table>
+          <tr>
+            <td>4%</td>
+            <th>Moisture</th>
+          </tr>
+          <tr>
+            <td>50%</td>
+            <th>Oil Content</th>
+          </tr>
+          <tr>
+            <td>0802</td>
+            <th>HSO Code</th>
+          </tr>
+          <tr>
+            <td>Silical gel food grade</td>
+            <th>Packaging</th>
+          </tr>
+        </table>
+      </div>
     </div>
   </div>
 </section>
