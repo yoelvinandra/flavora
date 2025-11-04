@@ -5,7 +5,7 @@
       <h2>How do you want your candlenut?</h2>
       <p>As the world's largest dried onion supplier, we offer a comprehensive product line with a vast range of fractions, treatments and packaging. We’re as passionate about consistency as we are about variety, so our onions deliver uniform piece distribution and integrity.</p>
     </div>
-    <nav class="product-tabs">
+    <!-- <nav class="product-tabs">
       <button onclick="selectedType(this,'powder')" class="tab-link tab-type active">Powder</button>
       <button onclick="selectedType(this,'shelled')" class="tab-link tab-type">Shelled</button>
       <button onclick="selectedType(this,'oil')" class="tab-link tab-type">Oil</button>
@@ -22,7 +22,38 @@
           <a href="#" class="btn primary fullrounded">Shop candlenut powder</a>
         </div>
       </div>
-    </div>
+    </div> -->
+
+    <div class="product-grid">
+        <div class="product-type-card">          
+          <img src="assets/product/candlenut/candlenut-powder.webp" class="product-pict" alt="Seasoning icon">
+          <h3>Powder</h3>
+          <p>Hand selected whole kernels, carefully sun dried to maintain natural oil content and flavor.</p>
+          <div class="product-shop-button">
+            <a href="#" class="btn primary">More Details</a>
+            <a href="#" class="btn secondary">Shop Now</a>
+          </div>
+        </div>
+        <div class="product-type-card">          
+          <img src="assets/product/candlenut/candlenut-shelled.webp" class="product-pict" alt="Seasoning icon">
+          <h3>Shelled</h3>
+          <p>Hand selected whole kernels, carefully sun dried to maintain natural oil content and flavor.</p>
+          <div class="product-shop-button">
+            <a href="#" class="btn primary">More Details</a>
+            <a href="#" class="btn secondary">Shop Now</a>
+          </div>
+        </div>
+        <div class="product-type-card">          
+          <img src="assets/product/candlenut/candlenut-oil.webp" class="product-pict" alt="Seasoning icon">
+          <h3>Oil</h3>
+          <p>Hand selected whole kernels, carefully sun dried to maintain natural oil content and flavor.</p>
+          <div class="product-shop-button">
+            <a href="#" class="btn primary">More Details</a>
+            <a href="#" class="btn secondary">Shop Now</a>
+          </div>
+        </div>
+        
+      </div>
 
 
   </div>
@@ -76,19 +107,19 @@
           <div class="packaging-carousel-content">
             <img src="assets/product/candlenut/packaging.png" alt="Arrival process">
             <div class="packaging-text">
-              <h3>1000 GR</h3>
+              <h3>1.000 GR</h3>
             </div>
           </div>
           <div class="packaging-carousel-content">
             <img src="assets/product/candlenut/packaging.png" alt="Arrival process">
             <div class="packaging-text">
-              <h3>2500 GR</h3>
+              <h3>2.500 GR</h3>
             </div>
           </div>
           <div class="packaging-carousel-content">
             <img src="assets/product/candlenut/packaging.png" alt="Arrival process">
             <div class="packaging-text">
-              <h3>25000 GR</h3>
+              <h3>25.000 GR</h3>
             </div>
           </div>
         </div>

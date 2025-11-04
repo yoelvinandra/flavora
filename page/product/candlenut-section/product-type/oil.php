@@ -1,5 +1,5 @@
 <div class="product-form-image">
-    <img src="assets/product/candlenut/candlenut-oil.png" alt="Candlenut Powder">
+    <img src="assets/product/candlenut/candlenut-oil.webp" alt="Candlenut Powder">
 </div>
 <div class="product-form-details">
     <div class="title-separator"></div>
