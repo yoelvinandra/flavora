@@ -471,6 +471,11 @@ a {
 
 /* Mobile view: stack buttons */
 @media (max-width: 450px) {
+  
+  .hero{ 
+    min-height:99vh !important;
+  }
+  
   .btn-hidden-sm{
      display:none; 
   }
