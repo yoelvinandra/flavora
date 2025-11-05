@@ -24,7 +24,12 @@
       </div>
     </div> -->
 
-    <div class="product-grid">
+
+  </div>
+</section>
+
+<section class="product-grid-section">
+   <div class="product-grid">
         <div class="product-type-card">          
           <img src="assets/product/candlenut/candlenut-powder.webp" class="product-pict" alt="Seasoning icon">
           <h3>Powder</h3>
@@ -54,9 +59,6 @@
         </div>
         
       </div>
-
-
-  </div>
 </section>
 
 <section id="section-packaging-forms" class="product-packaging-section-bg">
