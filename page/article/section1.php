@@ -11,10 +11,10 @@
       </div>
       
       <nav class="article-tabs">
-        <button onclick="selectedType(this,'shelled')" class="article-tab-link tab-type">View All</button>
-        <button onclick="selectedType(this,'powder')" class="article-tab-link tab-type active">Articles</button>
-        <button onclick="selectedType(this,'shelled')" class="article-tab-link tab-type">Events</button>
-        <button onclick="selectedType(this,'oil')" class="article-tab-link tab-type">Press Release</button>
+        <button onclick="selectedType(this)" class="article-tab-link tab-type">View All</button>
+        <button onclick="selectedType(this)" class="article-tab-link tab-type active">Articles</button>
+        <button onclick="selectedType(this)" class="article-tab-link tab-type">Events</button>
+        <button onclick="selectedType(this)" class="article-tab-link tab-type">Press Release</button>
       </nav>
 
       <div class="article-filter">
