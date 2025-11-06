@@ -7,11 +7,11 @@
     <div class="product-intro-content">
       <div class="product-intro-text">
         <div class="title-separator"></div>
-        <h1 class="product-title">Candlenut</h1>
-        <p class="product-description">We are the leading supplier of premium candlenut, trusted for consistent quality, competitive pricing, and reliable delivery. Our candlenuts are carefully selected, hygienically processed, and ready to meet both local and international demand.</p>
+        <h1 class="product-title"><?=$_SESSION['lang']['candlenut']?></h1>
+        <p class="product-description"><?=$_SESSION['lang']['product-detail']?></p>
         <div class="product-buttons">
-          <a href="#" class="btn primary fullrounded">Contact Us</a>
-          <a href="#" class="btn secondary fullrounded">Request Quotaion</a>
+          <a href="#" class="btn primary fullrounded"><?=$_SESSION['lang']['contact-us']?></a>
+          <a href="#" class="btn secondary fullrounded"><?=$_SESSION['lang']['product-quotation']?></a>
         </div>
       </div>
 

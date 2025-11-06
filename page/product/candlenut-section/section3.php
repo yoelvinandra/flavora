@@ -2,8 +2,8 @@
   <div class="container">
     <div class="product-forms-header">
       <div class="title-separator"></div>
-      <h2>How do you want your candlenut?</h2>
-      <p>As the world's largest dried onion supplier, we offer a comprehensive product line with a vast range of fractions, treatments and packaging. We’re as passionate about consistency as we are about variety, so our onions deliver uniform piece distribution and integrity.</p>
+      <h2><?=$_SESSION['lang']['product-how-do-you-want']?></h2>
+      <p><?=$_SESSION['lang']['product-detail-how-do-you-want']?></p>
     </div>
     <!-- <nav class="product-tabs">
       <button onclick="selectedType(this,'powder')" class="tab-link tab-type active">Powder</button>
@@ -32,29 +32,29 @@
    <div class="product-grid">
         <div class="product-type-card">          
           <img src="assets/product/candlenut/candlenut-powder.webp" class="product-pict" alt="Seasoning icon">
-          <h3>Powder</h3>
-          <p>Hand selected whole kernels, carefully sun dried to maintain natural oil content and flavor.</p>
+          <h3><?=$_SESSION['lang']['product-powder']?></h3>
+          <p><?=$_SESSION['lang']['product-powder-detail']?></p>
           <div class="product-shop-button">
-            <a href="#" class="btn primary">More Details</a>
-            <a href="#" class="btn secondary">Shop Now</a>
+            <a href="#section-packaging-forms" class="btn primary"><?=$_SESSION['lang']['product-more-detail']?></a>
+            <a href="https://wa.me/6281138225758?text=Permisi, saya ingin bertanya mengenai Bubuk Kemiri Flavora. Bisa jelaskan kepada saya ?" class="btn secondary"><?=$_SESSION['lang']['product-shop-now']?></a>
           </div>
         </div>
         <div class="product-type-card">          
           <img src="assets/product/candlenut/candlenut-shelled.webp" class="product-pict" alt="Seasoning icon">
-          <h3>Shelled</h3>
-          <p>Hand selected whole kernels, carefully sun dried to maintain natural oil content and flavor.</p>
+          <h3><?=$_SESSION['lang']['product-shelled']?></h3>
+          <p><?=$_SESSION['lang']['product-shelled-detail']?></p>
           <div class="product-shop-button">
-            <a href="#" class="btn primary">More Details</a>
-            <a href="#" class="btn secondary">Shop Now</a>
+            <a href="#section-packaging-forms" class="btn primary"><?=$_SESSION['lang']['product-more-detail']?></a>
+            <a href="https://wa.me/6281138225758?text=Permisi, saya ingin bertanya mengenai Kemiri Kupas Flavora. Bisa jelaskan kepada saya ?" class="btn secondary"><?=$_SESSION['lang']['product-shop-now']?></a>
           </div>
         </div>
         <div class="product-type-card">          
           <img src="assets/product/candlenut/candlenut-oil.webp" class="product-pict" alt="Seasoning icon">
-          <h3>Oil</h3>
-          <p>Hand selected whole kernels, carefully sun dried to maintain natural oil content and flavor.</p>
+          <h3><?=$_SESSION['lang']['product-oil']?></h3>
+          <p><?=$_SESSION['lang']['product-oil-detail']?></p>
           <div class="product-shop-button">
-            <a href="#" class="btn primary">More Details</a>
-            <a href="#" class="btn secondary">Shop Now</a>
+            <a href="#section-packaging-forms" class="btn primary"><?=$_SESSION['lang']['product-more-detail']?></a>
+            <a href="https://wa.me/6281138225758?text=Permisi, saya ingin bertanya mengenai Minyak Kemiri Flavora. Bisa jelaskan kepada saya ?" class="btn secondary"><?=$_SESSION['lang']['product-shop-now']?></a>
           </div>
         </div>
         
@@ -65,7 +65,7 @@
   <div class="product-packaging-section">
     <div class="packaging-header">
       <div class="title-separator"></div>
-      <h2>Packaging</h2>
+      <h2><?=$_SESSION['lang']['product-packaging']?></h2>
     </div>
     <div class="packaging-wrapper">
       <button class="packaging-arrow prev" onclick="slidePackaging(this, true)">
@@ -79,49 +79,49 @@
           <div class="packaging-carousel-content">
             <img src="assets/product/candlenut/packaging.png" alt="Arrival process">
             <div class="packaging-text">
-              <h3>30 GR</h3>
+              <h3>30 gr</h3>
             </div>
           </div>
           <div class="packaging-carousel-content">
             <img src="assets/product/candlenut/packaging.png" alt="Cracking process">
             <div class="packaging-text">
-              <h3>60 GR</h3>
+              <h3>60 gr</h3>
             </div>
           </div>
           <div class="packaging-carousel-content">
             <img src="assets/product/candlenut/packaging.png" alt="Arrival process">
             <div class="packaging-text">
-              <h3>100 GR</h3>
+              <h3>100 gr</h3>
             </div>
           </div>
           <div class="packaging-carousel-content">
             <img src="assets/product/candlenut/packaging.png" alt="Arrival process">
             <div class="packaging-text">
-              <h3>200 GR</h3>
+              <h3>200 gr</h3>
             </div>
           </div>
           <div class="packaging-carousel-content">
             <img src="assets/product/candlenut/packaging.png" alt="Cracking process">
             <div class="packaging-text">
-              <h3>500 GR</h3>
+              <h3>500 gr</h3>
             </div>
           </div>
           <div class="packaging-carousel-content">
             <img src="assets/product/candlenut/packaging.png" alt="Arrival process">
             <div class="packaging-text">
-              <h3>1.000 GR</h3>
+              <h3>1.000 gr</h3>
             </div>
           </div>
           <div class="packaging-carousel-content">
             <img src="assets/product/candlenut/packaging.png" alt="Arrival process">
             <div class="packaging-text">
-              <h3>2.500 GR</h3>
+              <h3>2.500 gr</h3>
             </div>
           </div>
           <div class="packaging-carousel-content">
             <img src="assets/product/candlenut/packaging.png" alt="Arrival process">
             <div class="packaging-text">
-              <h3>25.000 GR</h3>
+              <h3>25.000 gr</h3>
             </div>
           </div>
         </div>
@@ -142,25 +142,25 @@
     <div class="nutrition-content">
       <div class="nutrition-title">
         <div class="title-separator"></div>
-        <h2>Nutrition Contains</h2>
+        <h2><?=$_SESSION['lang']['product-nutrition']?></h2>
       </div>
       <div class="nutrition-table">
         <table>
           <tr>
             <td>4%</td>
-            <th>Moisture</th>
+            <th><?=$_SESSION['lang']['product-moisture']?></th>
           </tr>
           <tr>
             <td>50%</td>
-            <th>Oil Content</th>
+            <th><?=$_SESSION['lang']['product-oil-content']?></th>
           </tr>
           <tr>
             <td>0802</td>
-            <th>HSO Code</th>
+            <th><?=$_SESSION['lang']['product-hso-code']?></th>
           </tr>
           <tr>
-            <td>Silical gel food grade</td>
-            <th>Packaging</th>
+            <td><?=$_SESSION['lang']['product-silical']?></td>
+            <th><?=$_SESSION['lang']['product-packaging']?></th>
           </tr>
         </table>
       </div>

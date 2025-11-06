@@ -493,7 +493,7 @@
 .product-shop-button .btn {
   padding: 0;
   border-radius: 100px;
-  min-width: 49.5%;
+  min-width: 48%;
   font-size: var(--button-fontsize-desktop);
   padding-top: 5px;
   padding-bottom: 5px;

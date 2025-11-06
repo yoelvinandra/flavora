@@ -2,8 +2,8 @@
   <div class="container">
     <div class="processing-header">
       <div class="title-separator"></div>
-      <h2>Processing With Care</h2>
-      <p>From seed to factory, we implement rigorous multi-stage control to give you the highest food safety and quality standards. See the journey.</p>
+      <h2><?=$_SESSION['lang']['product-processing']?></h2>
+      <p><?=$_SESSION['lang']['product-processing-detail']?></p>
     </div>
 
     <div id="carouselExampleIndicators" class="carousel slide">
@@ -21,8 +21,8 @@
             <div class="tab-pane fade show active">
               <div class="d-flex flex-column flex-md-row align-items-center">
                 <div class="col-md-7">
-                  <h2>Arrival</h2>
-                  <p>The candlenuts in shell arrive directly from our trusted farmers in Flores. Each sack is carefully weighed, inspected, and prepared</p>
+                  <h2><?=$_SESSION['lang']['product-processing-arrival']?></h2>
+                  <p><?=$_SESSION['lang']['product-processing-arrival-detail']?></p>
                 </div>
                 <div class="col-md-1">
                 </div>
@@ -39,8 +39,8 @@
             <div class="tab-pane fade show active">
               <div class="d-flex flex-column flex-md-row align-items-center">
                 <div class="col-md-7">
-                  <h2>Cracking</h2>
-                  <p>The nuts are cracked using modern machinery, this ensures that only the finest kernels are preserved</p>
+                  <h2><?=$_SESSION['lang']['product-processing-cracking']?></h2>
+                  <p><?=$_SESSION['lang']['product-processing-cracking-detail']?></p>
                 </div>
                 <div class="col-md-1">
                 </div>
@@ -57,8 +57,8 @@
             <div class="tab-pane fade show active">
               <div class="d-flex flex-column flex-md-row align-items-center">
                 <div class="col-md-7">
-                  <h2>Sortation</h2>
-                  <p>After cracking, every nut is meticulously sorted. This grading process guarantees international export standards are met.</p>
+                  <h2><?=$_SESSION['lang']['product-processing-sortation']?></h2>
+                  <p><?=$_SESSION['lang']['product-processing-sortation-detail']?></p>
                 </div>
                 <div class="col-md-1">
                 </div>
@@ -75,8 +75,8 @@
             <div class="tab-pane fade show active">
               <div class="d-flex flex-column flex-md-row align-items-center">
                 <div class="col-md-7">
-                  <h2>Arrival</h2>
-                  <p>The candlenuts in shell arrive directly from our trusted farmers in Flores. Each sack is carefully weighed, inspected, and prepared</p>
+                  <h2><?=$_SESSION['lang']['product-processing-arrival']?></h2>
+                  <p><?=$_SESSION['lang']['product-processing-arrival-detail']?></p>
                 </div>
                 <div class="col-md-1">
                 </div>
@@ -93,8 +93,8 @@
             <div class="tab-pane fade show active">
               <div class="d-flex flex-column flex-md-row align-items-center">
                 <div class="col-md-7">
-                  <h2>Cracking</h2>
-                  <p>The nuts are cracked using modern machinery, this ensures that only the finest kernels are preserved</p>
+                  <h2><?=$_SESSION['lang']['product-processing-cracking']?></h2>
+                  <p><?=$_SESSION['lang']['product-processing-cracking-detail']?></p>
                 </div>
                 <div class="col-md-1">
                 </div>
@@ -111,8 +111,8 @@
             <div class="tab-pane fade show active">
               <div class="d-flex flex-column flex-md-row align-items-center">
                 <div class="col-md-7">
-                  <h2>Sortation</h2>
-                  <p>After cracking, every nut is meticulously sorted. This grading process guarantees international export standards are met.</p>
+                  <h2><?=$_SESSION['lang']['product-processing-sortation']?></h2>
+                  <p><?=$_SESSION['lang']['product-processing-sortation-detail']?></p>
                 </div>
                 <div class="col-md-1">
                 </div>
