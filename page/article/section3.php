@@ -4,13 +4,13 @@
     <div class="article-grid">
         <div class="article-content-card side top">          
           <img src="assets/article/article-1.png" class="article-pict" alt="Seasoning icon">
-          <h3>Reflecting on 20 years of impact: lessons, innovation & the future of cocoa sustainability</h3>
+          <h3>Reflecting on 20 years of impact: lessons, innovation & the future of candlenut sustainability</h3>
           <div class="article-content-sum">
-            <p>This year, we celebrate a major milestone, over two decades of driving positive change in cocoa.</p>
-            <p>This year, we celebrate a major milestone, over two decades of driving positive change in cocoa.</p>
+            <p>This year, we celebrate a major milestone, over two decades of driving positive change in candlenut.</p>
+            <p>This year, we celebrate a major milestone, over two decades of driving positive change in candlenut.</p>
           </div>
           
-          <a href="#" class="article-detail-link">
+          <a href="/article-detail.php" class="article-detail-link">
             <p>Read More</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
@@ -19,14 +19,14 @@
         </div>
         <div class="article-content-card center top">          
           <img src="assets/article/article-2.png" class="article-pict" alt="Seasoning icon">
-          <h3>Reflecting on 20 years of impact: lessons, innovation & the future of cocoa sustainability</h3>
+          <h3>Reflecting on 20 years of impact: lessons, innovation & the future of candlenut sustainability</h3>
           <div class="article-content-sum">
-            <p>This year, we celebrate a major milestone, over two decades of driving positive change in cocoa.</p>
-            <p>This year, we celebrate a major milestone, over two decades of driving positive change in cocoa.</p>
-            <p>This year, we celebrate a major milestone, over two decades of driving positive change in cocoa.</p>
+            <p>This year, we celebrate a major milestone, over two decades of driving positive change in candlenut.</p>
+            <p>This year, we celebrate a major milestone, over two decades of driving positive change in candlenut.</p>
+            <p>This year, we celebrate a major milestone, over two decades of driving positive change in candlenut.</p>
           </div>
           
-          <a href="#" class="article-detail-link">
+          <a href="/article-detail.php" class="article-detail-link">
             <p>Read More</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
@@ -35,12 +35,12 @@
         </div>
         <div class="article-content-card side top">          
           <img src="assets/article/article-3.png" class="article-pict" alt="Seasoning icon">
-          <h3>Reflecting on 20 years of impact: lessons, innovation & the future of cocoa sustainability</h3>
+          <h3>Reflecting on 20 years of impact: lessons, innovation & the future of candlenut sustainability</h3>
           <div class="article-content-sum">
-            <p>This year, we celebrate a major milestone, over two decades of driving positive change in cocoa.</p>
+            <p>This year, we celebrate a major milestone, over two decades of driving positive change in candlenut.</p>
           </div>
           
-          <a href="#" class="article-detail-link">
+          <a href="/article-detail.php" class="article-detail-link">
             <p>Read More</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
