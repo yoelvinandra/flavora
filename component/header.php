@@ -5,7 +5,7 @@
         <nav>
             <a href="aboutus.php" class="btn-hidden-sm text-decoration-none"><?=$_SESSION['lang']['about-us']?></a>
             <a href="product.php" class="btn-hidden-sm text-decoration-none"><?=$_SESSION['lang']['products']?></a>
-            <a href="#" class="btn-hidden-sm text-decoration-none"><?=$_SESSION['lang']['news-event']?></a>
+            <a href="article.php" class="btn-hidden-sm text-decoration-none"><?=$_SESSION['lang']['news-event']?></a>
             <a class="btn btn-sm"  onclick="openMessage();"><i class="bi bi-chat-fill"></i> <?=$_SESSION['lang']['get-in-touch']?></a>
         </nav>
         <div class="lang-switcher ms-3 btn-hidden-sm">
@@ -19,7 +19,7 @@
             <a class="menu" href="mockup.php"  class="logo fw-bold"><img src="assets/logo-golden.webp" alt="Logo" style="width: 14vh;"></a>
             <a class="menu" href="aboutus.php"><?=$_SESSION['lang']['about-us']?></a>
             <a class="menu" href="product.php"><?=$_SESSION['lang']['products']?></a>
-            <a class="menu" href="#"><?=$_SESSION['lang']['news-event']?></a>
+            <a class="menu" href="article.php"><?=$_SESSION['lang']['news-event']?></a>
           </div>
           <div class="lang-switcher-mobile">
             <a href="?lang=EN" id="EN-mobile" class="lang-data-mobile text-decoration-none active">EN</a>&nbsp;&nbsp;|&nbsp;
