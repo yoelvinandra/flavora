@@ -4054,3 +4054,105 @@ error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/publ
 [05-Nov-2025 22:53:42 Asia/Jakarta] PHP Warning:  include(): Failed opening 'section4-component/product-spec-modal.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/flom5234/public_html/page/home-section/section4.php on line 59
 [05-Nov-2025 22:53:51 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
 error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[05-Nov-2025 23:25:16 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[05-Nov-2025 23:25:16 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[05-Nov-2025 23:25:16 Asia/Jakarta] PHP Warning:  include(): Failed opening 'section4-component/product-spec-modal.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 09:57:21 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 09:57:21 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 09:57:21 Asia/Jakarta] PHP Warning:  include(): Failed opening 'section4-component/product-spec-modal.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 09:58:17 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 09:58:17 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 09:58:17 Asia/Jakarta] PHP Warning:  include(): Failed opening 'section4-component/product-spec-modal.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 09:58:19 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 09:58:19 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 09:58:19 Asia/Jakarta] PHP Warning:  include(): Failed opening 'section4-component/product-spec-modal.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 14:48:16 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 14:48:16 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 14:48:16 Asia/Jakarta] PHP Warning:  include(): Failed opening 'section4-component/product-spec-modal.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 22:11:13 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 22:11:13 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 22:11:13 Asia/Jakarta] PHP Warning:  include(): Failed opening 'section4-component/product-spec-modal.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 22:11:14 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[06-Nov-2025 22:11:14 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 22:11:14 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 22:11:14 Asia/Jakarta] PHP Warning:  include(): Failed opening 'section4-component/product-spec-modal.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 22:11:33 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[06-Nov-2025 22:12:34 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 22:12:34 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 22:12:34 Asia/Jakarta] PHP Warning:  include(): Failed opening 'section4-component/product-spec-modal.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 22:12:34 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[06-Nov-2025 22:12:34 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 22:12:34 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 22:12:34 Asia/Jakarta] PHP Warning:  include(): Failed opening 'section4-component/product-spec-modal.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 22:12:40 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[06-Nov-2025 22:13:26 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 22:13:26 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 22:13:26 Asia/Jakarta] PHP Warning:  include(): Failed opening 'section4-component/product-spec-modal.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 22:13:27 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[06-Nov-2025 22:13:27 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 22:13:27 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 22:13:27 Asia/Jakarta] PHP Warning:  include(): Failed opening 'section4-component/product-spec-modal.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[06-Nov-2025 22:13:47 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[06-Nov-2025 22:14:06 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[06-Nov-2025 22:14:09 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[06-Nov-2025 22:26:59 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[07-Nov-2025 00:35:16 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 00:35:16 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 00:35:16 Asia/Jakarta] PHP Warning:  include(): Failed opening 'section4-component/product-spec-modal.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 00:35:17 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 00:35:17 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 00:35:17 Asia/Jakarta] PHP Warning:  include(): Failed opening 'section4-component/product-spec-modal.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 00:35:17 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 00:35:17 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 00:35:17 Asia/Jakarta] PHP Warning:  include(): Failed opening 'section4-component/product-spec-modal.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 07:08:36 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[07-Nov-2025 08:15:32 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 08:15:32 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 08:15:32 Asia/Jakarta] PHP Warning:  include(): Failed opening 'section4-component/product-spec-modal.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 08:15:37 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[07-Nov-2025 08:15:40 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 08:15:40 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 08:15:40 Asia/Jakarta] PHP Warning:  include(): Failed opening 'section4-component/product-spec-modal.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 08:15:58 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[07-Nov-2025 08:16:50 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 08:16:50 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 08:16:50 Asia/Jakarta] PHP Warning:  include(): Failed opening 'section4-component/product-spec-modal.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 08:16:54 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[07-Nov-2025 08:16:59 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 08:16:59 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 08:16:59 Asia/Jakarta] PHP Warning:  include(): Failed opening 'section4-component/product-spec-modal.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 08:17:04 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[07-Nov-2025 08:17:18 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[07-Nov-2025 08:19:42 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[07-Nov-2025 08:21:33 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[07-Nov-2025 08:22:52 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[07-Nov-2025 08:24:31 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 08:24:31 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 08:24:31 Asia/Jakarta] PHP Warning:  include(): Failed opening 'section4-component/product-spec-modal.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 08:24:32 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[07-Nov-2025 08:24:33 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 08:24:33 Asia/Jakarta] PHP Warning:  include(section4-component/product-spec-modal.php): failed to open stream: No such file or directory in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 08:24:33 Asia/Jakarta] PHP Warning:  include(): Failed opening 'section4-component/product-spec-modal.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/flom5234/public_html/page/home-section/section4.php on line 59
+[07-Nov-2025 08:24:36 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7
+[07-Nov-2025 08:27:45 Asia/Jakarta] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000126:SSL routines::unexpected eof while reading in /home/flom5234/public_html/setLang.php on line 7

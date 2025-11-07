@@ -18,7 +18,7 @@
                 <div class="col-4 ">
                     <h6 class="fw-bold"><?=$_SESSION['lang']['products']?></h6>
                     <ul class="list-unstyled">
-                        <li><a href="#"><?=$_SESSION['lang']['candlenut']?></a></li>
+                        <li><a href="product.php"><?=$_SESSION['lang']['candlenut']?></a></li>
                         <!--<li><a href="#">Vanilla</a></li>-->
                         <!--<li><a href="#">Nutmeg</a></li>-->
                         <!--<li><a href="#">Javanese Corn</a></li>-->
@@ -30,7 +30,7 @@
                 <div class="col-4 ">
                     <h6 class="fw-bold"><?=$_SESSION['lang']['links']?></h6>
                     <ul class="list-unstyled">
-                        <li><a href="#"><?=$_SESSION['lang']['news-event']?></a></li>
+                        <li><a href="article.php"><?=$_SESSION['lang']['news-event']?></a></li>
                     </ul>
                 </div>
             <!--</div>-->
