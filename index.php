@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<style>
+    html {
+      scroll-behavior: smooth;
+    }
+</style>
 <html lang="en">
 
 <head>
