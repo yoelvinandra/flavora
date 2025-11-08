@@ -108,7 +108,7 @@
   }
 
   .article-title-content h1 {
-      font-size: var(--caption-fontsize-mobile);
+      font-size: var(--title-fontsize-mobile);
       line-height: var(--line-height-mobile);
   }
 
