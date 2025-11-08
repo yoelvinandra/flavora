@@ -1085,6 +1085,17 @@ a {
     text-align: left;
   }
   
+  .aboutus-image .bg-image {
+      margin-top:-430px;
+      width: 100%;
+      height: 600px;
+      background-image: url('about-us/background-aboutus.webp');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: bottom;
+      z-index:2;
+    }
+  
 }
 
 
