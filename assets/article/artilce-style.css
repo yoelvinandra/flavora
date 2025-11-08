@@ -41,7 +41,7 @@
   --slider-header-fontsize-desktop: 16pt;
   --caption-fontsize-desktop: 15px;
 
-  --title-fontsize-mobile: 36pt;
+  --title-fontsize-mobile: 30pt;
   --header-fontsize-mobile: 20pt;
   --slider-header-fontsize-mobile: 12pt;
   --caption-fontsize-mobile: 14px;
@@ -180,6 +180,18 @@
     outline: none;
   }
 
+  @media (max-width: 768px) {
+    .filter-search {
+      background-color: transparent;
+      border: none;
+      font-size: 8pt;
+      color: var(--semi-brown);
+      width: 100px;
+    }
+  }
+
+  
+
 .article-intro-section {
   max-width: var(--screen-width-desktop);
   width: var(--total-width);
@@ -187,8 +199,6 @@
   margin-top: var(--desktop-vertical-margin);
   background-color: var(--color-background);
 }
-
-
 
 .article-intro-content {
   display: flex;
@@ -276,7 +286,9 @@
 
 @media (max-width: 768px) {
   .article-intro-section {
+    max-width: var(--screen-width-mobile);
     padding: var(--mobile-padding);
+    margin-top: var(--mobile-vertical-margin);
   }
 
   .article-title {
@@ -285,6 +297,19 @@
 
   .title-separator {
     height: 0;
+  }
+
+  .article-tab-link{
+    font-size: 9pt;
+    padding: 5px 0;
+  }
+
+  .article-tab-link:hover {
+    font-size: 16px;
+    
+    color: var(--golden);
+    background-color: var(--primary-brown);
+    padding: 5px 0;
   }
 }
 /* CSS for section article */
@@ -409,6 +434,58 @@
   text-decoration: underline;
   font-weight: bold;
   color: var(--primary-brown);
+}
+
+@media (max-width: 768px) {
+  .article-content-section {
+    max-width: var(--screen-width-mobile);
+    padding-bottom: var(--mobile-padding);
+    padding-left: var(--mobile-padding);
+    padding-right: var(--mobile-padding);
+  }
+
+  .article-grid {
+    display: flex;
+    flex-direction: column;
+    width: var(--total-width);
+    gap: 40px;
+  }
+
+  .article-content-card h3 {
+    line-height: var(--line-height-mobile);
+    margin: 0;
+    font-size: 12pt;
+  }
+
+  .article-content-sum p {
+    line-height: var(--line-height-mobile);
+    font-size: var(--caption-fontsize-mobile);
+  }
+
+  .article-content-card.side.top {
+    border: 1px solid var(--primary-brown);
+    border-radius: 20px;
+  }
+
+  .article-content-card.center.top {
+    border: 1px solid var(--primary-brown);
+    border-radius: 20px;
+  }
+
+  .article-detail-link{
+
+    p {
+      color: var(--semi-brown);
+      text-decoration: none;
+      font-size: var(--caption-fontsize-mobile);
+    }
+
+    svg {
+      width: 15px;
+      height: 15px;
+    }
+  }
+
 }
 
 /* CSS for section section:banner */
