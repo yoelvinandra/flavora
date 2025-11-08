@@ -1,0 +1,188 @@
+/* CSS for section section:product-intro */
+:root {
+  --header-brown:#f1ddbb;
+  --whatsapp-brown:#c19f72;
+  --primary-brown: #493721;
+  --hover-brown: #ab754f;
+  --secondary-beige: #fae6d4;
+  --brownis-red: #e8bdbd;
+  --light-brown: #fae6d4;
+  --lighter-gray: #e8e8e8;
+  --text-gray: #5C5C5C;
+  --lighter-tan: #e4cfb9;
+  --accent-tan: #CBA278;
+  --white: #FAFAFC;
+  --soft-black: #1B1B1B;
+  --placeholder-gray: #CCCCCC;
+  --transparent-white: #f9f9fb;
+  --yellow-header-footer: #F2E5C7;
+  --semi-brown: #7F4A3A;
+  --transparent-brown: #e1d5d2;
+  --golden:#cba34a;
+  --hover-golden:#d7ab4b;
+  --head-brown:#6b2f1f;
+  --cream:#e7dfdc;
+  --transparent-grey : #ebecec;
+  --transparent-yellow:#fdf6eb;
+
+  --total-width: 100%;
+  --screen-width-desktop: 1150px;
+  --desktop-padding: 4rem;
+  --desktop-vertical-margin: 20px;
+  --desktop-horizontal-margin: 5%;
+
+  --screen-width-mobile: 100vw;
+  --mobile-padding: 1.1rem;
+  --mobile-vertical-margin: 40px;
+
+  --line-height-desktop: 30px;
+  --title-fontsize-desktop: 48pt;
+  --header-fontsize-desktop: 24pt;
+  --slider-header-fontsize-desktop: 16pt;
+  --caption-fontsize-desktop: 15px;
+
+  --title-fontsize-mobile: 36pt;
+  --header-fontsize-mobile: 20pt;
+  --slider-header-fontsize-mobile: 12pt;
+  --caption-fontsize-mobile: 14px;
+  --line-height-mobile: 25px;
+  --text-align-mobile: left;
+
+  --button-fontsize-desktop: 10pt;
+}
+
+
+.article-title-section {
+  background-color: blue;
+  max-width: var(--screen-width-desktop);
+  width: var(--total-width);
+  padding: var(--desktop-padding);
+  margin-top: var(--desktop-vertical-margin);
+  background-color: var(--color-background);
+}
+
+.article-title-content {
+  padding-top: 2rem;
+}
+
+.article-title-content h1 {
+  font-size: var(--header-fontsize-desktop);
+  color: var(--primary-brown);
+}
+
+.article-title-content p {
+  font-size: var(--caption-fontsize-mobile);
+  color: var(--hover-brown);
+}
+
+.content-separator {
+  height: 0.5px;
+  background-color: var(--accent-tan);
+  width: var(--total-width);
+  margin-bottom: 20px;
+}
+
+.breadcrumb-sub-activate {
+  color: var(--primary-brown);
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .breadcrumb {
+    font-size: 14px ;
+    color: #888;
+  }
+
+  .article-title-section {
+    padding-left: var(--mobile-padding);
+    padding-right: var(--mobile-padding);
+    padding-bottom: var(--mobile-padding)/2;
+  }
+
+  .product-title {
+    font-size: var(--title-fontsize-mobile)
+  }
+
+  .article-title-content {
+      font-size: var(--title-fontsize-mobile)
+  }
+
+  .article-title-content h1 {
+      font-size: var(--caption-fontsize-mobile);
+      line-height: var(--line-height-mobile);
+  }
+
+  .product-intro-content {
+    flex-direction: column;
+  }
+}
+
+/* CSS for section section:banner */
+.banner {
+  max-width: var(--screen-width-desktop);
+  width: var(--total-width);
+  background-color: var(--color-background);
+  padding-left: var(--desktop-padding);
+  padding-right: var(--desktop-padding);
+  padding-bottom: var(--desktop-padding) / 2;
+}
+
+.banner-image {
+  width: var(--total-width);
+  height: auto;  
+  margin: 0 !important;
+}
+
+.banner p {
+  margin-top: 10px;
+  font-size: var(--caption-fontsize-desktop);
+  color: var(--semi-brown);
+}
+
+
+
+@media (max-width: 768px) {
+  .banner {
+    max-width: var(--screen-width-mobile);
+    width: var(--total-width);
+    padding-left: var(--mobile-padding);
+    padding-right: var(--mobile-padding);
+    padding-bottom: var(--mobile-padding) / 2;
+  }
+}
+
+/* CSS for section article detail desc */
+.article-detail-desc-section {
+  max-width: var(--screen-width-desktop);
+  width: var(--total-width);
+  padding-left: var(--desktop-padding);
+  padding-right: var(--desktop-padding);
+  padding-bottom: var(--desktop-padding);
+}
+
+.article-detail-desc-content {
+  padding-top: var(--desktop-padding);
+}
+
+.article-detail-desc-content p {
+  font-size: var(--caption-fontsize-desktop);
+  color: var(--primary-brown);
+}
+
+@media (max-width: 768px) {
+  .article-detail-desc-section {
+    max-width: var(--screen-width-desktop);
+    width: var(--total-width);
+    padding-left: var(--mobile-padding);
+    padding-right: var(--mobile-padding);
+    padding-bottom: var(--mobile-padding);
+  }
+
+  .article-detail-desc-content {
+    padding-top: var(--mobile-padding);
+  }
+  .article-detail-desc-content p {
+    font-size: var(--caption-fontsize-mobile);
+  }
+
+}
