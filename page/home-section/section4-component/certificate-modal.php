@@ -6,8 +6,8 @@
             <div class="container text-center" style="margin-top: 6vh; ">
                 <div class="row g-4 justify-content-center align-items-center">
                     <div class="col-6 col-sm-6 col-md-6 col-lg-6 mb-6" style="border-radius:20px; border:1px solid var(--head-brown); padding:20px; margin:20px; width:250px;">
-                        <img src="assets/certificate/halal-cert-brown.webp" alt="Halal Certification" width="150px" class="img-fluid mb-2">
-                        <br>
+                        <img src="assets/certificate/halal-cert-brown.webp" alt="Halal Certification" width="120px" class="img-fluid mb-2">
+                        <br> <br>
                         <a href="#" class="btn secondary fullrounded" style="width:100%;"><?=$_SESSION['lang']['quality-assurance-button']?></a>
                     </div>
                     <div class="col-6 col-sm-6 col-md-6 col-lg-6 mb-6" style="border-radius:20px; border:1px solid var(--head-brown); padding:20px; margin:20px; width:250px;">
