@@ -2,7 +2,7 @@
   <div class="container">
 
     <div class="article-grid">
-        <div class="article-content-card side top">          
+        <div class="article-content-card">          
           <img src="assets/article/article-1.png" class="article-pict" alt="Seasoning icon">
           <h3>Reflecting on 20 years of impact: lessons, innovation & the future of candlenut sustainability</h3>
           <div class="article-content-sum">
@@ -17,7 +17,7 @@
             </svg>
           </a>
         </div>
-        <div class="article-content-card center top">          
+        <div class="article-content-card">          
           <img src="assets/article/article-2.png" class="article-pict" alt="Seasoning icon">
           <h3>Reflecting on 20 years of impact: lessons, innovation & the future of candlenut sustainability</h3>
           <div class="article-content-sum">
@@ -33,7 +33,7 @@
             </svg>
           </a>
         </div>
-        <div class="article-content-card side top">          
+        <div class="article-content-card">          
           <img src="assets/article/article-3.png" class="article-pict" alt="Seasoning icon">
           <h3>Reflecting on 20 years of impact: lessons, innovation & the future of candlenut sustainability</h3>
           <div class="article-content-sum">

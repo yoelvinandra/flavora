@@ -8,7 +8,7 @@
 
     <div class="article-title-content">
       <div class="title-separator"></div>
-        <h2>Reflecting on 20 years of impact: lessons, innovation & the future of candlenut sustainability</h2>
+        <h1>Reflecting on 20 years of impact: lessons, innovation & the future of candlenut sustainability</h1>
         <p class="product-description">7 November 2025, 13.37 WIB</p> 
     </div>
     <div class="content-separator"></div>
