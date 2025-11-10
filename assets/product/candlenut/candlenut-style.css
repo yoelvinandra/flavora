@@ -656,7 +656,7 @@
 
 .nutrition-content {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
@@ -749,7 +749,7 @@
 
 .applications-content {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
@@ -768,7 +768,7 @@
 .applications-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  width: 40vw;
+  width: 70%;
 }
 
 .app-card {
