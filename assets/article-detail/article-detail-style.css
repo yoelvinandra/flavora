@@ -53,7 +53,6 @@
 
 
 .article-title-section {
-  background-color: blue;
   max-width: var(--screen-width-desktop);
   width: var(--total-width);
   padding: var(--desktop-padding);
