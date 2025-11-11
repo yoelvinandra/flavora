@@ -300,17 +300,19 @@
   }
 
   .article-tab-link{
-    font-size: 9pt;
+    font-size: 8pt;
     padding: 5px 0;
   }
 
   .article-tab-link:hover {
-    font-size: 16px;
+    font-size: 8pt;
     
-    color: var(--golden);
-    background-color: var(--primary-brown);
-    padding: 5px 0;
   }
+
+  .article-tab-link.active {
+  font-size: 8pt;
+
+}
 }
 /* CSS for section article */
 .article-content-section {
