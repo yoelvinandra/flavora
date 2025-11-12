@@ -2,7 +2,7 @@
   <div class="container">
     <div class="breadcrumb">
       <a class="breadcrumb-home" href="mockup.php"><?= $_SESSION['lang']['home'] ?></a>&nbsp;&nbsp;>&nbsp;&nbsp;
-      <a href="/article.php">News & Event</a>&nbsp;&nbsp;>&nbsp;&nbsp;
+      <a href="/article.php"><?= $_SESSION['lang']['news-event'] ?></a>&nbsp;&nbsp;>&nbsp;&nbsp;
       <a class="breadcrumb-sub-activate" href="#">Reflecting on ...</a>
     </div>
 
