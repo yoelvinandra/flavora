@@ -143,26 +143,54 @@
       <div class="nutrition-title">
         <div class="title-separator"></div>
         <h2><?=$_SESSION['lang']['product-nutrition']?></h2>
+        <h3>(per 100 gram)</h3>
       </div>
       <div class="nutrition-table">
-        <table>
-          <tr>
-            <td>4%</td>
-            <th><?=$_SESSION['lang']['product-moisture']?></th>
-          </tr>
-          <tr>
-            <td>50%</td>
-            <th><?=$_SESSION['lang']['product-oil-content']?></th>
-          </tr>
-          <tr>
-            <td>0802</td>
-            <th><?=$_SESSION['lang']['product-hso-code']?></th>
-          </tr>
-          <tr>
-            <td><?=$_SESSION['lang']['product-silical']?></td>
-            <th><?=$_SESSION['lang']['product-packaging']?></th>
-          </tr>
-        </table>
+        <div class="nutrition-data-wrapper">
+          <span class="nutrition-data-title">Crude Protein</span>
+          <span class="nutrition-data-separator"></span>
+          <span class="nutrition-data-caption">23,25%</span>
+        </div>
+        <div class="nutrition-data-wrapper">
+          <span class="nutrition-data-title">Fat</span>
+          <span class="nutrition-data-separator"></span>
+          <span class="nutrition-data-caption">46,05%</span>
+        </div>
+        <div class="nutrition-data-wrapper">
+          <span class="nutrition-data-title">Natural Fibet</span>
+          <span class="nutrition-data-separator"></span>
+          <span class="nutrition-data-caption">18,8%</span>
+        </div>
+        <div class="nutrition-data-wrapper">
+          <span class="nutrition-data-title">Carbohydrate</span>
+          <span class="nutrition-data-separator"></span>
+          <span class="nutrition-data-caption">4,48%</span>
+        </div>
+        <div class="nutrition-data-wrapper">
+          <span class="nutrition-data-title">Calories</span>
+          <span class="nutrition-data-separator"></span>
+          <span class="nutrition-data-caption">525,37 Cal</span>
+        </div>
+        <div class="nutrition-data-wrapper">
+          <span class="nutrition-data-title">Potassium (K)</span>
+          <span class="nutrition-data-separator"></span>
+          <span class="nutrition-data-caption">1.0007,40 ppm</span>
+        </div>
+        <div class="nutrition-data-wrapper">
+          <span class="nutrition-data-title">Calcium (Ca)</span>
+          <span class="nutrition-data-separator"></span>
+          <span class="nutrition-data-caption">314,54 ppm</span>
+        </div>
+        <div class="nutrition-data-wrapper">
+          <span class="nutrition-data-title">Phosporus (P)</span>
+          <span class="nutrition-data-separator"></span>
+          <span class="nutrition-data-caption">1.252,58 ppm</span>
+        </div>
+        <div class="nutrition-data-wrapper">
+          <span class="nutrition-data-title" style="color:red">Total Aflatoxin</span>
+          <span class="nutrition-data-separator" style="border-bottom: 2px dotted red"></span>
+          <span class="nutrition-data-caption" style="color:red">0,0823 ppb</span>
+        </div>
       </div>
     </div>
   </div>
