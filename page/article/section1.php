@@ -1,25 +1,25 @@
 <section id="section-article-intro" class="article-intro-section">
   <div class="container">
     <div class="breadcrumb">
-      <a class="breadcrumb-home" href="mockup.php"><?= $_SESSION['lang']['home'] ?></a>&nbsp;&nbsp;>&nbsp;&nbsp;<a href="#">News & Event</a>
+      <a class="breadcrumb-home" href="mockup.php"><?= $_SESSION['lang']['home'] ?></a>&nbsp;&nbsp;>&nbsp;&nbsp;<a href="#"><?=$_SESSION['lang']['news-event']?></a>
     </div>
 
     <div class="article-intro-content">
       <div class="article-intro-text">
         <div class="title-separator"></div>
-        <h1 class="article-title">News & Events</h1>
+        <h1 class="article-title"><?=$_SESSION['lang']['news-event']?></h1>
       </div>
       
       <nav class="article-tabs">
-        <button onclick="selectedType(this)" class="article-tab-link tab-type">View All</button>
-        <button onclick="selectedType(this)" class="article-tab-link tab-type active">Articles</button>
-        <button onclick="selectedType(this)" class="article-tab-link tab-type">Events</button>
-        <button onclick="selectedType(this)" class="article-tab-link tab-type">Press Release</button>
+        <button onclick="selectedType(this)" class="article-tab-link tab-type"><?=$_SESSION['lang']['article-view-all']?></button>
+        <button onclick="selectedType(this)" class="article-tab-link tab-type active"><?=$_SESSION['lang']['article-article']?></button>
+        <button onclick="selectedType(this)" class="article-tab-link tab-type"><?=$_SESSION['lang']['article-events']?></button>
+        <button onclick="selectedType(this)" class="article-tab-link tab-type"><?=$_SESSION['lang']['article-press-release']?></button>
       </nav>
 
       <div class="article-filter">
         <div class="wrapper-search">
-          <input class="filter-search" type="text" placeholder="Cari Judul Berita">
+          <input class="filter-search" type="text" placeholder="<?=$_SESSION['lang']['article-search-title']?>">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
           </svg>
