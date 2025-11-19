@@ -6,7 +6,7 @@
       <p><?=$_SESSION['lang']['product-processing-detail']?></p>
     </div>
 
-    <div id="carouselExampleIndicators" class="carousel slide">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -16,7 +16,7 @@
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item active" data-bs-interval="5000">
           <div class="processing-tab-content">
             <div class="tab-pane fade show active">
               <div class="d-flex flex-column flex-md-row align-items-center">
@@ -27,14 +27,13 @@
                 <div class="col-md-1">
                 </div>
                 <div class="col-md-4 text-center mt-3 mt-md-0">
-                  <img src="assets/product/candlenut/plantation.png" alt="Candlenut"
-                  id="image-candlenut">
+                  <img src="assets/product/candlenut/plantation.png" alt="Candlenut">
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="carousel-item ">
+        <div class="carousel-item " data-bs-interval="5000">
           <div class="processing-tab-content">
             <div class="tab-pane fade show active">
               <div class="d-flex flex-column flex-md-row align-items-center">
@@ -45,14 +44,13 @@
                 <div class="col-md-1">
                 </div>
                 <div class="col-md-4 text-center mt-3 mt-md-0">
-                  <img src="assets/product/candlenut/cracking.png" alt="Candlenut"
-                  id="image-candlenut">
+                  <img src="assets/product/candlenut/cracking.png" alt="Candlenut">
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item " data-bs-interval="5000">
           <div class="processing-tab-content">
             <div class="tab-pane fade show active">
               <div class="d-flex flex-column flex-md-row align-items-center">
@@ -63,14 +61,13 @@
                 <div class="col-md-1">
                 </div>
                 <div class="col-md-4 text-center mt-3 mt-md-0">
-                  <img src="assets/product/candlenut/sortation.png" alt="Candlenut"
-                  id="image-candlenut">
+                  <img src="assets/product/candlenut/sortation.png" alt="Candlenut">
                 </div>
               </div>
             </div>
           </div>
         </div>
-         <div class="carousel-item">
+        <div class="carousel-item " data-bs-interval="5000">
           <div class="processing-tab-content">
             <div class="tab-pane fade show active">
               <div class="d-flex flex-column flex-md-row align-items-center">
@@ -81,14 +78,13 @@
                 <div class="col-md-1">
                 </div>
                 <div class="col-md-4 text-center mt-3 mt-md-0">
-                  <img src="assets/product/candlenut/plantation.png" alt="Candlenut"
-                  id="image-candlenut">
+                  <img src="assets/product/candlenut/plantation.png" alt="Candlenut">
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="carousel-item ">
+        <div class="carousel-item " data-bs-interval="5000">
           <div class="processing-tab-content">
             <div class="tab-pane fade show active">
               <div class="d-flex flex-column flex-md-row align-items-center">
@@ -99,14 +95,13 @@
                 <div class="col-md-1">
                 </div>
                 <div class="col-md-4 text-center mt-3 mt-md-0">
-                  <img src="assets/product/candlenut/cracking.png" alt="Candlenut"
-                  id="image-candlenut">
+                  <img src="assets/product/candlenut/cracking.png" alt="Candlenut">
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item " data-bs-interval="5000">
           <div class="processing-tab-content">
             <div class="tab-pane fade show active">
               <div class="d-flex flex-column flex-md-row align-items-center">
@@ -117,8 +112,7 @@
                 <div class="col-md-1">
                 </div>
                 <div class="col-md-4 text-center mt-3 mt-md-0">
-                  <img src="assets/product/candlenut/sortation.png" alt="Candlenut"
-                  id="image-candlenut">
+                  <img src="assets/product/candlenut/sortation.png" alt="Candlenut">
                 </div>
               </div>
             </div>
