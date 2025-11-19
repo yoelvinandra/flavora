@@ -1,29 +1,29 @@
 <?php include 'lang.php'; ?>
-<header class="p-4  header-hidden" id="main-header">
+<header class="p-3  header-hidden" id="main-header">
     <div class="container d-flex justify-content-between align-items-center">
-        <a href="mockup.php"  class="logo fw-bold"><img src="assets/logo.webp" alt="Logo" style="width: 9vh;"></a>
+        <a href="mockup.php"  class="logo fw-bold"><img src="assets/logo.webp" alt="Logo" style="width: 11vh;"></a>
         <nav>
-            <a href="aboutus.php" class="btn-hidden-sm text-decoration-none"><?=$_SESSION['lang']['about-us']?></a>
-            <a href="product.php" class="btn-hidden-sm text-decoration-none"><?=$_SESSION['lang']['products']?></a>
-            <a href="article.php" class="btn-hidden-sm text-decoration-none"><?=$_SESSION['lang']['news-event']?></a>
-            <a class="btn btn-sm"  onclick="openMessage();"><i class="bi bi-chat-fill"></i> <?=$_SESSION['lang']['get-in-touch']?></a>
+            <a href="aboutus.php" class="underlined-text btn-hidden-sm text-decoration-none"><?=$_SESSION['lang']['about-us']?></a>
+            <a href="product.php" class="underlined-text btn-hidden-sm text-decoration-none"><?=$_SESSION['lang']['products']?></a>
+            <a href="article.php" class="underlined-text btn-hidden-sm text-decoration-none"><?=$_SESSION['lang']['news-event']?></a>
+            <a class="btn primary fullrounded maximumwidth"   onclick="openMessage();"><i class="bi bi-chat-fill"></i> <?=$_SESSION['lang']['get-in-touch']?></a>
         </nav>
         <div class="lang-switcher ms-3 btn-hidden-sm">
-          <a href="?lang=EN" id="EN" class="lang-data text-decoration-none active">EN</a> | 
-          <a href="?lang=ID" id="ID" class="lang-data text-decoration-none">ID</a>
+          <a href="?lang=EN" id="EN" class="underlined-text lang-data text-decoration-none active">EN</a> | 
+          <a href="?lang=ID" id="ID" class="underlined-text lang-data text-decoration-none">ID</a>
         </div>
         <div class="btn-show-sm text-decoration-none" id="burger-menu" onclick="openNav()"><i class="bi bi-list" style="font-size: 4vh;"></i></div>
         <div id="myNav" class="overlay">
           <a href="javascript:void(0)" class="menu closebtn" onclick="closeNav()">&times;</a>
           <div class="overlay-content">
-            <a class="menu" href="mockup.php"  class="logo fw-bold"><img src="assets/logo-golden.webp" alt="Logo" style="width: 14vh;"></a>
-            <a class="menu" href="aboutus.php"><?=$_SESSION['lang']['about-us']?></a>
-            <a class="menu" href="product.php"><?=$_SESSION['lang']['products']?></a>
-            <a class="menu" href="article.php"><?=$_SESSION['lang']['news-event']?></a>
+            <a class="menu menu-underlined" href="mockup.php"  class="logo fw-bold"><img src="assets/logo-golden.webp" alt="Logo" style="width: 14vh;"></a>
+            <a class="menu menu-underlined" href="aboutus.php"><?=$_SESSION['lang']['about-us']?></a>
+            <a class="menu menu-underlined" href="product.php"><?=$_SESSION['lang']['products']?></a>
+            <a class="menu menu-underlined" href="article.php"><?=$_SESSION['lang']['news-event']?></a>
           </div>
           <div class="lang-switcher-mobile">
-            <a href="?lang=EN" id="EN-mobile" class="lang-data-mobile text-decoration-none active">EN</a>&nbsp;&nbsp;|&nbsp;
-            <a href="?lang=ID" id="ID-mobile" class="lang-data-mobile text-decoration-none">ID</a>
+            <a href="?lang=EN" id="EN-mobile" class="underlined-text lang-data-mobile text-decoration-none active">EN</a>&nbsp;&nbsp;|&nbsp;
+            <a href="?lang=ID" id="ID-mobile" class="underlined-text lang-data-mobile text-decoration-none">ID</a>
           </div>
         </div>
     </div>
