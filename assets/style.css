@@ -67,6 +67,22 @@ html, body {
   pointer-events: none;
 }
 
+.roundrectvideo{
+    border-radius:20px;    
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
 #floating-top-btn {
   position: fixed;
   width: 60px;
@@ -75,13 +91,13 @@ html, body {
   left: 20px;
   padding-top:8px;
   padding-left:1px;
-  background-color: var(--white);
+  background-color: var(--golden);
   color: var(--primary-brown);
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
   z-index: 100;
- 
+  pointer:cursor;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.4s ease;
@@ -100,13 +116,13 @@ html, body {
   right: 20px;
   padding-top:8px;
   padding-left:1px;
-  background-color: var(--white);
+  background-color: var(--golden);
   color: var(--primary-brown);
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
   z-index: 100;
-  
+  pointer:cursor;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.4s ease;
@@ -144,29 +160,10 @@ header nav a {
   font-weight: 500;
   white-space: nowrap;
   flex-shrink: 0;
-  padding-left:15px !important;
-  padding-right:15px !important;
-  padding-top:5px !important;
-  padding-bottom:5px !important;
-}
-
-@media (max-width: 410px) {
-  header nav {
-  display: flex;
-  align-items: center;
-  gap: 0rem;
-  flex-wrap: nowrap;
-}
-
-  header nav a {
-    font-size: 0.9rem;
-    margin-right: 0.1rem !important;
-  }
-
-  header nav a.btn {
-    padding: 0.25rem 0.6rem;
-    font-size: 0.85rem;
-  }
+  margin-left:15px !important;
+  margin-right:15px !important;
+  /*padding-top:5px !important;*/
+  /*padding-bottom:5px !important;*/
 }
 
 header nav a:hover {
@@ -215,9 +212,7 @@ a {
 }
 
 .medsos{
-  width:50px;
-  padding-left:10px;
-  padding-right:10px;
+  width:40px !important;
 }
 
 .certification-section{
@@ -286,12 +281,16 @@ a {
   a {
     color:  var(--golden);
     text-decoration: none;
-    font-size:10pt !important;
+    /*font-size:10pt !important;*/
 
     &:hover {
       color:var(--white);
 
     }
+  }
+  
+  li{
+      padding-bottom:6px;
   }
   
   .footer-logo{
@@ -312,6 +311,7 @@ a {
   
   h5 {
     color: var(--golden);
+    font-size:16.5pt;
   }
 }
 
@@ -323,17 +323,23 @@ a {
 }
 
 #contact-us{
-    color:var(--primary-brown); 
+    /*color:var(--primary-brown); */
     font-size:12pt !important; 
-    font-weight:bold; 
-    background-color:var(--golden); 
+    /*font-weight:bold; */
+    /*background-color:var(--golden); */
 }
 
 #contact-us:hover{
-    color:var(--primary-brown); 
+    /*color:var(--primary-brown); */
     font-size:12pt !important; 
-    font-weight:bold; 
-    background-color:var(--white); 
+    /*font-weight:bold; */
+    /*background-color:var(--white); */
+}
+
+.underlined-text{
+    border-bottom:1.5px solid  var(--golden);
+    color:var(--golden) !important;
+    text-align:justify;
 }
 
 .hero {
@@ -369,13 +375,12 @@ a {
 .hero-content {
   position: relative;
   z-index: 1;
-  max-width: 1150px;
+  max-width: 1000px;
   flex: 1;
-  padding: 2rem;
 }
 
 .hero-caption {
-  max-width: 500px;
+  max-width: 550px;
 }
 
 .hero-caption h1 {
@@ -435,12 +440,16 @@ a {
 }
 
 .overlay .menu {
+ text-decoration: none;
   padding-bottom: 40px;
-  text-decoration: none;
   font-size: 22px;
   color: var(--golden);
   display: block;
   transition: 0.3s;
+}
+
+.overlay .menu-underlined{
+  text-decoration: underline;
 }
 
 .overlay .menu:hover, .overlay .menu:focus {
@@ -454,59 +463,10 @@ a {
   font-size: 60px;
 }
 
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-  font-size: 40px;
-  top: 15px;
-  right: 35px;
-  }
-}
-    
-@media (max-width: 768px) {
-  .logo img{
-      width:6vh;
-  }  
-}
-
-/* Mobile view: stack buttons */
-@media (max-width: 450px) {
-  
-  .hero{ 
-    min-height:99vh !important;
-  }
-  
-  .btn-hidden-sm{
-     display:none; 
-  }
-  
-  .btn-show-sm{
-      display:block !important;
-  }
-  
-  .hero-buttons {
-    flex-direction: column;
-    align-items: stretch;
-    /* Make them full width */
-  }
-
-  .hero-buttons .btn {
-    width: 100%;
-    text-align: center;
-    padding: 1rem;
-    /* bigger tap area */
-    font-size: 1.1rem;
-    /* slightly bigger text */
-  }
-  .footer-logo{
-    width : 10vh !important;
-  }
-}
-
 .title-separator {
   height: 1px;
   background-color: var(--primary-brown);
-  width: 80px;
+  width: 80px !important;
   margin-bottom: 20px;
 }
 
@@ -517,10 +477,12 @@ a {
 }
 
 .btn.primary {
-  padding-left:40px;
-  padding-right:40px;
+  min-width:250px; 
+  /*padding-left:40px;*/
+  /*padding-right:40px;*/
   background-color: var(--primary-brown);
   color: var(--golden);
+  border: 1px solid var(--golden);
 
   &:hover {
     color: var(--white);
@@ -545,10 +507,11 @@ a {
 }
 
 .fullrounded{
-   padding-left:0px !important;
-   padding-right:0px !important;
-   min-width:200px; 
    border-radius:100px !important; 
+}
+
+.maximumwidth{
+    min-width:180px !important; 
 }
 
 .btn-whatsapp{
@@ -577,7 +540,7 @@ a {
 }
 
 .motto p {
-  max-width: 700px;
+  max-width: 1000px;
 }
 
 .nav-tabs-product {
@@ -623,10 +586,10 @@ a {
 
 #image-candlenut{
     clip-path: circle(); 
-    border:2px solid var(--head-brown); 
+    /*border:2px solid var(--head-brown); */
     padding:20px; 
-    height:250px; 
-    width:250px; 
+    height:300px; 
+    width:300px; 
     border-radius:50%;
 }
 
@@ -820,12 +783,11 @@ a {
 }
 
 .about .about-container {
-  max-width:1150px;
+  max-width:1000px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   align-items: start;
-  padding : 4rem;
   margin: 0 auto;
 }
 
@@ -837,7 +799,6 @@ a {
 }
 
 .about-content {
-  margin-top:20px;
   font-size: 15px;
   line-height: 1.6;
   color: #333;
@@ -890,9 +851,8 @@ a {
 
 .vision-mission .vision-mission-container {
   position: relative;
-  max-width: 1150px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 4rem 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px;
@@ -913,7 +873,7 @@ a {
 .vision h2, .mission h2 {
   color: var(--primary-brown); /* sesuai warna di contoh */
   margin-bottom: 1rem;
-  border-bottom: 5px solid var(--transparent-brown);
+  /*border-bottom: 5px solid var(--transparent-brown);*/
   display: inline-block;
   padding-bottom: 0.3rem;
   font-weight: bold;
@@ -957,17 +917,14 @@ a {
 }
 
 .team-section .team-section-container {
-  max-width: 1150px;
+  max-width: 1000px;
   margin: 0 auto; 
-  text-align: center;
-  padding: 4rem 2rem;
   background-color: var(--transparent-grey); 
 }
 
 .team-section h2 {
   color: var(--primary-brown); 
   margin-bottom: 2rem;
-  text-align:center;
   font-weight: bold;
 }
 
@@ -990,7 +947,7 @@ a {
 }
 
 .team-leader {
-  max-width: 180px;
+  max-width: 150px;
 }
 
 .team-leader img {
@@ -1042,13 +999,8 @@ a {
 }
 
 .advantage {
-  width: 100%;
+  width: 1000px;
   background:var(--transparent-yellow);
-}
-
-.advantage .container{
-  margin-top: 6vh;
-  margin-bottom: 6vh;
 }
 
 .advantage h1 {
@@ -1057,7 +1009,82 @@ a {
   color: var(--primary-brown);
 }
 
+.advantage .icon-advantage{
+    width:20vh;
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+/* Mobile view: stack buttons */
+@media (max-width: 450px) {
+  
+  .hero{ 
+    min-height:99vh !important;
+  }
+  
+  .btn-hidden-sm{
+     display:none; 
+  }
+  
+  .btn-show-sm{
+      display:block !important;
+  }
+  
+  .hero-buttons {
+    flex-direction: column;
+    align-items: stretch;
+    /* Make them full width */
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    /* bigger tap area */
+    font-size: 1.1rem;
+    /* slightly bigger text */
+  }
+  .footer-logo{
+    width : 10vh !important;
+  }
+}
+
+
 @media (max-width: 768px) {
+    #main-header .container{
+        padding:0px !important;    
+    }
+    
+    .logo img{
+        width:9vh !important;
+    }
+    
+    .maximumwidth{
+          max-width:100px !important;
+          padding-left:0px !important;
+          padding-right:0px  !important;
+    }
+    
+    .hero .primary{
+        margin-bottom:1rem !important;
+    }
+    
+   .primary{
+        width:100% !important;
+   }
+   
+   .offering .mx-auto{
+       margin-bottom:2rem;
+   } 
   .about-container {
     grid-template-columns: 1fr;
   }
@@ -1095,7 +1122,66 @@ a {
       background-position: bottom;
       z-index:2;
     }
+    
+    .vision-mission .vision-mission-container {
+        padding: 2rem; /* smaller padding for mobile */
+    }
+    
+    .team-section .team-section-container {
+        padding: 2rem; /* smaller padding for mobile */ 
+    }
+    
+    .advantage .container{
+        width: 100vw !important;
+        padding: 2rem; 
+    }
+    
+    .hero .hero-content{
+        padding: 2rem; 
+    }
+    
+    .motto .container{
+        padding: 2rem;
+    }
+    
+    .plant-tour-section .container{
+        text-align:left !important;
+        padding: 2rem;
+    }
+    
+    .plant-tour-section .container a{
+       width:calc(100vw - 4rem) !important;
+    }
   
+  .footer-info{
+      padding: 2rem;
+  }
+  
+  .footer-info h5{
+      font-size:1.1rem;
+  }
+  .footer-info .footer-address{
+      font-size:0.9em !important;
+  }
+  
+  .advantage .icon-advantage{
+    width:16vh;
+   }
+}
+
+.footer-info .footer-certificate{
+    padding:0px 0px 10px 0px !important;   
+    margin:0px -15px 0px -15px !important;
+    width:80px;
+}
+
+.footer-info .footer-certificate img{
+    width:80px;
+}
+
+.footer-info .footer-address{
+    font-size:13pt; 
+    font-weight:400 !important;
 }
 
 
@@ -1155,3 +1241,10 @@ button {
 
 button:hover {
   background: #0056b3;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+    box-shadow: 0 0 0 1000px  white inset !important;
+    -webkit-text-fill-color: var(--primary-brown) !important;
+}

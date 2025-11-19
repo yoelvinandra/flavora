@@ -1,24 +1,24 @@
 <section class="footer-info py-5">
-    <div style=" margin: auto;">
-        <div class="container text-center">
-            <img src="assets/logo-golden.webp" alt="Logo" class="mb-3" style="width: 100px;">
+    <div style=" margin: auto; max-width: 380px; ">
+        <div class="text-center">
+            <img src="assets/logo-golden.webp" alt="Logo" class="mb-3" style="width: 120px;">
             <h2 class="fw-bold mb-4"><?=$_SESSION['lang']['want-to-talk']?></h2>
             <p class="mb-4"><?=$_SESSION['lang']['we-love']?></p>
-            <a href="https://wa.me/6281138225758?text=Permisi, saya ingin bertanya mengenai Flavora" class="btn fullrounded openBtn" id="contact-us"><?=$_SESSION['lang']['contact-us']?></a>
+            <a href="https://wa.me/6281138225758?text=Permisi, saya ingin bertanya mengenai Flavora" class="btn primary fullrounded openBtn" id="contact-us"><?=$_SESSION['lang']['contact-us']?></a>
         </div>
-        <div class="d-flex justify-content-center" style="margin-top: 6vh; max-width:320px; margin-left:auto; margin-right:auto;">
+        <div class="d-flex justify-content-center" style="margin-top: 6vh; margin-left:auto; margin-right:auto;">
             <!--<div class="d-flex justify-content-evenly">-->
                 <div class="col-4">
                     <h6 class="fw-bold">Flavora</h6>
                     <ul class="list-unstyled">
-                        <li><a href="aboutus.php"><?=$_SESSION['lang']['about-us']?></a></li>
-                        <li><a href="product.php"><?=$_SESSION['lang']['products']?></a></li>
+                        <li><a class="underlined-text" href="aboutus.php" ><?=$_SESSION['lang']['about-us']?></a></li>
+                        <li><a class="underlined-text" href="product.php"><?=$_SESSION['lang']['products']?></a></li>
                     </ul>
                 </div>
                 <div class="col-4 ">
                     <h6 class="fw-bold"><?=$_SESSION['lang']['products']?></h6>
                     <ul class="list-unstyled">
-                        <li><a href="product.php"><?=$_SESSION['lang']['candlenut']?></a></li>
+                        <li><a class="underlined-text" href="product.php"><?=$_SESSION['lang']['candlenut']?></a></li>
                         <!--<li><a href="#">Vanilla</a></li>-->
                         <!--<li><a href="#">Nutmeg</a></li>-->
                         <!--<li><a href="#">Javanese Corn</a></li>-->
@@ -30,35 +30,35 @@
                 <div class="col-4 ">
                     <h6 class="fw-bold"><?=$_SESSION['lang']['links']?></h6>
                     <ul class="list-unstyled">
-                        <li><a href="article.php"><?=$_SESSION['lang']['news-event']?></a></li>
+                        <li><a class="underlined-text" href="article.php"><?=$_SESSION['lang']['news-event']?></a></li>
                     </ul>
                 </div>
             <!--</div>-->
 
         </div>
-        <div class="row text-center" style="margin-top: 3vh; ">
+        <div class="text-center" style="margin-top: 3vh; ">
             <h5 class="fw-bold">
                 PT. SUMBER REMPAH JAYA SELALU
             </h5>
-            <a href="#" style="font-size:12pt !important; font-weight:400 !important;">
+            <a href="#" class="underlined-text footer-address">
                 Karangandong, Gresik, Jawa Timur - Indonesia
             </a>
         </div>
-        <div class="container text-center" style="margin-top: 6vh; ">
-            <div class="row justify-content-center align-items-center" style="max-width:360px; margin:auto;">
-                <div class="col-4 col-sm-4 col-md-4 col-lg-4 mb-4">
+        <div class="text-center" style="margin-top: 6vh; ">
+            <div class="row justify-content-between align-items-center" style="margin:auto;">
+                <div class="footer-certificate">
                     <a href="#"  target="_blank">
                         <img src="assets/certificate/halal-cert.webp" alt="Halal Certification" width="65%" class="img-fluid mb-2">
                         <!--<br>AC12641-->
                     </a>
                 </div>
-                <div class="col-4 col-sm-4 col-md-4 col-lg-4 mb-4">
+                <div class="footer-certificate">
                     <a href="assets/certificate/Sucofindo Analysis.pdf"  target="_blank">
                         <img src="assets/certificate/sucofindo-cert.webp" alt="Sucofindo Certification" width="100%" class="img-fluid mb-2">
                         <!--<br>AC12641-->
                     </a>
                 </div>
-                <div class="col-4 col-sm-4 col-md-4 col-lg-4 mb-4">
+                <div class="footer-certificate">
                     <a href="assets/certificate/PSAT-PDUK-1.pdf"  target="_blank">
                         <img src="assets/certificate/psat-cert.webp" alt="PSAT Certification" width="80%" class="img-fluid mb-2">
                         <!--<br>AC12641-->
@@ -66,8 +66,8 @@
                 </div>
             </div>
         </div>
-        <div class="row text-center" >
-            <div class="col-12 col-md d-flex justify-content-center">
+        <div class="text-center" >
+            <div class="col-12 col-md d-flex justify-content-between">
                 <a href="https://www.linkedin.com/in/flores-flavora-9a98a3377?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank" class="footer-button me-1"><img class="medsos" src="assets/sosmed/linkedin.webp"></a>
                 <a href="https://youtube.com/@flavora_official?si=siHayF8aoWPS87NC" target="_blank" class="footer-button me-1"><img class="medsos" src="assets/sosmed/youtube.webp"></a>
                 <a href="https://www.tiktok.com/@flavoraid_?_t=ZS-8yg6snws076&_r=1" target="_blank" class="footer-button me-1"><img class="medsos" src="assets/sosmed/tiktok.webp"></a>
@@ -80,11 +80,11 @@
                     </div> -->
             </div>
         </div>
-        <div class="row text-center" style="margin-top: 3vh; letter-spacing: 0.1em;">
+        <div class="row text-center" style="margin-top: 3vh; ">
             <div class="col-12">
-                <a href="mailto:sales@floresflavora.com">e-mail : sales@floresflavora.com</a>
+                <a class="underlined-text" href="mailto:sales@floresflavora.com" style="font-size:13pt !important; ">e-mail : sales@floresflavora.com</a>
                 <br>
-                <div id="allright">© 2025 Flavora. All Rights Reserved</div>
+                <div id="allright" style="font-size:13pt !important; ">© 2025 Flavora. All Rights Reserved</div>
             </div>
         </div>
         <!-- <div class="d-flex justify-content-between" style="margin-top: 10vh;">

@@ -58,15 +58,15 @@
 <?php include 'section4-component/certificate-modal.php'; ?>
 <?php include 'section4-component/product-spec-modal.php'; ?>
 <section class="offering text-center">
-  <div class="box-top">&nbsp;</div>
   <div class="container">
-    <h1 class="mb-5"><?=$_SESSION['lang']['what-we-offer']?></h1>
 
     <div class="d-flex justify-content-center">
-      <div class="row g-4" style="width: 850px; text-align:center;"> <!-- adjust width as needed -->
+      <div class="row mb-5 mt-5" style="width:1320px; text-align:center;"> <!-- adjust width as needed -->
+        <div class="title-separator" style="margin-left:15px;"></div>
+        <h1 class="text-left mb-5"><?=$_SESSION['lang']['what-we-offer']?></h1>
         
         <div class="col-12 col-md-4">
-          <div class="mx-auto" style="text-align:left; border-radius:20px; border:1px solid var(--head-brown); padding:20px; width:250px;">
+          <div class="mx-auto" style="text-align:left; border-radius:20px; border:1px solid var(--head-brown); padding:20px;">
               <div class="d-flex text-start">
                 <i><img class="icon-offer" src="assets/home/tips-1.webp"></i>
                 <div class="ms-3">
@@ -74,12 +74,12 @@
                 </div>
               </div>
               <p><?=$_SESSION['lang']['custom-quote-detail']?></p>
-              <a href="product.php#section-product-forms" class="btn secondary fullrounded" style="width:100%;"><?=$_SESSION['lang']['custom-quote-button']?></a>
+              <a href="product.php#section-product-forms" class="btn primary fullrounded" style="width:100%;"><?=$_SESSION['lang']['custom-quote-button']?></a>
           </div>
         </div>
 
         <div class="col-12 col-md-4">
-            <div class="mx-auto"  style="text-align:left; border-radius:20px; border:1px solid var(--head-brown); padding:20px; width:250px;">
+            <div class="mx-auto"  style="text-align:left; border-radius:20px; border:1px solid var(--head-brown); padding:20px;">
               <div class="d-flex text-start">
                 <i><img class="icon-offer" src="assets/home/tips-2.webp"></i>
                 <div class="ms-3">
@@ -87,12 +87,12 @@
                 </div>
               </div>
               <p><?=$_SESSION['lang']['flexible-shipping-detail']?></p>
-              <a href="mailto:sales@floresflavora.com" class="btn secondary fullrounded" style="width:100%;"><?=$_SESSION['lang']['flexible-shipping-button']?></a>
+              <a href="mailto:sales@floresflavora.com" class="btn primary fullrounded" style="width:100%;"><?=$_SESSION['lang']['flexible-shipping-button']?></a>
              </div>
         </div>
 
         <div class="col-12 col-md-4" >
-            <div class="mx-auto"  style="text-align:left; border-radius:20px; border:1px solid var(--head-brown); padding:20px; width:250px;">
+            <div class="mx-auto"  style="text-align:left; border-radius:20px; border:1px solid var(--head-brown); padding:20px; ">
               <div class="d-flex text-start">
                 <i><img class="icon-offer" src="assets/home/tips-3.webp"></i>
                 <div class="ms-3">
@@ -100,7 +100,7 @@
                 </div>
               </div>
               <p><?=$_SESSION['lang']['quality-assurance-detail']?></p>
-              <a onclick="openCertificateModal()" class="btn secondary fullrounded" style="width:100%;"><?=$_SESSION['lang']['quality-assurance-button']?></a>
+              <a onclick="openCertificateModal()" class="btn primary fullrounded" style="width:100%;"><?=$_SESSION['lang']['quality-assurance-button']?></a>
             </div>
         </div>
 

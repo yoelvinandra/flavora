@@ -2,6 +2,7 @@
 <section class="hero">
   <div class="hero-bg"></div>
   <div class="hero-content">
+    <div class="title-separator"></div>
     <div class="hero-caption">
     <h1><?=$_SESSION['lang']['title']?></h1>
     <p>
@@ -13,9 +14,9 @@
          <li><?=$_SESSION['lang']['subtitle-4']?></li>
      </ul>
     </p>
-    <div class="hero-buttons">
+    <div class="">
       <a href="#" class="btn primary fullrounded"><?=$_SESSION['lang']['get-quote']?></a>
-      <a href="#" class="btn secondary fullrounded"><?=$_SESSION['lang']['chat-wa']?> <i class="bi bi-whatsapp"></i></a>
+      <a href="#" class="btn primary fullrounded"><?=$_SESSION['lang']['chat-wa']?> <i class="bi bi-whatsapp"></i></a>
     </div>
     </div>
   </div>    
