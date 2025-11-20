@@ -492,6 +492,10 @@ a {
   }
 }
 
+.companyprofile{
+   min-width:280px !important;  
+}
+
 .btn.secondary {
   padding-left:40px;
   padding-right:40px;
@@ -1167,6 +1171,20 @@ a {
   .advantage .icon-advantage{
     width:16vh;
    }
+   
+   #certificateModal .cert-item{
+        border-radius:20px; 
+        border:1px solid var(--head-brown); 
+        padding:20px; 
+        width:100% !important;
+    }
+}
+
+#certificateModal .cert-item{
+    border-radius:20px; 
+    border:1px solid var(--head-brown); 
+    padding:20px; 
+    width:48%;
 }
 
 .footer-info .footer-certificate{

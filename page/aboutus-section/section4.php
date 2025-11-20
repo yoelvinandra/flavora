@@ -1,5 +1,5 @@
-<section class="team-section ">
-        <div class="team-section-container  mb-5 mt-5 pb-5 pt-5">
+<section class="team-section pb-4 pt-4">
+        <div class="team-section-container pb-4 pt-4">
              <div class="title-separator" ></div>
               <h2><?=$_SESSION['lang']['board-of-directors']?></h2>
               <div class="team-row">

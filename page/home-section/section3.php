@@ -1,4 +1,4 @@
-<section class="quality-source-section mb-5 text-center">
+<section class="quality-source-section mb-2 text-center">
   <div class="">
     <div class="mx-auto" style="max-width: 1000px;">
       <!--<div class="tab-scroll-wrapper" style="max-width: 95%; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none;">-->

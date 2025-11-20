@@ -1,4 +1,4 @@
-<section class="motto mt-5 mb-3 text-center">
+<section class="motto mt-2 mb-2 text-center">
     
   <div class="container">
     <div class="title-separator"></div>
