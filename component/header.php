@@ -60,7 +60,7 @@
     let scrollOld = 0; 
     window.addEventListener('scroll', function() {
       const header = document.getElementById('main-header');
-      const scrollThreshold = 400; 
+      const scrollThreshold = 450; 
       if (window.scrollY > scrollThreshold) header.classList.remove('header-hidden');
       else header.classList.add('header-hidden');
       

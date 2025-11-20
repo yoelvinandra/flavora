@@ -11,7 +11,7 @@
         <p class="product-description"><?=$_SESSION['lang']['product-detail']?></p>
         <div class="product-buttons">
           <a href="#" class="btn primary fullrounded"><?=$_SESSION['lang']['contact-us']?></a>
-          <a href="#" class="btn secondary fullrounded"><?=$_SESSION['lang']['product-quotation']?></a>
+          <a href="#" class="btn primary fullrounded"><?=$_SESSION['lang']['product-quotation']?></a>
         </div>
       </div>
 

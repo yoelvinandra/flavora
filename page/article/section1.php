@@ -11,8 +11,8 @@
       </div>
       
       <nav class="article-tabs">
-        <button onclick="selectedType(this)" class="article-tab-link tab-type"><?=$_SESSION['lang']['article-view-all']?></button>
-        <button onclick="selectedType(this)" class="article-tab-link tab-type active"><?=$_SESSION['lang']['article-article']?></button>
+        <button onclick="selectedType(this)" class="article-tab-link tab-type active"><?=$_SESSION['lang']['article-view-all']?></button>
+        <button onclick="selectedType(this)" class="article-tab-link tab-type"><?=$_SESSION['lang']['article-article']?></button>
         <button onclick="selectedType(this)" class="article-tab-link tab-type"><?=$_SESSION['lang']['article-events']?></button>
         <button onclick="selectedType(this)" class="article-tab-link tab-type"><?=$_SESSION['lang']['article-press-release']?></button>
       </nav>
