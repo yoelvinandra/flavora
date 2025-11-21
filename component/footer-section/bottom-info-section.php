@@ -85,6 +85,7 @@
                 <a class="underlined-text" href="mailto:sales@floresflavora.com" style="font-size:13pt !important; ">e-mail : sales@floresflavora.com</a>
                 <br>
                 <div id="allright" style="font-size:13pt !important; ">© 2025 Flavora. All Rights Reserved</div>
+                <br><br>
             </div>
         </div>
         <!-- <div class="d-flex justify-content-between" style="margin-top: 10vh;">
