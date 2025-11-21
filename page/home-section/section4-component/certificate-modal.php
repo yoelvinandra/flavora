@@ -5,8 +5,8 @@
           <span class="close" id="closeBtnCert">&times;</span></h1>
             <div class="container text-center" style="margin-top: 6vh; ">
                 <div class="row g-4 justify-content-between align-items-center">
-                    <div class="cert-item col-6 col-sm-6 col-md-6 col-lg-6 mb-6">
-                        <img src="assets/certificate/halal-cert-brown.webp" alt="Halal Certification" width="120px" class="img-fluid mb-2">
+                    <div class="cert-item col-6 col-sm-6 col-md-6 col-lg-6 mb-6" style="padding-top:35px;">
+                        <img src="assets/certificate/halal-cert-brown.webp" alt="Halal Certification" width="120px;" class="img-fluid mb-2">
                         <br> <br>
                         <a href="#" class="btn primary fullrounded" style="width:100%;"><?=$_SESSION['lang']['quality-assurance-button']?></a>
                     </div>

@@ -52,7 +52,7 @@
                         <!--<br>AC12641-->
                     </a>
                 </div>
-                <div class="footer-certificate">
+                <div class="footer-certificate footer-certificate-sucofindo">
                     <a href="assets/certificate/Sucofindo Analysis.pdf"  target="_blank">
                         <img src="assets/certificate/sucofindo-cert.webp" alt="Sucofindo Certification" width="100%" class="img-fluid mb-2">
                         <!--<br>AC12641-->
@@ -69,7 +69,7 @@
         <div class="text-center" >
             <div class="col-12 col-md d-flex justify-content-between">
                 <a href="https://www.linkedin.com/in/flores-flavora-9a98a3377?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank" class="footer-button me-1"><img class="medsos" src="assets/sosmed/linkedin.webp"></a>
-                <a href="https://youtube.com/@flavora_official?si=siHayF8aoWPS87NC" target="_blank" class="footer-button me-1"><img class="medsos" src="assets/sosmed/youtube.webp"></a>
+                <a href="https://youtube.com/@flavora_official?si=siHayF8aoWPS87NC" target="_blank" class="footer-button me-1"><img class="medsos medsos-youtube" src="assets/sosmed/youtube.webp"></a>
                 <a href="https://www.tiktok.com/@flavoraid_?_t=ZS-8yg6snws076&_r=1" target="_blank" class="footer-button me-1"><img class="medsos" src="assets/sosmed/tiktok.webp"></a>
                 <a href="https://www.instagram.com/flavoraspices.id" target="_blank" class="footer-button "><img class="medsos" src="assets/sosmed/ig.webp"></a>
                 <!-- <div class="d-flex justify-content-end">

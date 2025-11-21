@@ -15,8 +15,8 @@
      </ul>
     </p>
     <div class="">
-      <a href="#" class="btn primary fullrounded"><?=$_SESSION['lang']['get-quote']?></a>
-      <a href="#" class="btn primary fullrounded"><?=$_SESSION['lang']['chat-wa']?> <i class="bi bi-whatsapp"></i></a>
+      <a href="#" class="btn primary fullrounded addpaddingbtn"><?=$_SESSION['lang']['get-quote']?></a>
+      <a href="#" class="btn primary fullrounded addpaddingbtn"><?=$_SESSION['lang']['chat-wa']?> <i class="bi bi-whatsapp"></i></a>
     </div>
     </div>
   </div>    

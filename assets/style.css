@@ -215,6 +215,11 @@ a {
   width:40px !important;
 }
 
+.medsos-youtube{
+  margin-top:-5px;
+  width:50px !important;  
+}
+
 .certification-section{
   background:white;
 }
@@ -324,7 +329,7 @@ a {
 
 #contact-us{
     /*color:var(--primary-brown); */
-    font-size:12pt !important; 
+    font-size:1rem !important; 
     /*font-weight:bold; */
     /*background-color:var(--golden); */
 }
@@ -474,6 +479,11 @@ a {
   padding: 0.75rem 1.5rem;
   text-decoration: none;
   font-weight: 500;
+}
+
+.addpaddingbtn{
+    padding-top:0.45rem !important;
+    padding-bottom:0.45rem !important;
 }
 
 .btn.primary {
@@ -1076,6 +1086,7 @@ a {
           max-width:100px !important;
           padding-left:0px !important;
           padding-right:0px  !important;
+          font-size:2rem;
     }
     
     .hero .primary{
@@ -1195,6 +1206,14 @@ a {
 
 .footer-info .footer-certificate img{
     width:80px;
+}
+
+.footer-info .footer-certificate-sucofindo{
+    width:110px; 
+}
+
+.footer-info .footer-certificate-sucofindo img{
+    width:110px; 
 }
 
 .footer-info .footer-address{
