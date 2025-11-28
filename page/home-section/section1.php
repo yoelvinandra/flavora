@@ -26,7 +26,7 @@
   const bg = document.querySelector('.hero-bg');
   window.addEventListener('scroll', () => {
     const scrollY = window.scrollY;
-    bg.style.transform = `translateY(${scrollY * 0.7}px)`;
+    bg.style.transform = `translateY(${scrollY * 0.5}px)`;
   });
 </script>
 
