@@ -16,10 +16,10 @@
         <div id="myNav" class="overlay">
           <a href="javascript:void(0)" class="menu closebtn" onclick="closeNav()">&times;</a>
           <div class="overlay-content">
-            <a class="menu menu-underlined" href="mockup.php"  class="logo fw-bold"><img src="assets/logo-golden.webp" alt="Logo" style="width: 14vh;"></a>
-            <a class="menu menu-underlined" href="aboutus.php"><?=$_SESSION['lang']['about-us']?></a>
-            <a class="menu menu-underlined" href="product.php"><?=$_SESSION['lang']['products']?></a>
-            <a class="menu menu-underlined" href="article.php"><?=$_SESSION['lang']['news-event']?></a>
+            <a class="menu" href="mockup.php"  class="logo fw-bold"><img src="assets/logo.webp" alt="Logo" style="width: 14vh;"></a>
+            <a class="menu" href="aboutus.php"><span class="underlined-text"><?=$_SESSION['lang']['about-us']?></span></a>
+            <a class="menu" href="product.php"><span class="underlined-text"><?=$_SESSION['lang']['products']?></span></a>
+            <a class="menu" href="article.php"><span class="underlined-text"><?=$_SESSION['lang']['news-event']?></span></a>
           </div>
           <div class="lang-switcher-mobile">
             <a href="?lang=EN" id="EN-mobile" class="underlined-text lang-data-mobile text-decoration-none active">EN</a>&nbsp;&nbsp;|&nbsp;

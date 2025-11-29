@@ -61,9 +61,9 @@
   <div class="container">
 
     <div class="d-flex justify-content-center">
-      <div class="row mb-5 mt-5" style="width:1320px; text-align:center;"> <!-- adjust width as needed -->
+      <div class="row mb-2 mt-2" style="width:1320px; text-align:center;"> <!-- adjust width as needed -->
         <div class="title-separator" style="margin-left:15px;"></div>
-        <h1 class="text-left mb-5"><?=$_SESSION['lang']['what-we-offer']?></h1>
+        <h1 class="text-left mb-2"><?=$_SESSION['lang']['what-we-offer']?></h1>
         
         <div class="col-12 col-md-4">
           <div class="mx-auto" style="text-align:left; border-radius:20px; border:1px solid var(--head-brown); padding:20px;">

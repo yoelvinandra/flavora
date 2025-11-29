@@ -215,6 +215,11 @@ a {
   width:40px !important;
 }
 
+.medsos-youtube{
+  margin-top:-5px;
+  width:50px !important;  
+}
+
 .certification-section{
   background:white;
 }
@@ -324,7 +329,7 @@ a {
 
 #contact-us{
     /*color:var(--primary-brown); */
-    font-size:12pt !important; 
+    font-size:1rem !important; 
     /*font-weight:bold; */
     /*background-color:var(--golden); */
 }
@@ -476,6 +481,11 @@ a {
   font-weight: 500;
 }
 
+.addpaddingbtn{
+    padding-top:0.45rem !important;
+    padding-bottom:0.45rem !important;
+}
+
 .btn.primary {
   min-width:250px; 
   /*padding-left:40px;*/
@@ -490,6 +500,10 @@ a {
     /* border: 1px solid var(--primary-brown); */
     /* color: var(--primary-brown); */
   }
+}
+
+.companyprofile{
+   min-width:280px !important;  
 }
 
 .btn.secondary {
@@ -1072,6 +1086,7 @@ a {
           max-width:100px !important;
           padding-left:0px !important;
           padding-right:0px  !important;
+          font-size:2rem;
     }
     
     .hero .primary{
@@ -1167,6 +1182,20 @@ a {
   .advantage .icon-advantage{
     width:16vh;
    }
+   
+   #certificateModal .cert-item{
+        border-radius:20px; 
+        border:1px solid var(--head-brown); 
+        padding:20px; 
+        width:100% !important;
+    }
+}
+
+#certificateModal .cert-item{
+    border-radius:20px; 
+    border:1px solid var(--head-brown); 
+    padding:20px; 
+    width:48%;
 }
 
 .footer-info .footer-certificate{
@@ -1177,6 +1206,14 @@ a {
 
 .footer-info .footer-certificate img{
     width:80px;
+}
+
+.footer-info .footer-certificate-sucofindo{
+    width:110px; 
+}
+
+.footer-info .footer-certificate-sucofindo img{
+    width:110px; 
 }
 
 .footer-info .footer-address{

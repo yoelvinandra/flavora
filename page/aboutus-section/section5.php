@@ -1,4 +1,4 @@
-<section class="advantage text-left mb-5 mt-5">
+<section class="advantage text-left pb-2 pt-2">
   <div class="container mb-5 mt-5">
     <div class="title-separator"></div>
     <h1 class="mb-5"> <?=$_SESSION['lang']['why-trust-us']?></h1>

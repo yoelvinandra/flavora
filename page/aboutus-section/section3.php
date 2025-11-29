@@ -1,5 +1,5 @@
-<section class="vision-mission pb-5 pt-5">
-  <div class="vision-mission-container  mb-5 mt-5 ">
+<section class="vision-mission">
+  <div class="vision-mission-container  pb-5 pt-5 ">
       <div class="vision">
         <div class="title-separator"></div>
         <h2><?=$_SESSION['lang']['our-vision']?></h2>
