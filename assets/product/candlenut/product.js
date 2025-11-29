@@ -97,4 +97,104 @@ function slidePackaging(btn, isPrev) {
   }
   track.style.transform = `translateX(-${currPckgIdx * cardWidth}px)`;
 }
+// Change 1: Set default state to false (CYCLING/PLAYING)
+let isPaused = false; 
+const carouselElement = document.querySelector('#carouselExampleIndicators');
+
+const carousel = new bootstrap.Carousel(carouselElement, {
+  interval: 5000,
+  pause: false 
+});
+
+// --- INITIAL CYCLE ON LOAD ---
+document.addEventListener('DOMContentLoaded', () => {
+  const pauseButton = document.getElementById('carousel-indicators-pause');
+  const activeIndicator = carouselElement.querySelector('.carousel-indicators .active');
+  
+  // 1. Initial Cycle (Bootstrap)
+  // By default, Bootstrap carousels start cycling when initialized 
+  // without the data-bs-ride="carousel" attribute, so calling cycle() 
+  // here is technically redundant but ensures it's running.
+  carousel.cycle(); 
+
+  // 2. Initial Progress Bar State
+  // Ensure any previous pause state is cleared, allowing the CSS animation to run immediately.
+  if (activeIndicator) {
+    activeIndicator.classList.remove('paused-animation');
+  }
+
+  // 3. Initial Button Icon (Set to Pause/Stop icon)
+  // Since it is cycling, the user should see the PAUSE button to stop it.
+  if (pauseButton) {
+    pauseButton.innerHTML = `
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pause-fill" viewBox="0 0 16 16">
+        <path d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5m5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5"/>
+      </svg>
+    `;
+  }
+});
+// -----------------------------
+
+
+function pauseCarousel(button) {
+
+  isPaused = !isPaused;
+  const activeIndicator = carouselElement.querySelector('.carousel-indicators .active');
+
+  if (isPaused) {
+    // --- PAUSE STATE ---
+    
+    // 1. Stop the carousel's internal timer
+    carousel.pause();
+    
+    // 2. Pause the CSS animation exactly where it is
+    if (activeIndicator) {
+      activeIndicator.classList.add('paused-animation');
+      carouselElement.classList.add('paused-animation');
+    }
+
+    // 3. Update button icon
+    button.innerHTML = `
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+        <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+      </svg>
+    `;
+
+  } else {
+    // --- RESUME/CYCLE STATE ---
+
+    // 1. Force the progress bar animation to reset to 0% and restart
+    if (activeIndicator) {
+        
+        // A. Add reset class (sets width/animation: none)
+        activeIndicator.classList.add('reset-animation');
+        
+        // B. Force a repaint/reflow to apply the reset instantly
+        void activeIndicator.offsetWidth; 
+        
+        // C. Remove reset class and pause class to restart the animation from 0%
+        activeIndicator.classList.remove('reset-animation');
+        activeIndicator.classList.remove('paused-animation');
+
+        carouselElement.classList.add('reset-animation');
+        
+        // B. Force a repaint/reflow to apply the reset instantly
+        void carouselElement.offsetWidth; 
+        
+        // C. Remove reset class and pause class to restart the animation from 0%
+        carouselElement.classList.remove('reset-animation');
+        carouselElement.classList.remove('paused-animation');
+    }
+    
+    // 2. Start the carousel's internal timer from the beginning (synchronous with the animation)
+    carousel.cycle();
+
+    // 3. Update button icon
+    button.innerHTML = `
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pause-fill" viewBox="0 0 16 16">
+        <path d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5m5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5"/>
+      </svg>
+    `;
+  }
+}
 
