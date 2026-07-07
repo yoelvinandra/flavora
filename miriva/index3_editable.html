@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+    <title>Miriva</title>
+    <meta name="description" content="Miriva — Minyak kemiri cold-pressed murni dari Flores untuk rambut sehat dari akar." />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Ethiopic:wght@400;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" />
+
+    <!-- Framework global CSS (minified — do not edit) -->
+    <style is:global="">
+      html{font-size:.6944444444vw}@media (max-width: 1099px){html{font-size:1.3513513514vw}}@media (max-width: 499px){html{font-size:2.5vw}}html,body{scrollbar-width:none;font-family:'Montserrat',sans-serif}html::-webkit-scrollbar{display:none}body::-webkit-scrollbar{display:none}.site,.page,.loader,.menu,.showreel,.newsletter-modal{position:absolute;width:100%;height:100%;top:0;left:0}.menu,.nav,.loader,.toast,.showreel,.newsletter-modal{position:fixed}.toast{transform:translateY(calc(110% + 4rem))}.loader{background:#000;z-index:5}.loader .loader-icon{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:7.2rem;height:7.2rem;opacity:0}.loader .loader-icon svg path{fill:#fbfbf4}.loader .loader-progress{display:flex;align-items:center;justify-content:center;padding:1.2rem 0;position:absolute;left:50%;text-align:center;font-family:'Cormorant Garamond',serif;font-size:3.4rem}.loader .loader-progress.loader-progress-top{top:0;margin-left:-3rem}.loader .loader-progress.loader-progress-bottom{bottom:0;margin-left:-3rem}.loader .loader-progress-inner{width:6rem;height:3.8rem;position:relative;overflow:hidden}.loader .loader-number{display:block;padding:.8rem 0;margin-bottom:.8rem;width:100%}:where(h1){font-size:12.4rem;line-height:100%;margin-block:.67em;margin-inline:0;unicode-bidi:isolate;font-family:'Noto Serif Ethiopic',serif}h2,.exp-title,.work-title,.about-title,.services-title,.testimonials-title,.faqs-title{font-family:'Cormorant Garamond',serif}p,.exp-text,.work-text,.exp-subtitle,.btn-text,.btn-link,.m-link,.n-link,.contact-link-text,.newsletter-text,.form-input,.form-label,.clock,.m-social .links-title{font-family:'Montserrat',sans-serif}
+    </style>
+
+    <!-- External layout stylesheet (required — do not edit the filename) -->
+    <link rel="preload" as="style" href="assets/css/index.CO_elZJh.css" />
+    <link rel="stylesheet" href="assets/css/index.CO_elZJh.css" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="assets/css/index.CO_elZJh.css"></noscript>
+
+    <!-- ============================================================
+         MIRIVA CUSTOM STYLES
+         Edit colors and typography here — changes apply site-wide.
+         Each section label matches the HTML comment landmarks below.
+         ============================================================ -->
+    <style>
+
+      /* ----------------------------------------------------------
+         BRAND COLOR VARIABLES
+         Change a hex here to update that color everywhere.
+         ---------------------------------------------------------- */
+      :root {
+        --color-heading:   #354032;   /* Deep Forest      — H2 section titles */
+        --color-accent:    #BF8162;   /* Warm Terracotta  — subtitles, highlights */
+        --color-text:      #403732;   /* Dark Mocha       — body paragraphs */
+        --color-bg-light:  #fbfbf4;   /* Off-white        — light section backgrounds */
+        --color-bg-dark:   #323240;   /* Deep Navy        — dark section backgrounds */
+      }
+
+      /* ----------------------------------------------------------
+         HERO SECTION
+         .hero-title  — big headline "Rambut sehat dari akar"
+         .hero-scroll — scroll hint text (desktop only)
+         ---------------------------------------------------------- */
+      /* .hero-title  { } */
+      /* .hero-scroll { color: var(--color-bg-light); } */
+
+      /* ----------------------------------------------------------
+         EXP SECTION — "Kami memahami perjuanganmu"
+         .exp-title    — main heading
+         .exp-subtitle — "Apakah ini kamu?"
+         .exp-text     — body paragraph
+         ---------------------------------------------------------- */
+      /* .exp-title    { color: var(--color-heading); } */
+      /* .exp-subtitle { color: var(--color-accent);  } */
+      /* .exp-text     { color: var(--color-text);    } */
+
+      /* ----------------------------------------------------------
+         WORK SECTION — Ingredient cards
+         .work-title   — desktop featured panel title
+         .work-client  — ingredient name on each card
+         .work-service — benefit line on each card
+         ---------------------------------------------------------- */
+      /* .work-title   { color: var(--color-heading); } */
+      /* .work-client  { color: var(--color-heading); } */
+      /* .work-service { color: var(--color-text);    } */
+
+      /* ----------------------------------------------------------
+         ABOUT SECTION — "Tentang Miriva"
+         .about-title  — large left heading
+         .about-text   — body paragraph
+         ---------------------------------------------------------- */
+      .about .about-title { font-size: clamp(6rem, 12vw, 16rem) !important; }
+      /* .about-title  { color: var(--color-heading); } */
+      /* .about-text   { color: var(--color-text);    } */
+
+      /* ----------------------------------------------------------
+         SERVICES SECTION
+         .services-title — "What we do" heading
+         .service-title  — individual service name
+         .service-text   — service description paragraph
+         ---------------------------------------------------------- */
+      /* .services-title { } */
+      /* .service-title  { } */
+      /* .service-text   { } */
+
+      /* ----------------------------------------------------------
+         TESTIMONIALS SECTION
+         .testimonials-title — section heading
+         .testimonial-text   — quote body
+         .testimonial-name   — client name
+         .testimonial-role   — client title/company
+         ---------------------------------------------------------- */
+      /* .testimonials-title { } */
+      /* .testimonial-text   { } */
+      /* .testimonial-name   { } */
+      /* .testimonial-role   { } */
+
+      /* ----------------------------------------------------------
+         FAQs SECTION
+         .faqs-title   — "FAQs" heading
+         .faq-question — each question
+         .faq-answer   — each answer paragraph
+         ---------------------------------------------------------- */
+      /* .faqs-title   { } */
+      /* .faq-question { } */
+      /* .faq-answer   { } */
+
+      /* ----------------------------------------------------------
+         HERO ICON (Miriva logo in center of hero)
+         ---------------------------------------------------------- */
+      #home .hero .icon svg { display: none !important; }
+      #home .hero .icon     { width: 14.4rem !important; height: 14.4rem !important; }
+
+    </style>
+  </head>
+
+  <body data-router="wrapper">
+    <div class="site">
+
+      <!-- ══════════════════════════════════════════════════════
+           LOADER OVERLAY
+           Required by JS — do not remove.
+           Hidden on page load via inline style.
+           ══════════════════════════════════════════════════════ -->
+      <div class="loader" style="display:none !important;">
+        <div class="loader-progress loader-progress-top">
+          <div class="loader-progress-inner">
+            <div class="loader-numbers">
+              <span class="loader-number">0</span>
+            </div>
+          </div>
+        </div>
+        <div class="loader-progress loader-progress-bottom">
+          <div class="loader-progress-inner">
+            <div class="loader-numbers">
+              <span class="loader-number">0</span>
+            </div>
+          </div>
+        </div>
+        <div class="loader-icon"></div>
+      </div>
+
+
+      <!-- ══════════════════════════════════════════════════════
+           NAVIGATION BAR (fixed top)
+           Logo: assets/images/logo White.png
+           Links: Work · About · Services · Contact
+           ══════════════════════════════════════════════════════ -->
+      <nav class="nav hide" data-theme="dark">
+        <a class="n-logo" href="/" aria-label="Home">
+          <span class="sr-only">Home</span>
+          <img src="assets/images/logo White.png" alt="Miriva" style="height: 13px; width: auto;" />
+        </a>
+        <div class="n-links">
+          <div class="n-links-inner">
+            <a class="n-link" href="/work"     aria-label="Work">Work</a>
+            <a class="n-link" href="/about"    aria-label="About">About</a>
+            <a class="n-link" href="/services" aria-label="Services">Services</a>
+            <a class="n-link" href="/contact"  aria-label="Contact">Contact</a>
+          </div>
+        </div>
+        <div class="n-toggle">
+          <div class="n-toggle-icon">
+            <span class="n-toggle-dot"></span>
+            <span class="n-toggle-dot"></span>
+            <span class="n-toggle-dot"></span>
+            <span class="n-toggle-dot"></span>
+            <span class="n-toggle-dot"></span>
+            <span class="n-toggle-dot"></span>
+            <span class="n-toggle-dot"></span>
+            <span class="n-toggle-dot"></span>
+            <span class="n-toggle-dot"></span>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- ══════════════════════════════════════════════════════
+           HAMBURGER MENU OVERLAY
+           JS opens/closes on nav toggle click.
+           ══════════════════════════════════════════════════════ -->
+      <div class="menu">
+        <div class="m-bg"></div>
+        <div class="menu-inner">
+          <div class="m-top">
+
+            <!-- Showreel preview block — Required by JS, hidden visually -->
+            <div class="m-top-col desktop-only">
+              <div class="m-top-item m-showreel btn-block hide-btn">
+                <figure class="media-wrapper video-wrapper" style="">
+                  <div class="media-inner">
+                    <video class="media video lazy"
+                      data-src="https://estrelastudio.cdn.prismic.io/estrelastudio/aN6JiJ5xUNkB1alN_EstrelaShowreelPreviewV2.mp4"
+                      width="1200" height="900" autoplay muted playsinline loop preload="auto">
+                    </video>
+                  </div>
+                </figure>
+                <a class="btn-block-link" href="#"></a>
+                <button class="btn">
+                  <span class="btn-bg"></span>
+                  <span class="btn-text">Showreel</span>
+                  <span class="btn-dot"><span class="btn-dot-inner"></span></span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Close button -->
+            <div class="m-top-col">
+              <div class="m-top-item m-close">
+                <div class="m-close-icon">
+                  <span class="m-close-dot"></span>
+                  <span class="m-close-dot"></span>
+                  <span class="m-close-dot"></span>
+                  <span class="m-close-dot"></span>
+                  <span class="m-close-dot"></span>
+                  <span class="m-close-dot"></span>
+                  <span class="m-close-dot"></span>
+                  <span class="m-close-dot"></span>
+                  <span class="m-close-dot"></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact Us button (desktop) -->
+            <div class="m-top-col desktop-only">
+              <div class="btn-block m-top-item m-contact">
+                <a class="btn-block-link" href="/contact" aria-label="Contact Us"></a>
+                <a href="/contact" class="btn" target="_self">
+                  <span class="btn-bg"></span>
+                  <span class="btn-text">Contact Us</span>
+                  <span class="btn-dot"><span class="btn-dot-inner"></span></span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="m-bottom">
+            <!-- Menu links -->
+            <div class="m-links">
+              <a class="m-link" href="/"         aria-label="Home">
+                <span class="m-link-bullet"></span>
+                <span class="m-link-inner">Home</span>
+              </a>
+              <a class="m-link" href="/work"     aria-label="Work">
+                <span class="m-link-bullet"></span>
+                <span class="m-link-inner">Work</span>
+              </a>
+              <a class="m-link" href="/about"    aria-label="About">
+                <span class="m-link-bullet"></span>
+                <span class="m-link-inner">About</span>
+              </a>
+              <a class="m-link" href="/services" aria-label="Services">
+                <span class="m-link-bullet"></span>
+                <span class="m-link-inner">Services</span>
+              </a>
+            </div>
+
+            <div class="m-bottom-right">
+              <!-- Contact links + newsletter toggle (Required by JS) -->
+              <div class="contact">
+                <div class="contact-link-wrapper">
+                  <div class="contact-bullet"></div>
+                  <a href="tel:+27780548476" class="contact-link" aria-label="Phone" target="_blank">
+                    <span class="contact-link-text"><span class="line">+27 (0) 78 054 8476</span></span>
+                  </a>
+                </div>
+                <div class="contact-link-wrapper">
+                  <div class="contact-bullet"></div>
+                  <a href="mailto:accounts@estrela.studio" class="contact-link" aria-label="Email" target="_blank">
+                    <span class="contact-link-text"><span class="line">Write Us</span></span>
+                  </a>
+                </div>
+                <!-- newsletter-toggle / newsletter-wrapper: Required by JS — hidden -->
+                <div class="contact-link-wrapper newsletter-toggle mobile-only" style="display:none !important;">
+                  <div class="contact-bullet"></div>
+                  <span class="contact-link"><span class="contact-link-text"><span class="line">Newsletter Signup</span></span></span>
+                </div>
+                <div class="contact-link-wrapper newsletter-wrapper desktop-only" style="display:none !important;">
+                  <div class="contact-bullet"></div>
+                  <span class="contact-link">
+                    <span class="contact-link-text">
+                      <span class="line">Newsletter Signup</span>
+                      <span class="contact-link-close">
+                        <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1 1L5.5 5.5M10 10L5.5 5.5M5.5 5.5L10 1M5.5 5.5L1 10" stroke="white"></path>
+                        </svg>
+                      </span>
+                    </span>
+                  </span>
+                  <div class="contact-link-bg"></div>
+                  <div class="newsletter">
+                    <div class="newsletter-bg"></div>
+                    <div class="newsletter-inner">
+                      <p class="newsletter-text">Join our newsletter for fresh updates and exclusive studio insights.</p>
+                      <form class="newsletter-form" action="/api/newsletter" method="POST">
+                        <label class="form-label"><span class="form-label-text sr-only">First name</span><input class="form-input form-input-text" type="text" name="first_name" placeholder="First name" required="" /></label>
+                        <label class="form-label"><span class="form-label-text sr-only">Last name</span><input class="form-input form-input-text" type="text" name="last_name" placeholder="Last name" required="" /></label>
+                        <label class="form-label"><span class="form-label-text sr-only">Email Address</span><input class="form-input form-input-text" type="text" name="email" placeholder="Email Address" required="" /></label>
+                        <label class="sr-only" aria-hidden="true"><input type="text" name="extra" tabindex="-1" autocomplete="off" /></label>
+                        <input type="hidden" name="ts" value="" />
+                        <div class="form-btn">
+                          <button class="btn" type="submit" aria-label="Submit">
+                            <span class="btn-text">Submit Details</span>
+                            <span class="btn-dot"><span class="btn-dot-inner"></span></span>
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Social links -->
+              <div class="m-social links">
+                <span class="links-title">Social</span>
+                <a href="https://www.instagram.com/estrela_digitalstudio/?hl=en" class="link" target="_blank" aria-label="Instagram">Instagram</a>
+                <a href="https://www.facebook.com/profile.php?id=100091661185714" class="link" target="_blank" aria-label="Facebook">Facebook</a>
+                <a href="https://www.linkedin.com/company/estrela-digital-studio" class="link" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+                <a href="https://www.awwwards.com/estrelastudio/" class="link" target="_blank" aria-label="Awwwards">Awwwards</a>
+                <a href="https://www.behance.net/estrelastudio" class="link" target="_blank" aria-label="Behance">Behance</a>
+              </div>
+
+              <!-- Live clock -->
+              <div class="clock split">
+                <span class="line"><span class="clock-time">18:28:23</span> (GMT+2)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Us + Showreel buttons (mobile) -->
+          <div class="btn-blocks-mobile mobile-only">
+            <div class="btn-block m-contact">
+              <a class="btn-block-link" href="/contact" aria-label="Contact Us"></a>
+              <a href="/contact" class="btn" target="_self">
+                <span class="btn-bg"></span>
+                <span class="btn-text">Contact Us</span>
+                <span class="btn-dot"><span class="btn-dot-inner"></span></span>
+              </a>
+            </div>
+            <!-- Showreel mobile block — Required by JS -->
+            <div class="btn-block m-showreel m-showreel-mobile mobile-only">
+              <figure class="media-wrapper video-wrapper" style="">
+                <div class="media-inner">
+                  <video class="media video lazy"
+                    data-src="https://estrelastudio.cdn.prismic.io/estrelastudio/aN6JiJ5xUNkB1alN_EstrelaShowreelPreviewV2.mp4"
+                    width="1200" height="900" autoplay muted playsinline loop preload="auto">
+                  </video>
+                </div>
+              </figure>
+              <a class="btn-block-link" href="#"></a>
+              <button class="btn">
+                <span class="btn-bg"></span>
+                <span class="btn-text">Showreel</span>
+                <span class="btn-dot"><span class="btn-dot-inner"></span></span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Toast notification (JS-managed — do not remove) -->
+      <div class="toast">
+        <div class="toast-inner">
+          <span class="toast-text"></span>
+        </div>
+      </div>
+
+
+      <!-- ══════════════════════════════════════════════════════
+           SHOWREEL OVERLAY
+           Required by JS — do not remove.
+           ══════════════════════════════════════════════════════ -->
+      <div class="showreel">
+        <button class="showreel-close glass-btn" aria-label="Close showreel">
+          <span class="glass-btn-bg"></span>
+          <span class="glass-btn-text">Close</span>
+        </button>
+        <div class="showreel-video-wrapper">
+          <video class="showreel-video"
+            src="https://estrelastudio.cdn.prismic.io/estrelastudio/aRwnE7pReVYa4l9N_Estrela_CompressedShowreel.mp4"
+            width="2000" height="1200" preload="metadata" crossorigin="anonymous">
+          </video>
+          <div class="showreel-toggle">
+            <span class="showreel-toggle-text">Pause</span>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- ══════════════════════════════════════════════════════
+           NEWSLETTER MODAL (mobile)
+           Required by JS — do not remove.
+           ══════════════════════════════════════════════════════ -->
+      <div class="newsletter-modal mobile-only">
+        <div class="newsletter-modal-inner">
+          <div class="newsletter-header">
+            <div class="newsletter-header-bg"></div>
+            <span class="newsletter-title">Newsletter signup</span>
+            <span class="newsletter-close">
+              <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L5.5 5.5M10 10L5.5 5.5M5.5 5.5L10 1M5.5 5.5L1 10" stroke="white"></path>
+              </svg>
+            </span>
+          </div>
+          <div class="newsletter">
+            <div class="newsletter-bg"></div>
+            <div class="newsletter-inner">
+              <p class="newsletter-text">Join our newsletter for fresh updates and exclusive studio insights.</p>
+              <form class="newsletter-form" action="/api/newsletter" method="POST">
+                <label class="form-label"><span class="form-label-text sr-only">First name</span><input class="form-input form-input-text" type="text" name="first_name" placeholder="First name" required="" /></label>
+                <label class="form-label"><span class="form-label-text sr-only">Last name</span><input class="form-input form-input-text" type="text" name="last_name" placeholder="Last name" required="" /></label>
+                <label class="form-label"><span class="form-label-text sr-only">Email Address</span><input class="form-input form-input-text" type="text" name="email" placeholder="Email Address" required="" /></label>
+                <label class="sr-only" aria-hidden="true"><input type="text" name="extra" tabindex="-1" autocomplete="off" /></label>
+                <input type="hidden" name="ts" value="" />
+                <div class="form-btn">
+                  <button class="btn" type="submit" aria-label="Submit">
+                    <span class="btn-text">Submit Details</span>
+                    <span class="btn-dot"><span class="btn-dot-inner"></span></span>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- ══════════════════════════════════════════════════════
+           MAIN PAGE CONTENT
+           ══════════════════════════════════════════════════════ -->
+      <main id="home" class="page" data-router="container" data-router-namespace="home">
+        <div class="page-bg"></div>
+        <div class="page-scroll">
+          <div class="page-overlay"></div>
+          <div class="hero-theme" data-theme="dark"></div>
+          <div class="hero-extra mobile-only"></div>
+
+
+          <!-- ══════════════════════════════════════════════════
+               SECTION: HERO
+               Video background with big heading.
+               Change headline text in .hero-title below.
+               Change video: edit data-src / src on <video>.
+               ══════════════════════════════════════════════════ -->
+          <section class="hero">
+
+            <!-- Background video -->
+            <figure class="media-wrapper video-wrapper hero-bg" style="">
+              <div class="media-inner">
+                <video class="media video lazy"
+                  data-src="assets/video/Hero.mp4"
+                  src="assets/video/Hero.mp4"
+                  width="2000" height="1200"
+                  autoplay muted playsinline loop preload="auto">
+                </video>
+              </div>
+            </figure>
+
+            <!-- HERO HEADLINE -->
+            <h1 class="hero-title">
+              <span class="hero-title-left"><span class="line">Rambut sehat</span></span>
+              <span class="hero-title-right"><span class="line">dari akar</span></span>
+            </h1>
+
+            <!-- Logo icon (center of hero) -->
+            <div class="hero-icon icon">
+              <img src="assets/images/logo White.png" alt="Miriva Logo" style="width: 100%; height: 100%; object-fit: contain;" />
+            </div>
+
+            <!-- Scroll hint -->
+            <span class="hero-scroll desktop-only">Scroll untuk pelajari lebih lanjut</span>
+
+          </section>
+
+
+          <!-- ══════════════════════════════════════════════════
+               SECTION: EXP — "Kami memahami perjuanganmu"
+               Change heading color:  .exp-title    in <style>
+               Change subtitle color: .exp-subtitle in <style>
+               Change body color:     .exp-text     in <style>
+               ══════════════════════════════════════════════════ -->
+          <section class="exp" data-theme="light">
+
+            <!-- Left image panel (JS-managed layout) -->
+            <div class="exp-btn-block-wrapper">
+              <div class="btn-block hide-btn">
+                <div class="btn-block-inner">
+                  <a class="btn-block-link" href="#"></a>
+                  <figure class="media-wrapper image-wrapper" style="">
+                    <div class="media-inner">
+                      <img class="media image"
+                        src="assets/images/landscape bottle.jpeg"
+                        width="1200" height="900"
+                        alt="Miriva Candlenut Hair Oil"
+                        style="width:100%;height:100%;object-fit:cover;" />
+                    </div>
+                  </figure>
+                </div>
+                <!-- Hidden button — Required by JS -->
+                <a href="#" class="btn btn-light" target="_self" style="visibility:hidden;pointer-events:none;">
+                  <span class="btn-bg"></span>
+                  <span class="btn-text">Showreel</span>
+                  <span class="btn-dot"><span class="btn-dot-inner"></span></span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Main content -->
+            <div class="exp-content-wrapper">
+              <div class="exp-content">
+
+                <!-- Hidden image block — Required by JS -->
+                <div class="exp-images desktop-only" style="visibility:hidden;pointer-events:none;">
+                  <figure class="media-wrapper image-wrapper" style="">
+                    <div class="media-inner">
+                      <img class="media image" src="assets/images/landscape bottle.jpeg" width="400" height="540" alt="" />
+                    </div>
+                  </figure>
+                </div>
+
+                <!-- HEADING: main section title -->
+                <h2 class="exp-title">Kami memahami perjuanganmu</h2>
+
+                <!-- SUBHEADING -->
+                <span class="exp-subtitle">Apakah ini kamu?</span>
+
+                <!-- BODY TEXT -->
+                <div class="exp-text-wrapper">
+                  <p class="exp-text">
+                    Rontok tiap hari sampai takut nyisir. Rambut tipis yang tidak kunjung
+                    tebal meski sudah coba banyak produk. Atau rontok hebat pasca melahirkan,
+                    dan kamu butuh yang benar-benar aman karena masih menyusui. Kamu tidak
+                    sendirian, dan perjalanan pemulihanmu dimulai di sini.
+                  </p>
+                </div>
+
+              </div>
+            </div>
+          </section>
+
+
+          <!-- ══════════════════════════════════════════════════
+               SECTION: WORK — Ingredient cards
+               Desktop: left panel shows featured title + text.
+               Mobile:  title + text shown above the grid.
+               Each card: image + ingredient name + 2 benefit lines.
+               ══════════════════════════════════════════════════ -->
+          <section class="work" data-theme="light" data-theme-mobile="dark">
+
+            <!-- Hidden "View project" button — Required by JS -->
+            <button class="btn btn-view btn-light desktop-only" style="display:none !important;">
+              <span class="btn-bg"></span>
+              <span class="btn-text">View project</span>
+              <span class="btn-dot"><span class="btn-dot-inner"></span></span>
+            </button>
+
+            <!-- Mobile heading (mobile only) -->
+            <h2 class="work-title mobile-only">Cold-Pressed: Nutrisi Utuh</h2>
+            <p class="work-text mobile-only">
+              Berbeda dari minyak kemiri bakar, Miriva menggunakan metode cold-pressed
+              untuk menjaga senyawa aktif tetap lengkap dan menutrisi rambut secara optimal.
+            </p>
+
+            <div class="work-grid-wrapper">
+              <div class="work-grid">
+
+                <!-- Desktop featured panel (left column) -->
+                <div class="work-col work-col-featured active desktop-only">
+                  <div class="work-number">0</div>
+                  <div class="work-wrapper">
+                    <div class="work-inner">
+                      <div class="work-content">
+                        <!-- FEATURED TITLE (desktop left panel) -->
+                        <h2 class="work-title">Cold-Pressed: Nutrisi Utuh</h2>
+                        <!-- FEATURED TEXT (desktop left panel) -->
+                        <p class="work-text">
+                          Berbeda dari minyak kemiri bakar, Miriva menggunakan metode cold-pressed
+                          untuk menjaga senyawa aktif tetap lengkap dan menutrisi rambut secara optimal.
+                        </p>
+                      </div>
+                      <!-- Hidden All Work button — Required by JS -->
+                      <div class="btn-block" style="visibility:hidden;pointer-events:none;position:absolute;">
+                        <a class="btn-block-link" href="#" aria-label="All Work"></a>
+                        <a href="#" class="btn" target="_self">
+                          <span class="btn-bg"></span>
+                          <span class="btn-text">All Work</span>
+                          <span class="btn-dot"><span class="btn-dot-inner"></span></span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- CARD 01 — Asam Linoleat -->
+                <div class="work-col work-col-project">
+                  <div class="work-number desktop-only">01</div>
+                  <div class="work-wrapper">
+                    <a class="work-link" href="#" aria-label="Asam Linoleat" style="pointer-events:none;"></a>
+                    <div class="work-inner">
+                      <figure class="media-wrapper image-wrapper" style="">
+                        <div class="media-inner">
+                          <img class="media image" src="assets/images/Linoleat.jpeg" width="920" height="1080" alt="Asam Linoleat" />
+                        </div>
+                      </figure>
+                      <div class="work-content">
+                        <p class="work-text work-client">Asam Linoleat</p>
+                        <p class="work-text work-service">Picu rambut baru</p>
+                        <p class="work-text work-service">Aktifkan fase anagen</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- CARD 02 — Quercetin (Flavonoid) -->
+                <div class="work-col work-col-project">
+                  <div class="work-number desktop-only">02</div>
+                  <div class="work-wrapper">
+                    <a class="work-link" href="#" aria-label="Quercetin (Flavonoid)" style="pointer-events:none;"></a>
+                    <div class="work-inner">
+                      <figure class="media-wrapper image-wrapper" style="">
+                        <div class="media-inner">
+                          <img class="media image" src="assets/images/Quercetin.jpeg" width="920" height="1080" alt="Quercetin (Flavonoid)" />
+                        </div>
+                      </figure>
+                      <div class="work-content">
+                        <p class="work-text work-client">Quercetin (Flavonoid)</p>
+                        <p class="work-text work-service">Hambat hormon DHT</p>
+                        <p class="work-text work-service">Cegah botak dini</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- CARD 03 — Enzim AKR1C -->
+                <div class="work-col work-col-project">
+                  <div class="work-number desktop-only">03</div>
+                  <div class="work-wrapper">
+                    <a class="work-link" href="#" aria-label="Enzim AKR1C" style="pointer-events:none;"></a>
+                    <div class="work-inner">
+                      <figure class="media-wrapper image-wrapper" style="">
+                        <div class="media-inner">
+                          <img class="media image" src="assets/images/Enzim.png" width="920" height="1080" alt="Enzim AKR1C" />
+                        </div>
+                      </figure>
+                      <div class="work-content">
+                        <p class="work-text work-client">Enzim AKR1C</p>
+                        <p class="work-text work-service">Tambah volume rambut</p>
+                        <p class="work-text work-service">Rambut lebih tebal</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- CARD 04 — Asam Alfa-Linolenat -->
+                <div class="work-col work-col-project">
+                  <div class="work-number desktop-only">04</div>
+                  <div class="work-wrapper">
+                    <a class="work-link" href="#" aria-label="Asam Alfa-Linolenat" style="pointer-events:none;"></a>
+                    <div class="work-inner">
+                      <figure class="media-wrapper image-wrapper" style="">
+                        <div class="media-inner">
+                          <img class="media image" src="assets/images/Alfa-Linolenat.png" width="920" height="1080" alt="Asam Alfa-Linolenat" />
+                        </div>
+                      </figure>
+                      <div class="work-content">
+                        <p class="work-text work-client">Asam Alfa-Linolenat</p>
+                        <p class="work-text work-service">Lancar nutrisi akar</p>
+                        <p class="work-text work-service">Redakan rontok</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Hidden All Work button (mobile) — Required by JS -->
+            <div class="btn-block mobile-only" style="visibility:hidden;pointer-events:none;position:absolute;">
+              <a class="btn-block-link" href="#" aria-label="All Work"></a>
+              <a href="#" class="btn" target="_self">
+                <span class="btn-bg"></span>
+                <span class="btn-text">All Work</span>
+                <span class="btn-dot"><span class="btn-dot-inner"></span></span>
+              </a>
+            </div>
+
+          </section>
+
+
+          <!-- ══════════════════════════════════════════════════
+               SECTION: ABOUT — "Tentang Miriva"
+               Left: big heading. Right: 3 photos + body text.
+               ══════════════════════════════════════════════════ -->
+          <section class="about" data-theme="light">
+            <div class="about-inner">
+
+              <div class="about-left">
+                <!-- ABOUT HEADING -->
+                <h2 class="about-title">Tentang<br>Miriva</h2>
+              </div>
+
+              <div class="about-right">
+                <div class="about-content">
+
+                  <!-- Product photos -->
+                  <div class="about-images">
+                    <figure class="media-wrapper image-wrapper" style="">
+                      <div class="media-inner">
+                        <img class="media image" src="assets/images/landscape bottle 2.png" width="1400" height="900" alt="Miriva Bottle" />
+                      </div>
+                    </figure>
+                    <figure class="media-wrapper image-wrapper" style="">
+                      <div class="media-inner">
+                        <img class="media image" src="assets/images/Pipet.jpeg" width="1400" height="900" alt="Miriva Pipet" />
+                      </div>
+                    </figure>
+                    <figure class="media-wrapper image-wrapper" style="">
+                      <div class="media-inner">
+                        <img class="media image" src="assets/images/Mixing_bowl_with_202603231440.jpeg" width="1400" height="900" alt="Mixing Bowl" />
+                      </div>
+                    </figure>
+                  </div>
+
+                  <!-- ABOUT BODY TEXT -->
+                  <p class="about-text">
+                    Kami adalah tim kecil yang bekerja langsung dengan petani kemiri di Flores,
+                    Nusa Tenggara Timur. Tugas kami bukan menciptakan formula baru, melainkan
+                    memastikan formula alam yang sudah sempurna tidak rusak di tangan manusia.<br><br>
+                    Setiap botol Miriva melewati proses yang sama: dipanen langsung dari hutan
+                    kemiri Flores, diekstrak cold-pressed tanpa panas, dimurnikan dengan filtrasi
+                    mekanik 1 mikron, dan diuji ketat oleh Lab Sucofindo sebelum sampai ke tanganmu.<br><br>
+                    Tidak ada laboratorium kimia. Tidak ada campuran sintetis. Hanya satu bahan,
+                    satu asal, dan satu komitmen. Memberikanmu minyak kemiri dalam bentuk paling
+                    murni yang bisa kami berikan.
+                  </p>
+
+                  <!-- Hidden button — Required by JS -->
+                  <a href="#" class="btn btn-grey" target="_self" style="display:none !important;">
+                    <span class="btn-bg"></span>
+                    <span class="btn-text">Discover Our Spark</span>
+                    <span class="btn-dot"><span class="btn-dot-inner"></span></span>
+                  </a>
+
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <!-- ══════════════════════════════════════════════════
+               SECTION: SERVICES — "What we do"
+               3 service cards + 1 CTA card.
+               ══════════════════════════════════════════════════ -->
+          <section class="services" data-theme="light">
+
+            <!-- SERVICES HEADING -->
+            <h2 class="services-title">What we do</h2>
+
+            <div class="services-inner">
+
+              <!-- SERVICE 01 -->
+              <div class="service">
+                <figure class="media-wrapper image-wrapper" style="">
+                  <div class="media-inner">
+                    <img class="media image lazy loading"
+                      data-src="https://images.prismic.io/estrelastudio/aN5_a55xUNkB1acx_01.ProductStrat.jpg?w=1320&h=780&auto=compress,format"
+                      data-sizes="(max-width: 1100px) 440px, 880px"
+                      data-srcset="https://images.prismic.io/estrelastudio/aN5_a55xUNkB1acx_01.ProductStrat.jpg?w=1320&h=780&auto=compress,format 440w, https://images.prismic.io/estrelastudio/aN5_a55xUNkB1acx_01.ProductStrat.jpg?w=1320&h=780&auto=compress,format 880w"
+                      width="880" height="520" alt="" />
+                  </div>
+                </figure>
+                <div class="service-content">
+                  <div class="service-header">
+                    <h3 class="service-title">Product strategy and design</h3>
+                    <span class="service-number">01</span>
+                  </div>
+                  <p class="service-text">
+                    Great products don't just happen, they're shaped by insight. We dig into
+                    research, audits, and user testing to understand what people need, then
+                    translate those findings into smart, intuitive UX solutions where every
+                    decision has purpose.
+                  </p>
+                </div>
+              </div>
+
+              <!-- SERVICE 02 -->
+              <div class="service">
+                <figure class="media-wrapper image-wrapper" style="">
+                  <div class="media-inner">
+                    <img class="media image lazy loading"
+                      data-src="https://images.prismic.io/estrelastudio/aN5_bZ5xUNkB1acy_02.App%26Web.jpg?w=1320&h=780&auto=compress,format"
+                      data-sizes="(max-width: 1100px) 440px, 880px"
+                      data-srcset="https://images.prismic.io/estrelastudio/aN5_bZ5xUNkB1acy_02.App%26Web.jpg?w=1320&h=780&auto=compress,format 440w, https://images.prismic.io/estrelastudio/aN5_bZ5xUNkB1acy_02.App%26Web.jpg?w=1320&h=780&auto=compress,format 880w"
+                      width="880" height="520" alt="" />
+                  </div>
+                </figure>
+                <div class="service-content">
+                  <div class="service-header">
+                    <h3 class="service-title">App and website design</h3>
+                    <span class="service-number">02</span>
+                  </div>
+                  <p class="service-text">
+                    We think outside the box to make sure your product sets itself apart and
+                    sets the bar. We build beautiful, intuitive interfaces that are compelling
+                    and consistent, powered by scalable design systems.
+                  </p>
+                </div>
+              </div>
+
+              <!-- SERVICE 03 -->
+              <div class="service">
+                <figure class="media-wrapper image-wrapper" style="">
+                  <div class="media-inner">
+                    <img class="media image lazy loading"
+                      data-src="https://images.prismic.io/estrelastudio/aN5_b55xUNkB1acz_03.Brand.jpg?w=1320&h=780&auto=compress,format"
+                      data-sizes="(max-width: 1100px) 440px, 880px"
+                      data-srcset="https://images.prismic.io/estrelastudio/aN5_b55xUNkB1acz_03.Brand.jpg?w=1320&h=780&auto=compress,format 440w, https://images.prismic.io/estrelastudio/aN5_b55xUNkB1acz_03.Brand.jpg?w=1320&h=780&auto=compress,format 880w"
+                      width="880" height="520" alt="" />
+                  </div>
+                </figure>
+                <div class="service-content">
+                  <div class="service-header">
+                    <h3 class="service-title">Brand strategy and identity design</h3>
+                    <span class="service-number">03</span>
+                  </div>
+                  <p class="service-text">
+                    Why look like someone else when you want to stand out? Together, we craft
+                    unique brand identities across touchpoints with a digital-first mindset.
+                    We bring the spark by distilling your brand DNA and getting to the root of
+                    what your users actually want.
+                  </p>
+                </div>
+              </div>
+
+              <!-- SERVICE CTA -->
+              <div class="service service-cta">
+                <div class="service-content">
+                  <div class="service-header">
+                    <h3 class="service-title">
+                      Discover our services and how we shape purpose-driven digital and branding experiences.
+                    </h3>
+                  </div>
+                  <a href="/services" class="btn" target="_self">
+                    <span class="btn-bg"></span>
+                    <span class="btn-text">What We Do</span>
+                    <span class="btn-dot"><span class="btn-dot-inner"></span></span>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+
+          <!-- ══════════════════════════════════════════════════
+               SECTION: TESTIMONIALS
+               Dark section with JS-powered carousel.
+               ══════════════════════════════════════════════════ -->
+          <section class="testimonials" data-theme="dark">
+
+            <!-- Background image -->
+            <figure class="media-wrapper image-wrapper" style="">
+              <div class="media-inner">
+                <img class="media image lazy loading"
+                  data-src="https://images.prismic.io/estrelastudio/aN-dN55xUNkB1cOz_testimonials-bg.jpg?w=3000&h=1800&auto=compress,format"
+                  data-sizes="(max-width: 1100px) 1000px, 2000px"
+                  data-srcset="https://images.prismic.io/estrelastudio/aN-dN55xUNkB1cOz_testimonials-bg.jpg?w=3000&h=1800&auto=compress,format 1000w, https://images.prismic.io/estrelastudio/aN-dN55xUNkB1cOz_testimonials-bg.jpg?w=3000&h=1800&auto=compress,format 2000w"
+                  width="2000" height="1200" alt="" />
+              </div>
+            </figure>
+
+            <span class="testimonials-overline">Testimonials</span>
+
+            <!-- TESTIMONIALS HEADING -->
+            <h2 class="testimonials-title">Some words from our valued clients</h2>
+
+            <div class="carousel">
+              <div class="carousel-inner">
+
+                <!-- TESTIMONIAL 01 -->
+                <div class="carousel-item"><div class="carousel-item-inner"><div class="testimonial">
+                  <p class="testimonial-text">"The team at Estrela have been amazing and critical to our UI/UX journey, they challenge our thoughts for the better and have allowed us to become South Africa's fastest-growing Buy Now Pay Later platform. I cannot recommend them enough."</p>
+                  <p class="testimonial-name">Craig Newborn</p>
+                  <p class="testimonial-role">Former CEO, PayJustNow</p>
+                </div></div></div>
+
+                <!-- TESTIMONIAL 02 -->
+                <div class="carousel-item"><div class="carousel-item-inner"><div class="testimonial">
+                  <p class="testimonial-text">"Working with Miriva has been a genuinely outstanding experience. Their team brings a rare combination of creativity, technical expertise, and collaborative spirit. Estrela met us exactly where we were – they listened closely, understood the strategic goals and translated that direction into clear, compelling visual design. They led the project with confidence, and I recommend them without hesitation."</p>
+                  <p class="testimonial-name">Donna Blackwell-Kopotic</p>
+                  <p class="testimonial-role">Sims Lifecycle Service (US)</p>
+                </div></div></div>
+
+                <!-- TESTIMONIAL 03 -->
+                <div class="carousel-item"><div class="carousel-item-inner"><div class="testimonial">
+                  <p class="testimonial-text">"The Estrela team have a grasp of branding and product design like I've never seen before. We searched the globe for a tech-focused CI design agency and found that the top talent was right here in Cape Town."</p>
+                  <p class="testimonial-name">Colleen Harrison</p>
+                  <p class="testimonial-role">Former Head of Marketing, Payfast</p>
+                </div></div></div>
+
+                <!-- TESTIMONIAL 04 -->
+                <div class="carousel-item"><div class="carousel-item-inner"><div class="testimonial">
+                  <p class="testimonial-text">"Working with Natalia and the Estrela team is like working with a bomb squad. They know exactly which wires to cut to get exactly the results we were looking for. They are the only agency we have on speed dial."</p>
+                  <p class="testimonial-name">Jason Bagley</p>
+                  <p class="testimonial-role">Founder and CEO, Growth Experts (US)</p>
+                </div></div></div>
+
+                <!-- TESTIMONIAL 05 -->
+                <div class="carousel-item"><div class="carousel-item-inner"><div class="testimonial">
+                  <p class="testimonial-text">"Working with Natalia and the Estrela team on the HelpGuide rebrand has been a true pleasure. Their design approach is strategic, thoughtful, and truly user-centric, and we couldn't be more pleased with the results."</p>
+                  <p class="testimonial-name">Melinda Smith</p>
+                  <p class="testimonial-role">Executive Director &amp; Editor in Chief, HelpGuide (US)</p>
+                </div></div></div>
+
+                <!-- TESTIMONIAL 06 -->
+                <div class="carousel-item"><div class="carousel-item-inner"><div class="testimonial">
+                  <p class="testimonial-text">"The team at Miriva are a powerhouse squad of design, UI and UX professionals. Their DNA can be found in our brand for good reason. Smart, dedicated and always tackling each new brief with diligence and enthusiasm. Highly recommended without hesitation."</p>
+                  <p class="testimonial-name">Mark McChlery</p>
+                  <p class="testimonial-role">Chief Data and Analytics Officer, PayJustNow</p>
+                </div></div></div>
+
+                <!-- TESTIMONIAL 07 -->
+                <div class="carousel-item"><div class="carousel-item-inner"><div class="testimonial">
+                  <p class="testimonial-text">"Working with Miriva has been a truly special experience. Leigh and Kristen invested themselves in our journey, capturing the essence of our brand and going the extra mile at every step. Their creativity, care, and dedication shine through in a site that feels world-class and truly ours. Sharing tears with us at launch was a testament to how much they cared. We're deeply grateful and proud to recommend Miriva."</p>
+                  <p class="testimonial-name">Keith Hesketh</p>
+                  <p class="testimonial-role">Marketing &amp; eCommerce Manager, Yucca Packaging</p>
+                </div></div></div>
+
+                <!-- TESTIMONIAL 08 -->
+                <div class="carousel-item"><div class="carousel-item-inner"><div class="testimonial">
+                  <p class="testimonial-text">"Working with the Estrela team was a joy. The experience of turning an idea into a product design has the potential to be chaotic and overwhelming, but the experts at Estrela knew how to ask the right questions and turn the answers into a structured, clear design process that delivered stunning results that exceeded the project goals, and on deadline, to boot!"</p>
+                  <p class="testimonial-name">Brianna Bond</p>
+                  <p class="testimonial-role">CEO, LCFO (US)</p>
+                </div></div></div>
+
+                <!-- TESTIMONIAL 09 -->
+                <div class="carousel-item"><div class="carousel-item-inner"><div class="testimonial">
+                  <p class="testimonial-text">"We at Itemate have worked with the Estrela team for the past two years. During this time, their professionalism and creativity has added a dimension to our solutions which has had a major positive impact on our client's experience and assisting us grow with these clients. A big thanks to Natalia and Team."</p>
+                  <p class="testimonial-name">Robert van Breukelen</p>
+                  <p class="testimonial-role">CEO, Itemate Solutions</p>
+                </div></div></div>
+
+                <!-- TESTIMONIAL 10 -->
+                <div class="carousel-item"><div class="carousel-item-inner"><div class="testimonial">
+                  <p class="testimonial-text">"Estrela has been fantastic to collaborate with and went to great detail to understand my brands needs and turned that into the most effective user experience for my customers. Look forward to working together again soon."</p>
+                  <p class="testimonial-name">Justin Archer</p>
+                  <p class="testimonial-role">Founder, Bashwax Animation Studio</p>
+                </div></div></div>
+
+                <!-- TESTIMONIAL 11 -->
+                <div class="carousel-item"><div class="carousel-item-inner"><div class="testimonial">
+                  <p class="testimonial-text">"Natalia and her team at Estrela are some of the best UX/UI designers we've had the privilege of working with. From conception through to execution, their thoughtfulness and thoroughness never fail to impress."</p>
+                  <p class="testimonial-name">Anton Van Diermen</p>
+                  <p class="testimonial-role">Director and Co-Founder, Zulik</p>
+                </div></div></div>
+
+              </div>
+
+              <!-- Carousel controls (JS-managed) -->
+              <div class="carousel-prev desktop-only"></div>
+              <div class="carousel-next desktop-only"></div>
+              <div class="carousel-arrow desktop-only">
+                <svg width="37" height="22" viewBox="0 0 37 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18.36 0.324001L18.414 0L36.99 10.854V11.016L18.414 21.87L18.36 21.6L30.24 11.556L0 12.366V9.666L30.294 10.476L18.36 0.324001Z" fill="#FBFBF4"></path>
+                </svg>
+              </div>
+            </div>
+
+          </section>
+
+
+          <!-- ══════════════════════════════════════════════════
+               SECTION: FAQs
+               Dark section. JS toggles answers open/closed.
+               ══════════════════════════════════════════════════ -->
+          <section class="faqs" data-theme="dark">
+
+            <!-- FAQS HEADING -->
+            <h2 class="faqs-title">FAQs</h2>
+
+            <div class="faqs-inner">
+
+              <!-- FAQ 01 -->
+              <div class="faq">
+                <div class="faq-border faq-border-0"></div>
+                <div class="faq-inner">
+                  <h3 class="faq-question">What types of projects do you take on?</h3>
+                  <div class="faq-answer-wrapper">
+                    <p class="faq-answer">We specialise in branding and UX/UI design for websites and apps, but our approach is versatile. Whether it's a full brand identity, a design system build, or ongoing design support, we adapt to fit your business goals.</p>
+                  </div>
+                </div>
+                <div class="faq-toggle"><span class="faq-toggle-bracket left">(</span><div class="faq-toggle-icon"></div><span class="faq-toggle-bracket right">)</span></div>
+              </div>
+
+              <!-- FAQ 02 -->
+              <div class="faq">
+                <div class="faq-border faq-border-1"></div>
+                <div class="faq-inner">
+                  <h3 class="faq-question">Which industries do you work with?</h3>
+                  <div class="faq-answer-wrapper">
+                    <p class="faq-answer">Our core expertise is in fintech and e-commerce, but we've partnered with clients across hospitality, law, accounting, packaging, edtech and many more. We are an agile team and our skills can adapt to most verticals, bringing a fresh, human-centric perspective to any industry.</p>
+                  </div>
+                </div>
+                <div class="faq-toggle"><span class="faq-toggle-bracket left">(</span><div class="faq-toggle-icon"></div><span class="faq-toggle-bracket right">)</span></div>
+              </div>
+
+              <!-- FAQ 03 -->
+              <div class="faq">
+                <div class="faq-border faq-border-2"></div>
+                <div class="faq-inner">
+                  <h3 class="faq-question">How does your pricing work?</h3>
+                  <div class="faq-answer-wrapper">
+                    <p class="faq-answer">We offer both project-based pricing and ongoing retainers, billed at a flat hourly rate. Once we scope your project, you'll receive a clear estimate before we begin. If the scope shifts, we'll flag it early so there are no surprises.</p>
+                  </div>
+                </div>
+                <div class="faq-toggle"><span class="faq-toggle-bracket left">(</span><div class="faq-toggle-icon"></div><span class="faq-toggle-bracket right">)</span></div>
+              </div>
+
+              <!-- FAQ 04 -->
+              <div class="faq">
+                <div class="faq-border faq-border-3"></div>
+                <div class="faq-inner">
+                  <h3 class="faq-question">Do you handle development too?</h3>
+                  <div class="faq-answer-wrapper">
+                    <p class="faq-answer">We focus on what we do best: design. For development, we collaborate with trusted partners we believe are the best of the best. If you already have a dev team, we'll work hand-in-hand with them to ensure a smooth handover and seamless build.</p>
+                  </div>
+                </div>
+                <div class="faq-toggle"><span class="faq-toggle-bracket left">(</span><div class="faq-toggle-icon"></div><span class="faq-toggle-bracket right">)</span></div>
+              </div>
+
+              <!-- FAQ 05 -->
+              <div class="faq">
+                <div class="faq-border faq-border-4"></div>
+                <div class="faq-inner">
+                  <h3 class="faq-question">What is your design process like?</h3>
+                  <div class="faq-answer-wrapper">
+                    <p class="faq-answer">Every project begins with a discovery session to align on your goals. From there, we move through two key phases: UX Discovery &amp; Design, where we focus on research, user flows, and wireframes to create an intuitive experience, and UI Discovery &amp; Design, where we bring your brand to life through polished, visually engaging interfaces. We work transparently, keep you involved at every stage, and iterate throughout the process to ensure the final product meets your vision.</p>
+                  </div>
+                </div>
+                <div class="faq-toggle"><span class="faq-toggle-bracket left">(</span><div class="faq-toggle-icon"></div><span class="faq-toggle-bracket right">)</span></div>
+              </div>
+
+              <!-- FAQ 06 -->
+              <div class="faq">
+                <div class="faq-border faq-border-5"></div>
+                <div class="faq-inner">
+                  <h3 class="faq-question">How long does a typical project take?</h3>
+                  <div class="faq-answer-wrapper">
+                    <p class="faq-answer">Timelines depend on scope, but most branding projects take roughly 6 to 8 weeks, and websites or apps typically run 8 to 12 weeks from kickoff to development handover. We'll always share a timeline upfront to ensure clarity and structure.</p>
+                  </div>
+                </div>
+                <div class="faq-toggle"><span class="faq-toggle-bracket left">(</span><div class="faq-toggle-icon"></div><span class="faq-toggle-bracket right">)</span></div>
+              </div>
+
+            </div>
+          </section>
+
+
+          <!-- ══════════════════════════════════════════════════
+               PRE-FOOTER IMAGE
+               Required by JS — do not remove.
+               ══════════════════════════════════════════════════ -->
+          <section class="pre-footer">
+            <div class="pre-footer-inner">
+              <figure class="media-wrapper image-wrapper" style="">
+                <div class="media-inner">
+                  <img class="media image lazy loading"
+                    data-src="https://images.prismic.io/estrelastudio/aN6C555xUNkB1af4_Rectangle2381-1-min.jpg?w=3000&h=1800&auto=compress,format"
+                    data-sizes="(max-width: 1100px) 1000px, 2000px"
+                    data-srcset="https://images.prismic.io/estrelastudio/aN6C555xUNkB1af4_Rectangle2381-1-min.jpg?w=3000&h=1800&auto=compress,format 1000w, https://images.prismic.io/estrelastudio/aN6C555xUNkB1af4_Rectangle2381-1-min.jpg?w=3000&h=1800&auto=compress,format 2000w"
+                    width="2000" height="1200" alt="" />
+                </div>
+              </figure>
+            </div>
+          </section>
+
+
+          <!-- ══════════════════════════════════════════════════
+               SECTION: FOOTER
+               Dark section — site index, social, contact, clock.
+               ══════════════════════════════════════════════════ -->
+          <footer class="footer" data-theme="dark">
+            <div class="f-bg"></div>
+            <div class="f-inner">
+              <div class="f-top">
+
+                <div class="f-left">
+                  <!-- Site index links -->
+                  <div class="f-menu links">
+                    <h6 class="links-title">Site index</h6>
+                    <a href="/" class="link">Home</a>
+                    <a href="/work" class="link">Work</a>
+                    <a href="/about" class="link">About</a>
+                    <a href="/services" class="link">Services</a>
+                    <a href="/privacy-policy" class="link">Privacy Policy</a>
+                  </div>
+                  <!-- Social links -->
+                  <div class="f-social links">
+                    <h6 class="links-title">Social</h6>
+                    <a href="https://www.instagram.com/estrela_digitalstudio/?hl=en" class="link" target="_blank">Instagram</a>
+                    <a href="https://www.facebook.com/profile.php?id=100091661185714" class="link" target="_blank">Facebook</a>
+                    <a href="https://www.linkedin.com/company/estrela-digital-studio" class="link" target="_blank">LinkedIn</a>
+                    <a href="https://www.awwwards.com/estrelastudio/" class="link" target="_blank">Awwwards</a>
+                    <a href="https://www.behance.net/estrelastudio" class="link" target="_blank">Behance</a>
+                  </div>
+                </div>
+
+                <div class="f-right">
+                  <!-- Contact Us button -->
+                  <div class="btn-block">
+                    <a class="btn-block-link" href="/contact" aria-label="Contact Us"></a>
+                    <a href="/contact" class="btn" target="_self">
+                      <span class="btn-bg"></span>
+                      <span class="btn-text">Contact Us</span>
+                      <span class="btn-dot"><span class="btn-dot-inner"></span></span>
+                    </a>
+                  </div>
+                  <!-- Footer contact info -->
+                  <div class="f-contact">
+                    <div class="f-contact-inner">
+                      <p class="f-contact-text">Tell us about your project.<br />Let's collaborate.</p>
+                      <div class="contact">
+                        <div class="contact-link-wrapper">
+                          <div class="contact-bullet"></div>
+                          <a href="tel:+27780548476" class="contact-link" aria-label="Phone" target="_blank">
+                            <span class="contact-link-text"><span class="line">+27 (0) 78 054 8476</span></span>
+                          </a>
+                        </div>
+                        <div class="contact-link-wrapper">
+                          <div class="contact-bullet"></div>
+                          <a href="mailto:accounts@estrela.studio" class="contact-link" aria-label="Email" target="_blank">
+                            <span class="contact-link-text"><span class="line">Write Us</span></span>
+                          </a>
+                        </div>
+                        <!-- newsletter-toggle / newsletter-wrapper: Required by JS — hidden -->
+                        <div class="contact-link-wrapper newsletter-toggle mobile-only" style="display:none !important;">
+                          <div class="contact-bullet"></div>
+                          <span class="contact-link"><span class="contact-link-text"><span class="line">Newsletter Signup</span></span></span>
+                        </div>
+                        <div class="contact-link-wrapper newsletter-wrapper desktop-only" style="display:none !important;">
+                          <div class="contact-bullet"></div>
+                          <span class="contact-link">
+                            <span class="contact-link-text">
+                              <span class="line">Newsletter Signup</span>
+                              <span class="contact-link-close">
+                                <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M1 1L5.5 5.5M10 10L5.5 5.5M5.5 5.5L10 1M5.5 5.5L1 10" stroke="white"></path>
+                                </svg>
+                              </span>
+                            </span>
+                          </span>
+                          <div class="contact-link-bg"></div>
+                          <div class="newsletter">
+                            <div class="newsletter-bg"></div>
+                            <div class="newsletter-inner">
+                              <p class="newsletter-text">Join our newsletter for fresh updates and exclusive studio insights.</p>
+                              <form class="newsletter-form" action="/api/newsletter" method="POST">
+                                <label class="form-label"><span class="form-label-text sr-only">First name</span><input class="form-input form-input-text" type="text" name="first_name" placeholder="First name" required="" /></label>
+                                <label class="form-label"><span class="form-label-text sr-only">Last name</span><input class="form-input form-input-text" type="text" name="last_name" placeholder="Last name" required="" /></label>
+                                <label class="form-label"><span class="form-label-text sr-only">Email Address</span><input class="form-input form-input-text" type="text" name="email" placeholder="Email Address" required="" /></label>
+                                <label class="sr-only" aria-hidden="true"><input type="text" name="extra" tabindex="-1" autocomplete="off" /></label>
+                                <input type="hidden" name="ts" value="" />
+                                <div class="form-btn">
+                                  <button class="btn" type="submit" aria-label="Submit">
+                                    <span class="btn-text">Submit Details</span>
+                                    <span class="btn-dot"><span class="btn-dot-inner"></span></span>
+                                  </button>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Live clock -->
+                    <div class="clock">
+                      <span class="clock-time">18:28:23</span> (GMT+2)
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Footer icon (JS-managed) -->
+              <div class="f-icon-wrapper desktop-only">
+                <div class="f-icon icon"></div>
+              </div>
+
+              <div class="f-bottom">
+                <!-- Footer wordmark — original Estrela SVG removed.
+                     Add Miriva branding here if needed.
+                     The f-letter-* divs below are Required by JS — do not remove. -->
+                <div class="f-overlay desktop-only">
+                  <div class="f-letters">
+                    <div class="f-letter f-letter-E"></div>
+                    <div class="f-letter f-letter-s"></div>
+                    <div class="f-letter f-letter-t"></div>
+                    <div class="f-letter f-letter-r"></div>
+                    <div class="f-letter f-letter-e"></div>
+                    <div class="f-letter f-letter-l"></div>
+                    <div class="f-letter f-letter-a"></div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </footer>
+
+        </div>
+      </main>
+
+    </div>
+
+    <!-- Skip loader on page load (required for static HTML) -->
+    <script>
+      if (!new URLSearchParams(window.location.search).has('debug')) {
+        const url = new URL(window.location);
+        url.searchParams.set('debug', '');
+        window.history.replaceState({}, '', url);
+      }
+    </script>
+
+    <!-- Main JS module (provides all animations and interactions — do not remove) -->
+    <script type="module" src="assets/js/Layout.astro_astro_type_script_index_0_lang.0RpXHpCU.js"></script>
+
+  </body>
+</html>

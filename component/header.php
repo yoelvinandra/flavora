@@ -1,7 +1,7 @@
 <?php include 'lang.php'; ?>
 <header class="p-3  header-hidden" id="main-header">
     <div class="container d-flex justify-content-between align-items-center">
-        <a href="mockup.php"  class="logo fw-bold"><img src="assets/logo.webp" alt="Logo" style="width: 11vh;"></a>
+        <a href="index.php"  class="logo fw-bold"><img src="assets/logo.webp" alt="Logo" style="width: 11vh;"></a>
         <nav>
             <a href="aboutus.php" class="underlined-text btn-hidden-sm text-decoration-none"><?=$_SESSION['lang']['about-us']?></a>
             <a href="product.php" class="underlined-text btn-hidden-sm text-decoration-none"><?=$_SESSION['lang']['products']?></a>
@@ -16,7 +16,7 @@
         <div id="myNav" class="overlay">
           <a href="javascript:void(0)" class="menu closebtn" onclick="closeNav()">&times;</a>
           <div class="overlay-content">
-            <a class="menu" href="mockup.php"  class="logo fw-bold"><img src="assets/logo.webp" alt="Logo" style="width: 14vh;"></a>
+            <a class="menu" href="index.php"  class="logo fw-bold"><img src="assets/logo.webp" alt="Logo" style="width: 14vh;"></a>
             <a class="menu" href="aboutus.php"><span class="underlined-text"><?=$_SESSION['lang']['about-us']?></span></a>
             <a class="menu" href="product.php"><span class="underlined-text"><?=$_SESSION['lang']['products']?></span></a>
             <a class="menu" href="article.php"><span class="underlined-text"><?=$_SESSION['lang']['news-event']?></span></a>
